@@ -61,6 +61,7 @@ Git commits is paper ke:
 - User ne AGENT_MEMORY folder banane ko kaha - ye sab files usi ka natija hai.
 - User ne kaha AGENT_MEMORY me aur add karo: PDF/Hindi ka fastest tareeka + advanced tools + future papers DUAL-language (CDP/Maths/EVS bilingual) + sab kuch cross-check karo (esp. paragraphs/poems). Result: PDF_AND_HINDI_GUIDE.md bana, saare paragraphs/poems clean sources se verified (sab MATCH), dual-language rule record hua. (Ye update.)
 - PDF chunk map (dobara fetch na karein): shiksha booklet 15 chunks - c0-4: CDP/Maths/EVS (bilingual), c8-9: Eng-1 (c9 me passage+poem+Q106-120), c11-12: Eng-2, c12-13: Hindi-2. CBSE key PDF 22 chunks - c0: Q1-90 all sets, c1: English Q91-150, c2: Hindi Q91-150.
+- User confirmation: dual-language rule AGLI PAPER se ("agle se") - Set A ko bilingual convert nahi karna. Sab kuch repo par merge: PR #1 MERGED into main (merge commit 5c0c172, 2026-10-11).
 
 ---
 
