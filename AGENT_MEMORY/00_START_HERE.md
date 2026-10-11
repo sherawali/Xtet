@@ -28,6 +28,7 @@ Agar tum ek naye AI agent ho jo abhi is repo par kaam karne aaye ho, to SABSE PE
 | MEMORY.md | Living memory - current state + session log (har session me padho + update karo) |
 | HANDOVER_PROMPT.md | Naye session/agent ko dene ka ready prompt |
 | PLAYBOOK.md | Poora tarika - kaise karna hai, tools, format rules, verification checklist |
+| PDF_AND_HINDI_GUIDE.md | FASTEST PDF extraction + Hindi decode + grammar rules - KISI bhi PDF/Hindi kaam se PEHLE ye padho |
 | SOURCES.md | Question paper + answer key sources (URLs, kya kaam karta hai, kya nahi) |
 | MISTAKES.md | Galtiyan jo hui hain + unke fixes - ye dobara nahi honi chahiye |
 

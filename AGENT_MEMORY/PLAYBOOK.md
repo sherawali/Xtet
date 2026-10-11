@@ -83,6 +83,7 @@ Priority order:
 - Assertion-Reason me "अभिकथन (A) :" aur "तर्क (R) :" (Hindi) / "Assertion (A):" aur "Reason (R):" (English) - blank line ke saath.
 - Answer-Key.txt me section-wise "N. answer" lines + multi-answer note (A=1,2 etc.).
 - READMEs Hinglish me (user ko pasand hai).
+- **DUAL-LANGUAGE RULE (agli baar se - user ki shart)**: CDP, Maths, EVS ke questions DUAL-language likhne hain - Hindi + English dono versions, jaisa booklet me chhapa hota hai (bilingual format). Language sections (Hindi-1/Eng-1/Hindi-2/Eng-2) SINGLE-language rahenge. (Set A ke CPD/Maths/EVS Hindi-only hain - future papers ke liye rule.) Extract karte waqt hi dono versions likho - Hindi upar/pehle jaisa booklet me ho, English neeche. Details: PDF_AND_HINDI_GUIDE.md section 6.
 
 ---
 
@@ -136,3 +137,9 @@ PASS -> commit (clear message ke saath). FAIL -> fix -> dobara check.
 - Har naya source -> SOURCES.md me.
 - Session log -> MEMORY.md me (short rakho).
 - Goal: kam time me zyada papers, zero repeated mistakes, checklist first-time pass.
+
+## 9. Time targets (speed + perfection dono)
+
+- HTML source paper: 30-45 min | PDF-only (r.jina.ai + decode): 45-75 min | Max 1 hour per set.
+- PDF se text + Hindi decode ka FASTEST tareeka + advanced tools + decode table: **PDF_AND_HINDI_GUIDE.md** me hai - uske bina PDF kaam mat shuru karo.
+- Speed rules: chunks parallel fetch; file pehli baar me final format; key usi PDF se; checklist ek baar; chunk map MEMORY me. Details guide section 5.
