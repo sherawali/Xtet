@@ -72,6 +72,13 @@ Kyun galat: Jan 2024 Set I booklet me English L1 Q91-105 ka drug-store passage H
 Fix: Har language section ko Set I booklet se alag transcribe kiya aur usi language ki CBSE final-key table se answer liya.
 Aage se: Booklet me actual alignment verify kiye bina parallel translation ya same-answer assumption mat karo. Har language ka official key independently check karo.
 
+## 9. Saaf Unicode ko saaf Hindi ya verified transcription samajhna (LANGUAGE QA GAP)
+
+Galti: January 2024 Set I ke Hindi blocks readable Devanagari mein the, par kuch phrasing literal/awkward thi aur kuch grammatical agreement issues bache hue the.
+Kyun hua: PDF ka Hindi text layer legacy-font encoded/garbled tha; Unicode scan encoding ke liye tha, Hindi proofreading ya source-fidelity check nahi.
+Fix: CPD, Maths, EVS, Hindi-1 aur Hindi-2 ke Hindi blocks ko line-by-line spelling, grammar, punctuation, agreement aur terminology ke liye manually proofread kiya. Clear issues sudhaare; answer choices/key nahi badle. Hindi-1 Q94 ke jaan-boojhkar galat spelling distractors preserve kiye.
+Aage se: Transcription, Unicode/script validation, Hindi proofreading aur source-level verification ko alag steps samjho. Clean Hindi scan/source na ho to sirf saaf language corrections karo aur exact booklet wording verified hone ka daava na karo. Answer choices ya official key ko bina evidence mat badlo.
+
 ## Naya mistake mila? Yahan add karo (format):
 
 N. Title (SHORT)

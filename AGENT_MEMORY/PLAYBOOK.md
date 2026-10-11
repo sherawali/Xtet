@@ -115,7 +115,8 @@ Ye commands chalao (folder ke andar):
 4. Answer-Key.txt me har section ke 30 answers:
    Total = 210 (7 sections x 30) - grep -cE '^[0-9]+\. ' Answer-Key.txt
 5. Aankhon se ek baar passages/poems ke directions aur numbering dekh lo.
-6. README me section table me saari files listed hon.
+6. Hindi wale har block ka alag spelling/grammar pass karo: ling-vachan, idiomatic phrasing, punctuation aur technical terms dekho. Unicode/mojibake scan encoding batata hai, grammar ya source fidelity nahi. Intentional wrong-spelling distractors ko preserve karo; clean source na ho to exact wording verified hone ka claim mat karo.
+7. README me section table me saari files listed hon aur Hindi-source caveat ho (agar lagu ho).
 
 PASS -> commit (clear message ke saath). FAIL -> fix -> dobara check.
 

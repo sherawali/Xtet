@@ -1,6 +1,6 @@
 # MEMORY.md - Living Memory (har session me padho + update karo)
 
-Last updated: 2026-10-12 (Session 2 - CTET January 2024 Paper 1 Set I)
+Last updated: 2026-10-12 (Session 3 - Hindi QA for CTET January 2024 Paper 1 Set I)
 
 ---
 
@@ -58,11 +58,11 @@ Root README.md year-wise index 2024 ke Set I folder ke saath update hua. AGENT_M
 - English and Hindi language sections are not assumed to be translations: Set I has different passages and independently keyed answer tables for Q91-105 and Q121-135.
 - January 2024 `Answer-Key.txt` follows the official CBSE final key. Notation: `E` = options 2 and 4; `Z` = all options. Math Q32's printed working is `1030`; Q54 is 1/12 kg packets from 7 1/2 kg salt (15/2 kg in the worked calculation; CBSE key option 4). Oswaal/Testbook were text cross-checks only, never key authority.
 - Validation run: 30 numbered questions and options (1)-(4) in each of seven section files, 210 answer-key entries, plain-text scan and `git diff --check` passed.
-- Hindi in the January 2024 source PDF was imperfectly extracted due to legacy font encoding. Hindi wording was normalized to readable Devanagari; for strict facsimile-level wording, manually review against the booklet if a clean scan/source becomes available. Do not claim independent clean OCR verification.
+- Hindi QA (Session 3): CPD, Maths, EVS, Hindi-1 and Hindi-2 Hindi blocks were manually proofread for Unicode/Devanagari script, spelling, grammar, punctuation, agreement and terminology. Clear language issues were corrected; numbering, option order, and official key were left unchanged. Hindi-1 Q94's deliberately misspelled spelling-test distractors were preserved. UTF-8/script and structural scans passed. Source PDFs' Hindi text layers remain legacy-font garbled, so exact booklet wording is still not independently verified; do not claim source-level word-for-word verification.
 
 ### Baaki / Next steps (jab user kahe)
 
-- CTET January 2024 Paper 1 Set I is complete; for the next paper, follow the user's choice and use PLAYBOOK.md plus PDF_AND_HINDI_GUIDE.md. Keep CDP/Maths/EVS bilingual and each language section single-language.
+- CTET January 2024 Paper 1 Set I and its manual Hindi language QA are complete; content/README commit `2394b47`. Exact Hindi source wording remains unverified until a clean scan/transcript is available. For the next paper, follow the user's choice and use PLAYBOOK.md plus PDF_AND_HINDI_GUIDE.md. Keep CDP/Maths/EVS bilingual and each language section single-language.
 - Set A ko bilingual convert karna ho to English text booklet PDF me hai (r.jina.ai chunks 0-4); only do it if user asks.
 - User ko Sanskrit chahiye to supplement booklet sources dhoondho (mubeensir.blogspot.com par Urdu/Marathi supplements mile the Dec 2022/Aug 2023 ke liye - Sanskrit wala koi link nahi mila tha).
 - Baaki years/papers, Paper 2, Sets B/C/D isi PLAYBOOK se add kar sakte hain - sources SOURCES.md me hain. Sets B/C/D ki answer key CBSE final key PDF me hai (pages 1-12).
@@ -93,6 +93,14 @@ Root README.md year-wise index 2024 ke Set I folder ke saath update hua. AGENT_M
 - Q32 ke stacked `1030` working aur Maths Q54 ke printed 1/12 kg, 7 1/2 kg values third-party text sources se cross-check kiye (worked calculation 15/2 × 12 = 90); answer key phir bhi official CBSE se li.
 - Validation: har section me 30 questions/four options; answer key me 210 entries; `git diff --check` pass. Hindi PDF extraction legacy-font encoded thi, isliye exact Hindi typography/wording par residual manual-review caveat record ki.
 - Paper/document commit: `8d540b9` (`Add CTET January 2024 Paper 1 Set I`).
+
+### Session 3 - 2026-10-12 - Hindi QA for CTET January 2024 Set I
+
+- User asked for a full Hindi script/rendering, spelling and grammar review across the five Hindi-containing files. Manually reviewed all Hindi blocks in CPD, Maths, EVS, Hindi-1 and Hindi-2; corrected clear spelling, agreement and awkward phrasing while preserving question/option order and answer-key choices.
+- Preserved Hindi-1 Q94's intentionally incorrect spelling distractors. Added README note explaining what the review covers and the source limitation.
+- UTF-8/Devanagari scan, question numbering, four-option counts, 210 answer-key entries and `git diff --check` all passed. The official key was not edited.
+- Prepp/Careers360 PDFs still have garbled legacy-font Hindi text layers; no clean Set I Hindi transcript was found. This was a language-level proofread, not exact source-level verification. Updated PLAYBOOK, PDF/Hindi guide and MISTAKES with the separate QA workflow.
+- Content/README commit: `2394b47` (`Proofread Hindi in CTET January 2024 Set I`).
 
 ---
 

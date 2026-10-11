@@ -93,6 +93,7 @@ https://cache.careers360.mobi/media/uploads/froala_editor/files/CTET-2024-I-Pape
 
 - Booklet title/code: SAS-24-I / Set I. The instructions say the main booklet contains English and Hindi; other languages require a Code I Supplement (Language) Test Booklet.
 - For the full booklet, use the r.jina.ai reader URL (15 chunks). Hindi Language I starts in chunk 9; Hindi Language II is in chunks 12-13. The Hindi PDF text layer is legacy-font encoded, so normalize it against the source and do not copy the raw garbled string.
+- Prepp and Careers360 text extraction both garble the Hindi; searches did not find a trustworthy clean Set I Hindi transcript. The manual spelling/grammar pass cannot establish exact source wording; compare visually if a clean scan becomes available.
 - Exam shift details from third-party pages conflicted; omit shift metadata unless a reliable official source confirms it.
 - Third-party text cross-checks only (not answer-key authority): Oswaal's solved-paper PDF helped verify Maths Q32's displayed working (1030) and Q54's printed fractions (1/12 kg packets from 7 1/2 kg; its explanation rewrites 7 1/2 as 15/2): https://www.oswaal360.com/pluginfile.php/10939/mod_folder/content/0/CTET/Paper%201/2024/21%20Jan%202024.pdf . Testbook's Q32 page also confirms the printed working and concept of regrouping: https://testbook.com/question-answer/a-student-of-class-iii-solved-26-5-asnbsp--65b011716430d0a8251724e9 .
 

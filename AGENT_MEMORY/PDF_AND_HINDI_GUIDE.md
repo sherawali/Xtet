@@ -123,6 +123,14 @@ Galat mat likhna - ye standard forms hain (Session 1 me fix ki thi):
 - Quotes: straight quotes ' use karo (files me unicode quotes nahi), blanks ________ se
 - Hindi numbers/words ke beech ek normal space - PDF wali random spaces hata do
 
+### Transcription ke baad Hindi QA (alag pass zaroori hai)
+
+- Unicode/script scan sirf encoding ki jaanch hai: Devanagari saaf dikhne ka matlab ye nahi ki spelling, grammar ya booklet fidelity sahi hai.
+- Har Hindi line ko dhyan se padhkar spelling, ling-vachan agreement, idiomatic syntax, punctuation aur technical terms check karo; bilingual sections ke Hindi blocks bhi chhodo mat.
+- Jahan source mein Hindi spellings jaan-boojhkar galat options hon (jaise spelling test ke distractors), unhe “sahi” karke mat badlo; paper ka original option preserve karo.
+- PDF Hindi legacy-font se garbled ho aur clean Hindi transcript/scan na mile, to grammar ke saaf issues hi sudhaaro. Exact source wording independently verify hone ka daava na karo; uncertainty ko README/MEMORY mein note karo.
+- Official answer key ko language edits ke naam par kabhi na badlo. Wording correction ke baad numbering, options aur answer-key alignment dobara check karo.
+
 ---
 
 ## 5. TIME TARGETS (kam time, zyada kaam, perfect)
