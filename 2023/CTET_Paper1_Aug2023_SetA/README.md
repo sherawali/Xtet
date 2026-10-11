@@ -22,8 +22,11 @@ Booklet ka order: pehle Language I English, phir Language I Hindi, phir Language
 | Eng-1.txt | Eng-1 (Language I - English) | Part IV | 91-120 |
 | Eng-2.txt | Eng-2 (Language II - English) | Part V | 121-150 |
 | Hindi-2.txt | Hindi-2 (Language II - हिन्दी / भाषा II) | Part V | 121-150 |
+| Answer-Key.txt | CBSE Final Answer Key (sab sections ke answers) | Q1-150 | - |
 
 ## Notes
+
+- Answer-Key.txt CBSE ki official Final Answer Key se bana hai (CTET AUG-2023 Final KEY, exam 20/08/2023). Maths Q40 ka answer "A" hai (options 1 aur 2 dono sahi). Hindi-1/Eng-1 ke Q91-105 aur Hindi-2/Eng-2 ke Q136-150 translations hain, isliye unke answers same hain.
 
 - Is booklet (Set A) me sirf English aur Hindi dono languages ke questions hain - Part IV me Eng-1 + Hindi-1, Part V me Eng-2 + Hindi-2. In 7 files me poori booklet aa jaati hai.
 - Sanskrit-1 / Sanskrit-2 is paper me NAHI hain: CBSE ke instructions ke anusar Sanskrit, Urdu jaisi baaki languages alag "Supplement (Language) Test Booklet" me aati hain, main booklet me nahi. Isliye is Set A se Sanskrit ke questions nahi nikal sakte.
