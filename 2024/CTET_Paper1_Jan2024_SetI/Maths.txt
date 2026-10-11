@@ -1,0 +1,411 @@
+CTET Paper 1 - January 2024 - Set I
+Section: Mathematics / गणित
+Part II - Questions 31 to 60
+Exam Date: 21 January 2024 | Paper Set: I
+
+Directions: Answer the following questions by selecting the correct / most appropriate options.
+निर्देश: निम्नलिखित प्रश्नों के उत्तर देने के लिए सही / सबसे उपयुक्त विकल्प चुनिए।
+
+31. Which of the following should be the characteristics of mathematical language at primary level?
+(a) It should be precise.
+(b) It must be ambiguous as it can add openness in the subject.
+(c) It should be reinforced through the child's language used in everyday life.
+(d) It must be highly technical as it will help students to communicate accurately in mathematics.
+Choose the correct option:
+(1) (a) and (d)
+(2) (a), (b) and (c)
+(3) (a) and (c)
+(4) (a), (c) and (d)
+
+निम्नलिखित में से प्राथमिक स्तर पर गणितीय भाषा की कौन-सी विशेषताएँ होनी चाहिए?
+(a) यह सटीक होनी चाहिए।
+(b) यह अस्पष्ट होनी चाहिए ताकि विषय में खुलापन आ सके।
+(c) बच्चे के दैनिक जीवन में प्रयुक्त भाषा के माध्यम से इसे सुदृढ़ किया जाना चाहिए।
+(d) यह अत्यधिक तकनीकी होनी चाहिए ताकि विद्यार्थी गणित में सटीक संचार कर सकें।
+सही विकल्प चुनिए:
+(1) (a) और (d)
+(2) (a), (b) और (c)
+(3) (a) और (c)
+(4) (a), (c) और (d)
+
+32. A student of class III solved 26 × 5 as follows:
+  26
+×  5
+1030
+Revisiting which of the following will best remediate this misconception?
+(1) Multiplication of one digit by one digit
+(2) Concept of regrouping
+(3) Recalling multiplication tables
+(4) One-to-one correspondence
+
+कक्षा III के एक विद्यार्थी ने 26 × 5 को इस प्रकार हल किया:
+  26
+×  5
+1030
+इस भ्रांति को दूर करने के लिए निम्नलिखित में से किसका पुनरावलोकन सबसे उपयुक्त होगा?
+(1) एक अंक का एक अंक से गुणा
+(2) पुनःसमूहीकरण की अवधारणा
+(3) गुणन सारणियों का स्मरण
+(4) एक-एक संगति
+
+33. A number becomes double if it is increased by 8. What is the number?
+(1) 6
+(2) 8
+(3) 12
+(4) 16
+
+एक संख्या में 8 जोड़ने पर वह दोगुनी हो जाती है। वह संख्या क्या है?
+(1) 6
+(2) 8
+(3) 12
+(4) 16
+
+34. One millimetre is the same as:
+(1) 0.01 cm
+(2) 0.1 cm
+(3) 0.01 m
+(4) 0.1 m
+
+एक मिलीमीटर बराबर है:
+(1) 0.01 cm
+(2) 0.1 cm
+(3) 0.01 m
+(4) 0.1 m
+
+35. A __________ is always a regular polygon.
+(1) Isosceles triangle
+(2) Square
+(3) Pentagon
+(4) Circle
+
+एक __________ सदैव एक सम बहुभुज होता है।
+(1) समद्विबाहु त्रिभुज
+(2) वर्ग
+(3) पंचभुज
+(4) वृत्त
+
+36. The sum of all angles of a triangle is:
+(1) 60°
+(2) 90°
+(3) 180°
+(4) 360°
+
+त्रिभुज के सभी कोणों का योग है:
+(1) 60°
+(2) 90°
+(3) 180°
+(4) 360°
+
+37. Which of the following is / are related to early number concept formation?
+(a) One-to-one correspondence
+(b) Hierarchical inclusion
+(c) Basic operations
+Choose the correct option:
+(1) Only (a)
+(2) (a) and (c)
+(3) (a) and (b)
+(4) (b) and (c)
+
+निम्नलिखित में से कौन-सा / से प्रारंभिक संख्या अवधारणा के निर्माण से संबंधित है / हैं?
+(a) एक-एक संगति
+(b) पदानुक्रमिक समावेशन
+(c) मूल संक्रियाएँ
+सही विकल्प चुनिए:
+(1) केवल (a)
+(2) (a) और (c)
+(3) (a) और (b)
+(4) (b) और (c)
+
+38. Which of the following statements is / are most appropriate for the idea of cognitive conflict in teaching mathematics?
+(a) Thoughtful efforts of a teacher to expose children to cognitive conflict can enhance their mathematical understanding.
+(b) It is not useful for promoting mathematical understanding in children.
+(c) Children get confused, so cognitive conflict must be avoided.
+Choose the correct option:
+(1) (b) and (c)
+(2) (a) and (c)
+(3) Only (a)
+(4) Only (c)
+
+गणित शिक्षण में संज्ञानात्मक संघर्ष की अवधारणा के लिए निम्नलिखित में से कौन-सा / से कथन सबसे उपयुक्त है / हैं?
+(a) बच्चों को संज्ञानात्मक संघर्ष से परिचित कराने के शिक्षक के विचारपूर्ण प्रयास उनकी गणितीय समझ को बढ़ा सकते हैं।
+(b) बच्चों में गणितीय समझ को बढ़ाने के लिए यह उपयोगी नहीं है।
+(c) संज्ञानात्मक संघर्ष से बच्चे भ्रमित हो जाते हैं, इसलिए इससे बचना चाहिए।
+सही विकल्प चुनिए:
+(1) (b) और (c)
+(2) (a) और (c)
+(3) केवल (a)
+(4) केवल (c)
+
+39. Which aspect of evaluation is used when a teacher ensures that a test made by her fulfils the objectives and criteria of that test?
+(1) Validity
+(2) Practicality
+(3) Reliability
+(4) Consistency
+
+जब कोई शिक्षिका यह सुनिश्चित करती है कि उसके द्वारा बनाया गया परीक्षण उसके उद्देश्यों और मानदंडों को पूरा करता है, तब मूल्यांकन के किस पक्ष का उपयोग किया जाता है?
+(1) वैधता
+(2) व्यावहारिकता
+(3) विश्वसनीयता
+(4) सुसंगति
+
+40. What should be subtracted from the sum of 9909, 9099 and 9009 to obtain 25454?
+(1) 2356
+(2) 2365
+(3) 2536
+(4) 2563
+
+25454 प्राप्त करने के लिए 9909, 9099 और 9009 के योग में से क्या घटाना चाहिए?
+(1) 2356
+(2) 2365
+(3) 2536
+(4) 2563
+
+41. Which of the following statements is correct?
+(1) 1 is a prime number.
+(2) 1 is a composite number.
+(3) 1 is both a prime and a composite number.
+(4) 1 is neither prime nor composite.
+
+निम्नलिखित कथनों में से कौन-सा सही है?
+(1) 1 एक अभाज्य संख्या है।
+(2) 1 एक भाज्य संख्या है।
+(3) 1 अभाज्य और भाज्य दोनों संख्या है।
+(4) 1 न तो अभाज्य है और न ही भाज्य।
+
+42. See the number pattern given below:
+1, 8, 27, 64, 125, ________, ________
+What will be the next two terms?
+(1) 256 and 289
+(2) 216 and 289
+(3) 256 and 343
+(4) 216 and 343
+
+नीचे दी गई संख्या-प्रतिमान को देखिए:
+1, 8, 27, 64, 125, ________, ________
+अगले दो पद क्या होंगे?
+(1) 256 और 289
+(2) 216 और 289
+(3) 256 और 343
+(4) 216 और 343
+
+43. Which of the following statements is least appropriate for encouraging mathematical learning?
+(1) Failure does not imply that students cannot do mathematics.
+(2) Everyone can learn mathematics.
+(3) Mathematics learning is not gender-specific.
+(4) Discourage intuition as it hampers the development of mathematical ideas.
+
+गणितीय अधिगम को प्रोत्साहित करने के लिए निम्नलिखित में से कौन-सा कथन सबसे कम उपयुक्त है?
+(1) असफलता का अर्थ यह नहीं है कि विद्यार्थी गणित नहीं कर सकते।
+(2) प्रत्येक व्यक्ति गणित सीख सकता है।
+(3) गणित का अधिगम लिंग-विशिष्ट नहीं है।
+(4) अंतर्ज्ञान को हतोत्साहित करना चाहिए क्योंकि यह गणितीय विचारों के विकास में बाधा डालता है।
+
+44. The value of 25.3 × 5 − 35 ÷ 5 − 3 × 18.5 is:
+(1) 283.05
+(2) 64.0
+(3) 95.0
+(4) −26.5
+
+25.3 × 5 − 35 ÷ 5 − 3 × 18.5 का मान है:
+(1) 283.05
+(2) 64.0
+(3) 95.0
+(4) −26.5
+
+45. According to the National Education Policy (NEP) 2020, assessment of learners includes:
+(1) Cognitive and physical domains
+(2) Cognitive, affective and psychomotor domains
+(3) Cognitive, social and spiritual domains
+(4) Physical and psychological domains
+
+राष्ट्रीय शिक्षा नीति (NEP) 2020 के अनुसार, शिक्षार्थियों के आकलन में शामिल हैं:
+(1) संज्ञानात्मक और शारीरिक आयाम
+(2) संज्ञानात्मक, भावात्मक और मनोगत्यात्मक आयाम
+(3) संज्ञानात्मक, सामाजिक और आध्यात्मिक आयाम
+(4) शारीरिक और मनोवैज्ञानिक आयाम
+
+46. A frog jumps 3 steps and a rabbit jumps 7 steps at a time, starting from a place O. At which of the following steps will they both be jumping together?
+(1) 343
+(2) 371
+(3) 378
+(4) 354
+
+स्थान O से चलकर एक मेंढक एक बार में 3 कदम और एक खरगोश 7 कदम की छलाँग लगाता है। निम्नलिखित में से किस कदम पर वे दोनों एक साथ छलाँग लगा रहे होंगे?
+(1) 343
+(2) 371
+(3) 378
+(4) 354
+
+47. The number of degrees in 2 2/3 right angles is:
+(1) 210
+(2) 285
+(3) 240
+(4) 330
+
+2 2/3 समकोणों में अंशों की संख्या है:
+(1) 210
+(2) 285
+(3) 240
+(4) 330
+
+48. Which one of the following costs least?
+(1) 75 packets of ₹750 each
+(2) 750 packets of ₹7.50 each
+(3) 7.5 dozen items of ₹750 each item
+(4) 75 dozen items of ₹7.50 each item
+
+निम्नलिखित में से किसकी लागत सबसे कम है?
+(1) ₹750 प्रत्येक वाले 75 पैकेट
+(2) ₹7.50 प्रत्येक वाले 750 पैकेट
+(3) ₹750 प्रत्येक वस्तु वाले 7.5 दर्जन वस्तुएँ
+(4) ₹7.50 प्रत्येक वस्तु वाले 75 दर्जन वस्तुएँ
+
+49. The National Education Policy (NEP) 2020 talks about "Knowledge of India". Which of the following is not included in it?
+(1) Knowledge from ancient India and its contributions to modern India.
+(2) Tribal knowledge, indigenous and traditional ways of learning as part of various subjects like Mathematics, Astronomy, Medicine, Agriculture, etc.
+(3) Field visits to different states as part of cultural exchange programmes.
+(4) Formal examination to assess the knowledge gained by the students.
+
+राष्ट्रीय शिक्षा नीति (NEP) 2020 "भारत के ज्ञान" के बारे में बात करती है। निम्नलिखित में से क्या इसमें शामिल नहीं है?
+(1) प्राचीन भारत का ज्ञान और आधुनिक भारत में उसका योगदान
+(2) गणित, खगोल विज्ञान, चिकित्सा, कृषि आदि विषयों के हिस्से के रूप में जनजातीय ज्ञान तथा सीखने के स्वदेशी और पारंपरिक तरीके
+(3) सांस्कृतिक आदान-प्रदान कार्यक्रमों के हिस्से के रूप में विभिन्न राज्यों का भ्रमण
+(4) विद्यार्थियों द्वारा अर्जित ज्ञान का आकलन करने के लिए औपचारिक परीक्षा
+
+50. Which of the following models is least appropriate to develop conceptual understanding regarding the relationships of ones, tens and hundreds in early grade learners?
+(1) Dienes blocks
+(2) Money
+(3) Abacus
+(4) Place value chart
+
+प्रारंभिक कक्षाओं के शिक्षार्थियों में इकाई, दहाई और सैकड़े के संबंधों की अवधारणात्मक समझ विकसित करने के लिए निम्नलिखित में से कौन-सा मॉडल सबसे कम उपयुक्त है?
+(1) डाइन्स ब्लॉक
+(2) मुद्रा
+(3) गिनतारा
+(4) स्थानीय मान का चार्ट
+
+51. Brij had a wire of length 100 metres to cover the land of his choice. He wanted to take the biggest land. Which of the following measurements should he choose to get the biggest area?
+(1) 15 m × 35 m
+(2) 30 m × 20 m
+(3) 25 m × 25 m
+(4) 5 m × 45 m
+
+बृज के पास अपनी पसंद की भूमि को घेरने के लिए 100 मीटर लंबा तार था। वह सबसे बड़ा भूखंड लेना चाहता था। सबसे बड़ा क्षेत्रफल पाने के लिए उसे निम्नलिखित में से कौन-सा माप चुनना चाहिए?
+(1) 15 m × 35 m
+(2) 30 m × 20 m
+(3) 25 m × 25 m
+(4) 5 m × 45 m
+
+52. Which of the following is not true about "multiplicity of approaches" in teaching mathematics?
+(1) Very often, there are many ways of solving a problem.
+(2) It hampers the learning of a child as it leads to confusion.
+(3) Offering such a choice allows children to explore and use the approach that is most natural and easy for them.
+(4) It is crucial for liberating school mathematics from the tyranny of the one correct answer.
+
+गणित शिक्षण में "अनेक उपागमों" के बारे में निम्नलिखित में से कौन-सा सत्य नहीं है?
+(1) प्रायः किसी समस्या को हल करने के कई तरीके होते हैं।
+(2) यह बच्चे के अधिगम में बाधा डालता है क्योंकि इससे भ्रम पैदा होता है।
+(3) ऐसा विकल्प देने से बच्चों को अपने लिए सबसे स्वाभाविक और सरल उपागम खोजने और उपयोग करने का अवसर मिलता है।
+(4) विद्यालयी गणित को केवल एक सही उत्तर की परंपरा से मुक्त करने के लिए यह महत्त्वपूर्ण है।
+
+53. Which of the following statements is most appropriate?
+(1) Mathematics lab is essential as it provides opportunities for hands-on activities for students.
+(2) Charts are used in mathematics class as effective teaching-learning material.
+(3) Use of teaching-learning material in mathematics class consumes students' time for practice.
+(4) Students do not enjoy riddles in mathematics class.
+
+निम्नलिखित में से कौन-सा कथन सबसे अधिक उपयुक्त है?
+(1) गणित प्रयोगशाला आवश्यक है क्योंकि यह विद्यार्थियों को करके सीखने वाली गतिविधियों के अवसर देती है।
+(2) गणित की कक्षा में चार्ट प्रभावी शिक्षण-अधिगम सामग्री के रूप में उपयोग किए जाते हैं।
+(3) गणित की कक्षा में शिक्षण-अधिगम सामग्री का उपयोग विद्यार्थियों का अभ्यास का समय ले लेता है।
+(4) विद्यार्थियों को गणित की कक्षा में पहेलियाँ पसंद नहीं आतीं।
+
+54. How many packets of 1/12 kg salt can be made from 7 1/2 kg of salt?
+(1) 45
+(2) 60
+(3) 72
+(4) 90
+
+7 1/2 kg नमक से 1/12 kg नमक के कितने पैकेट बनाए जा सकते हैं?
+(1) 45
+(2) 60
+(3) 72
+(4) 90
+
+55. While solving 182 − 67 in class II, a teacher explained that 7 has to be subtracted from 2 and 2 is smaller than 7. So one has to borrow one from 8 and then subtract 7 from 12. One student asked the teacher, "Ma'am, why are we borrowing from eight, as borrowing is not good?" What should the teacher do in such a situation?
+(1) Scold the student and make him sit.
+(2) Change the word 'borrowing' to 'regrouping' and show the process of regrouping.
+(3) Tell the student to focus on learning the algorithm of subtraction.
+(4) Ignore the student's question and continue with her work.
+
+कक्षा II में 182 − 67 हल करते समय एक शिक्षिका ने समझाया कि 2 में से 7 घटाना है और 2, 7 से छोटा है। इसलिए 8 से एक उधार लेकर 12 में से 7 घटाना होगा। एक विद्यार्थी ने पूछा, "मैम, हम 8 से उधार क्यों ले रहे हैं, जबकि उधार लेना अच्छा नहीं होता?" ऐसी स्थिति में शिक्षिका को क्या करना चाहिए?
+(1) विद्यार्थी को डाँटकर बैठा देना चाहिए।
+(2) 'उधार' शब्द को 'पुनःसमूहीकरण' से बदलकर पुनःसमूहीकरण की प्रक्रिया दिखानी चाहिए।
+(3) विद्यार्थी से घटाव की कलन-विधि सीखने पर ध्यान देने को कहना चाहिए।
+(4) विद्यार्थी के प्रश्न को अनदेखा करके अपना काम जारी रखना चाहिए।
+
+56. Yamina threw a die 10 times and got the following results: 5, 3, 6, 6, 1, 4, 5, 3, 3, 2. Which number did she get the maximum number of times?
+(1) 6
+(2) 3
+(3) 1
+(4) 5
+
+यामिना ने एक पासा 10 बार फेंका और उसे निम्नलिखित परिणाम मिले: 5, 3, 6, 6, 1, 4, 5, 3, 3, 2। निम्नलिखित में से कौन-सी संख्या उसे सबसे अधिक बार मिली?
+(1) 6
+(2) 3
+(3) 1
+(4) 5
+
+57. Which of the following is true for word problems in school mathematics?
+(1) Word problems refer to exercises where the child formalises the situation into a form where a specific mathematical technique can be applied.
+(2) Word problems are not examples of mathematical modelling.
+(3) Word problems are important in secondary classes only.
+(4) Word problems focus more on procedural knowledge in mathematics.
+
+विद्यालयी गणित में शब्द-समस्याओं के बारे में निम्नलिखित में से कौन-सा सही है?
+(1) शब्द-समस्याएँ ऐसे अभ्यास हैं जिनमें बच्चा परिस्थिति को ऐसे औपचारिक रूप में व्यक्त करता है जिस पर कोई विशिष्ट गणितीय तकनीक लागू की जा सके।
+(2) शब्द-समस्याएँ गणितीय प्रतिरूपण के उदाहरण नहीं हैं।
+(3) शब्द-समस्याएँ केवल माध्यमिक कक्षाओं में महत्त्वपूर्ण हैं।
+(4) शब्द-समस्याएँ गणित में प्रक्रियात्मक ज्ञान पर अधिक केंद्रित होती हैं।
+
+58. The parcel sending rates are given below:
+Parcel weighing 50 grams or less: ₹15.00
+For every additional 50 grams: ₹7.00
+Meena wants to send a parcel to her friend Charu in Delhi. The parcel weighs 350 g. Look at the charges and select the correct cost of sending the parcel:
+(1) ₹42
+(2) ₹50
+(3) ₹55
+(4) ₹57
+
+पार्सल भेजने की दरें नीचे दी गई हैं:
+50 ग्राम या उससे कम भार वाले पार्सल के लिए: ₹15.00
+प्रत्येक अतिरिक्त 50 ग्राम के लिए: ₹7.00
+मीना अपनी सहेली चारू को दिल्ली में पार्सल भेजना चाहती है। पार्सल का भार 350 g है। दरों को देखकर पार्सल भेजने का सही खर्च चुनिए:
+(1) ₹42
+(2) ₹50
+(3) ₹55
+(4) ₹57
+
+59. Which of the following is most appropriate to introduce 'Data Handling' at primary stage?
+(1) Asking the students to read timetables of bus and train timings.
+(2) Within the classroom, collecting data on students' height, favourite food, colour, cartoon, etc. and asking questions related to the data.
+(3) Showing the population census of a city for five years and asking students to compare population growth.
+(4) Drawing a bar graph on the blackboard and asking students to read the data from it.
+
+प्राथमिक स्तर पर 'आँकड़ों का प्रबंधन' का परिचय देने के लिए निम्नलिखित में से कौन-सा सबसे उपयुक्त है?
+(1) विद्यार्थियों से बस और रेलगाड़ियों की समय-सारिणी पढ़ने को कहना।
+(2) कक्षा में विद्यार्थियों की लंबाई, पसंदीदा भोजन, रंग, कार्टून आदि के आँकड़े एकत्र करना और उनसे संबंधित प्रश्न पूछना।
+(3) किसी शहर की पाँच वर्षों की जनगणना दिखाकर विद्यार्थियों से जनसंख्या वृद्धि की तुलना करने को कहना।
+(4) श्यामपट्ट पर दंड-आलेख बनाकर विद्यार्थियों से उसमें दिए आँकड़े पढ़ने को कहना।
+
+60. According to the National Curriculum Framework 2005, which of the following processes are least relevant in a primary mathematics classroom?
+(1) Memorising formulae
+(2) Use of patterns
+(3) Visualization
+(4) Making connections and representations
+
+राष्ट्रीय पाठ्यचर्या रूपरेखा 2005 के अनुसार, प्राथमिक गणित कक्षा में निम्नलिखित में से कौन-सी प्रक्रियाएँ सबसे कम प्रासंगिक हैं?
+(1) सूत्रों को याद करना
+(2) प्रतिमानों का उपयोग
+(3) दृश्यीकरण
+(4) संबंध स्थापित करना और निरूपण करना

@@ -65,6 +65,13 @@ Aange se: verification ke liye SIMPLE patterns rakho. Weird count aaye to haath 
 
 ---
 
+## 8. Language sections ko hamesha translation samajhna (WRONG ASSUMPTION)
+
+Galti: Aug 2023 Set A ke pattern se yeh maan lena ki har CTET paper me English aur Hindi ke same-numbered language questions translations hain.
+Kyun galat: Jan 2024 Set I booklet me English L1 Q91-105 ka drug-store passage Hindi L1 ke cleanliness passage se alag hai; L2 Q121-135 ke English passages aur Hindi passages bhi alag hain. Official answer-key tables me inke answers bhi alag hain.
+Fix: Har language section ko Set I booklet se alag transcribe kiya aur usi language ki CBSE final-key table se answer liya.
+Aage se: Booklet me actual alignment verify kiye bina parallel translation ya same-answer assumption mat karo. Har language ka official key independently check karo.
+
 ## Naya mistake mila? Yahan add karo (format):
 
 N. Title (SHORT)

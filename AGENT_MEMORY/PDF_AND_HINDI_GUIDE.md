@@ -79,10 +79,12 @@ Layer 2 - Unicode text bhi garbled (font ki ToUnicode map tooti hai):
    (jaise "संगाई महोत्सव" ya "जीवन में" "अभाव का दुख"). testbook.com/question-answer par
    exact question+passage clean mil jata hai. MIL GAYA? -> DECODE KI ZARURAT NAHI.
 
-2. PARALLEL ENGLISH (2 min): CTET me Language I/II ke pedagogy questions TRANSLATIONS hote hain
-   (Q91-105 dono languages me same, Q136-150 same). English HAMESHA clean milti hai (booklet me).
-   Matlab: Hindi pedagogy questions = English wale ka Hindi translation. Seedha translate karke
-   match kar lo - meaning confirm ho jata hai.
+2. PARALLEL ENGLISH (2 min): English ko Hindi decode ka cross-check tabhi banao jab booklet me
+   question alignment visibly same ho. Har paper me language sections translation nahi hote.
+   Jan 2024 Set I me L1 Q91-105 (English drug-store passage vs Hindi cleanliness passage) aur
+   L2 Q121-135 (English passages vs Hindi El Nino / moral passage) alag hain; unke answers bhi
+   alag key tables se lene hain. Is paper me pedagogy ranges Q106-120 aur Q136-150 align hoti hain.
+   Pehle booklet verify karo, phir hi parallel English use karo.
 
 3. ABHI BHI garbled hai to DECODE TABLE use karo (neeche) + grammar clean-up (section 4).
 
