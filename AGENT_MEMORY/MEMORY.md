@@ -92,7 +92,7 @@ Root README.md year-wise index 2024 ke Set I folder ke saath update hua. AGENT_M
 - English-Hindi language sections ko translations assume nahi kiya; Set I passages/key tables alag rakhe. Shift details conflicting hone se README me omit kiye.
 - Q32 ke stacked `1030` working aur Maths Q54 ke printed 1/12 kg, 7 1/2 kg values third-party text sources se cross-check kiye (worked calculation 15/2 × 12 = 90); answer key phir bhi official CBSE se li.
 - Validation: har section me 30 questions/four options; answer key me 210 entries; `git diff --check` pass. Hindi PDF extraction legacy-font encoded thi, isliye exact Hindi typography/wording par residual manual-review caveat record ki.
-- Commit hash: pending final repository commit.
+- Paper/document commit: `8d540b9` (`Add CTET January 2024 Paper 1 Set I`).
 
 ---
 
