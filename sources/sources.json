@@ -1,0 +1,49 @@
+{
+  "updated": "2026-10-11",
+  "note": "PYQ content CBSE ka copyrighted material hai. Ye registry sirf sources track karne ke liye hai — kisi bhi content ko app mein display karne se pehle uska reuse_permission verify karo.",
+  "official": [
+    {
+      "id": "ctet_official",
+      "name": "CTET official website (CBSE)",
+      "url": "https://ctet.nic.in/",
+      "provides": ["notifications", "information bulletins", "results", "answer keys", "response sheets"],
+      "reuse_terms": "Koi open reuse license website par nahi mila. Bulletins mein question contents ki disclosure/transmission ko expressly prohibited mana gaya hai.",
+      "bulletin_examples": [
+        "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2023/11/2023110320.pdf",
+        "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2024/10/2024101010.pdf",
+        "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2025/11/202511271651651092.pdf"
+      ]
+    }
+  ],
+  "third_party": [
+    {
+      "id": "careerpower",
+      "name": "CareerPower",
+      "url": "https://www.careerpower.in/ctet-previous-year-question-paper.html",
+      "provides": ["Paper 1 & 2 PDFs (2018-2026)", "official answer keys jahan available"]
+    },
+    {
+      "id": "adda247",
+      "name": "Adda247",
+      "url": "https://www.adda247.com/teaching-jobs-exam/ctet-previous-year-question-paper-pdfs/",
+      "provides": ["Set-wise PDFs with codes", "solutions", "Hindi + English versions"]
+    },
+    {
+      "id": "examcart",
+      "name": "ExamCart",
+      "url": "https://examcart.in/blogs/central-exam/ctet-previous-year-question-paper-paper-1-2-out-download-pdf",
+      "provides": ["2024 & 2026 sets (Set E, C, Code H etc.)"]
+    }
+  ],
+  "session_map": {
+    "2021-01": { "known_paper1_sets": [], "best_sources": ["ctet_official", "careerpower"], "answer_key": "official, ctet.nic.in archive" },
+    "2021-12": { "known_paper1_sets": [], "best_sources": ["ctet_official", "adda247"], "answer_key": "official, ctet.nic.in" },
+    "2022-12": { "known_paper1_sets": ["A", "B", "C", "D"], "best_sources": ["adda247", "careerpower"], "answer_key": "official, released ~14 Feb 2023" },
+    "2023-08": { "known_paper1_sets": [], "best_sources": ["ctet_official", "adda247"], "answer_key": "official, ctet.nic.in" },
+    "2024-01": { "known_paper1_sets": ["J"], "best_sources": ["adda247"], "answer_key": "official, ctet.nic.in" },
+    "2024-07": { "known_paper1_sets": ["A", "B", "C", "D"], "best_sources": ["adda247", "careerpower"], "answer_key": "official, ctet.nic.in" },
+    "2024-12": { "known_paper1_sets": ["H"], "best_sources": ["adda247", "examcart"], "answer_key": "official PDF adda247 listing mein bhi hai" },
+    "2026-02": { "known_paper1_sets": ["E", "C"], "best_sources": ["examcart", "adda247"], "answer_key": "official, released ~10-12 Mar 2026, challenge window till 15 Mar 2026" },
+    "2026-12": { "known_paper1_sets": [], "best_sources": [], "answer_key": "exam hone ke baad (scheduled 12-13 Dec 2026)" }
+  }
+}

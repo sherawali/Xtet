@@ -1,0 +1,9 @@
+# Downloaded source PDFs (copyrighted third-party material) — repo mein commit nahi hote
+ingest/pdf/
+# Extracted PYQ output — same reason; apne paas local rakho
+ingest/out/
+
+# Python
+.venv/
+__pycache__/
+*.pyc

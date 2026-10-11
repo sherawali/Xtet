@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "xtet/schema/section.schema.json",
+  "title": "CTET Paper-I section file",
+  "description": "One section (30 questions) of a CTET Paper-I paper or practice set.",
+  "type": "object",
+  "required": ["section_id", "questions"],
+  "properties": {
+    "section_id": {
+      "enum": ["cdp", "language1", "language2", "math", "evs", "sanskrit_l1", "sanskrit_l2", "unknown"]
+    },
+    "paper_id": { "type": ["string", "null"] },
+    "name_en": { "type": ["string", "null"] },
+    "name_hi": { "type": ["string", "null"] },
+    "q_range": { "type": ["string", "null"] },
+    "total_questions": { "type": ["integer", "null"] },
+    "kind": { "enum": ["original_practice", "extracted_pyq", "mixed", null] },
+    "extraction": {
+      "type": ["object", "null"],
+      "properties": {
+        "source_file": { "type": ["string", "null"] },
+        "tool": { "type": ["string", "null"] },
+        "needs_review": { "type": "boolean" }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": { "$ref": "question.schema.json" }
+    }
+  }
+}

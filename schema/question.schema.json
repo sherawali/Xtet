@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "xtet/schema/question.schema.json",
+  "title": "CTET question",
+  "description": "One CTET Paper-I question with bilingual text, options, answer, explanation and provenance tracking.",
+  "type": "object",
+  "required": ["no", "text", "options", "provenance"],
+  "properties": {
+    "no": { "type": "integer", "minimum": 1, "maximum": 150 },
+    "text": {
+      "type": "object",
+      "anyOf": [
+        { "required": ["en"] },
+        { "required": ["hi"] },
+        { "required": ["raw"] }
+      ],
+      "properties": {
+        "en": { "type": ["string", "null"], "minLength": 1 },
+        "hi": { "type": ["string", "null"], "minLength": 1 },
+        "raw": { "type": ["string", "null"], "description": "Unsplit bilingual text straight from extraction, pending hi/en split" }
+      }
+    },
+    "options": {
+      "type": "object",
+      "anyOf": [
+        { "required": ["en"] },
+        { "required": ["hi"] },
+        { "required": ["raw"] }
+      ],
+      "properties": {
+        "en": { "type": ["array", "null"], "minItems": 4, "maxItems": 4, "items": { "type": "string", "minLength": 1 } },
+        "hi": { "type": ["array", "null"], "minItems": 4, "maxItems": 4, "items": { "type": "string", "minLength": 1 } },
+        "raw": { "type": ["array", "null"], "items": { "type": "string" } }
+      }
+    },
+    "answer": { "type": ["string", "null"], "enum": ["a", "b", "c", "d", null] },
+    "explanation": {
+      "type": ["object", "null"],
+      "properties": {
+        "en": { "type": ["string", "null"] },
+        "hi": { "type": ["string", "null"] }
+      }
+    },
+    "topic": { "type": ["string", "null"] },
+    "difficulty": { "type": ["string", "null"], "enum": ["easy", "medium", "hard", null] },
+    "provenance": {
+      "type": "object",
+      "required": ["content_type", "reuse_permission"],
+      "properties": {
+        "content_type": { "enum": ["official_pyq", "third_party_pyq", "original_practice"] },
+        "session_id": { "type": ["string", "null"] },
+        "set_code": { "type": ["string", "null"] },
+        "source_file": { "type": ["string", "null"] },
+        "source_url": { "type": ["string", "null"] },
+        "page": { "type": ["integer", "null"] },
+        "reuse_permission": { "enum": ["granted", "public_domain", "unclear", "not_required"] },
+        "notes": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

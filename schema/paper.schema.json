@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "xtet/schema/paper.schema.json",
+  "title": "CTET Paper-I paper metadata",
+  "description": "Paper-level metadata: which session/set this is, section files, completion status.",
+  "type": "object",
+  "required": ["id", "kind", "sections"],
+  "properties": {
+    "id": { "type": "string" },
+    "title": { "type": ["string", "null"] },
+    "kind": { "enum": ["original_practice", "extracted_pyq", "mixed"] },
+    "disclaimer": { "type": ["string", "null"] },
+    "session_id": { "type": ["string", "null"] },
+    "set_code": { "type": ["string", "null"] },
+    "pattern": {
+      "type": "object",
+      "properties": {
+        "exam": { "type": "string" },
+        "paper": { "type": "string" },
+        "total_questions": { "type": "integer" },
+        "max_marks": { "type": "integer" },
+        "duration_minutes": { "type": "integer" },
+        "negative_marking": { "type": "boolean" },
+        "languages": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "status"],
+        "properties": {
+          "id": { "type": "string" },
+          "file": { "type": ["string", "null"] },
+          "name_en": { "type": ["string", "null"] },
+          "name_hi": { "type": ["string", "null"] },
+          "q_range": { "type": ["string", "null"] },
+          "status": { "enum": ["ready", "in_progress", "pending"] },
+          "questions_done": { "type": ["integer", "null"] }
+        }
+      }
+    },
+    "answer_key": { "type": ["string", "null"] }
+  }
+}

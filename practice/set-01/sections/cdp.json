@@ -6,216 +6,1117 @@
   "q_range": "1-30",
   "total_questions": 30,
   "kind": "original_practice",
+  "extraction": null,
   "questions": [
     {
       "no": 1,
-      "text_en": "An infant gains control over the head and face before gaining control over the arms and legs. This pattern of development is best explained by which principle?",
-      "text_hi": "एक शिशु भुजाओं और टांगों पर नियंत्रण से पहले अपने सिर और चेहरे पर नियंत्रण प्राप्त करता है। विकास की यह प्रवृत्ति किस सिद्धांत द्वारा सर्वोत्तम रूप से समझाई जाती है?",
-      "options_en": ["Cephalocaudal principle", "Proximodistal principle", "Hierarchical integration", "Independence of systems"],
-      "options_hi": ["सेफेलोकाउडल (सिर से पैर की ओर) सिद्धांत", "प्रोक्सिमोडिस्टल (मध्य से बाहर की ओर) सिद्धांत", "पदानुक्रमित एकीकरण", "तंत्रों की स्वतंत्रता"]
+      "text": {
+        "en": "An infant gains control over the head and face before gaining control over the arms and legs. This pattern of development is best explained by which principle?",
+        "hi": "एक शिशु भुजाओं और टांगों पर नियंत्रण से पहले अपने सिर और चेहरे पर नियंत्रण प्राप्त करता है। विकास की यह प्रवृत्ति किस सिद्धांत द्वारा सर्वोत्तम रूप से समझाई जाती है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Cephalocaudal principle",
+          "Proximodistal principle",
+          "Hierarchical integration",
+          "Independence of systems"
+        ],
+        "hi": [
+          "सेफेलोकाउडल (सिर से पैर की ओर) सिद्धांत",
+          "प्रोक्सिमोडिस्टल (मध्य से बाहर की ओर) सिद्धांत",
+          "पदानुक्रमित एकीकरण",
+          "तंत्रों की स्वतंत्रता"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 2,
-      "text_en": "A child learns to control the movements of the whole arm before being able to pick up tiny objects with the fingers. This illustrates the:",
-      "text_hi": "बच्चा उंगलियों से छोटी-छोटी वस्तुएँ उठाने में सक्षम होने से पहले पूरी भुजा की गतियों पर नियंत्रण करना सीखता है। यह किसका उदाहरण है?",
-      "options_en": ["Cephalocaudal principle", "Proximodistal principle", "Principle of maturation only", "Principle of equilibrium"],
-      "options_hi": ["सेफेलोकाउडल सिद्धांत", "प्रोक्सिमोडिस्टल सिद्धांत", "केवल परिपक्वता का सिद्धांत", "संतुलन का सिद्धांत"]
+      "text": {
+        "en": "A child learns to control the movements of the whole arm before being able to pick up tiny objects with the fingers. This illustrates the:",
+        "hi": "बच्चा उंगलियों से छोटी-छोटी वस्तुएँ उठाने में सक्षम होने से पहले पूरी भुजा की गतियों पर नियंत्रण करना सीखता है। यह किसका उदाहरण है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Cephalocaudal principle",
+          "Proximodistal principle",
+          "Principle of maturation only",
+          "Principle of equilibrium"
+        ],
+        "hi": [
+          "सेफेलोकाउडल सिद्धांत",
+          "प्रोक्सिमोडिस्टल सिद्धांत",
+          "केवल परिपक्वता का सिद्धांत",
+          "संतुलन का सिद्धांत"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 3,
-      "text_en": "A child says that the amount of water remains the same even after it is poured from a tall, narrow glass into a short, wide bowl. According to Piaget, this shows that the child has developed:",
-      "text_hi": "एक बच्चा कहता है कि लंबे, पतले गिलास से पानी को छोटे, चौड़े कटोरे में डालने के बाद भी पानी की मात्रा उतनी ही रहती है। पियाजे के अनुसार, यह दर्शाता है कि बच्चे में किसका विकास हुआ है?",
-      "options_en": ["Object permanence", "Egocentrism", "Conservation", "Animism"],
-      "options_hi": ["वस्तु स्थायित्व", "आत्मकेंद्रण", "संरक्षण", "जीववाद"]
+      "text": {
+        "en": "A child says that the amount of water remains the same even after it is poured from a tall, narrow glass into a short, wide bowl. According to Piaget, this shows that the child has developed:",
+        "hi": "एक बच्चा कहता है कि लंबे, पतले गिलास से पानी को छोटे, चौड़े कटोरे में डालने के बाद भी पानी की मात्रा उतनी ही रहती है। पियाजे के अनुसार, यह दर्शाता है कि बच्चे में किसका विकास हुआ है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Object permanence",
+          "Egocentrism",
+          "Conservation",
+          "Animism"
+        ],
+        "hi": [
+          "वस्तु स्थायित्व",
+          "आत्मकेंद्रण",
+          "संरक्षण",
+          "जीववाद"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 4,
-      "text_en": "According to Vygotsky, the 'Zone of Proximal Development' refers to:",
-      "text_hi": "विगोत्स्की के अनुसार, 'समीपवर्ती विकास क्षेत्र' (Zone of Proximal Development) किसे कहते हैं?",
-      "options_en": ["Tasks a child can complete completely independently", "Tasks a child cannot do even with help", "The gap between a child's independent performance and performance with guidance", "The stage of biological maturation"],
-      "options_hi": ["वे कार्य जो बच्चा पूरी तरह स्वतंत्र रूप से कर सकता है", "वे कार्य जो बच्चा सहायता मिलने पर भी नहीं कर सकता", "बच्चे के स्वतंत्र प्रदर्शन और मार्गदर्शन के साथ प्रदर्शन के बीच का अंतर", "जैविक परिपक्वता की अवस्था"]
+      "text": {
+        "en": "According to Vygotsky, the 'Zone of Proximal Development' refers to:",
+        "hi": "विगोत्स्की के अनुसार, 'समीपवर्ती विकास क्षेत्र' (Zone of Proximal Development) किसे कहते हैं?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Tasks a child can complete completely independently",
+          "Tasks a child cannot do even with help",
+          "The gap between a child's independent performance and performance with guidance",
+          "The stage of biological maturation"
+        ],
+        "hi": [
+          "वे कार्य जो बच्चा पूरी तरह स्वतंत्र रूप से कर सकता है",
+          "वे कार्य जो बच्चा सहायता मिलने पर भी नहीं कर सकता",
+          "बच्चे के स्वतंत्र प्रदर्शन और मार्गदर्शन के साथ प्रदर्शन के बीच का अंतर",
+          "जैविक परिपक्वता की अवस्था"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 5,
-      "text_en": "A child follows classroom rules mainly to avoid the teacher's scolding. According to Kohlberg, this reflects moral reasoning at the:",
-      "text_hi": "एक बच्चा मुख्य रूप से अध्यापक की डांट से बचने के लिए कक्षा के नियमों का पालन करता है। कोहलबर्ग के अनुसार, यह किस स्तर पर नैतिक तर्क को दर्शाता है?",
-      "options_en": ["Post-conventional level", "Pre-conventional level", "Conventional level", "Universal ethical level"],
-      "options_hi": ["उत्तर-परंपरागत स्तर", "पूर्व-परंपरागत स्तर", "परंपरागत स्तर", "सार्वभौमिक नैतिक स्तर"]
+      "text": {
+        "en": "A child follows classroom rules mainly to avoid the teacher's scolding. According to Kohlberg, this reflects moral reasoning at the:",
+        "hi": "एक बच्चा मुख्य रूप से अध्यापक की डांट से बचने के लिए कक्षा के नियमों का पालन करता है। कोहलबर्ग के अनुसार, यह किस स्तर पर नैतिक तर्क को दर्शाता है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Post-conventional level",
+          "Pre-conventional level",
+          "Conventional level",
+          "Universal ethical level"
+        ],
+        "hi": [
+          "उत्तर-परंपरागत स्तर",
+          "पूर्व-परंपरागत स्तर",
+          "परंपरागत स्तर",
+          "सार्वभौमिक नैतिक स्तर"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 6,
-      "text_en": "A child can easily identify and classify plants, animals and natural patterns around her. According to Gardner's theory, she shows strong:",
-      "text_hi": "एक बच्ची अपने आस-पास के पौधों, जंतुओं और प्राकृतिक पैटर्नों को आसानी से पहचान और वर्गीकृत कर सकती है। गार्डनर के सिद्धांत के अनुसार, उसमें किसकी प्रबलता है?",
-      "options_en": ["Linguistic intelligence", "Logical-mathematical intelligence", "Spatial intelligence", "Naturalistic intelligence"],
-      "options_hi": ["भाषिक बुद्धि", "तार्किक-गणितीय बुद्धि", "स्थानिक बुद्धि", "प्रकृतिवादी (नेचुरलिस्टिक) बुद्धि"]
+      "text": {
+        "en": "A child can easily identify and classify plants, animals and natural patterns around her. According to Gardner's theory, she shows strong:",
+        "hi": "एक बच्ची अपने आस-पास के पौधों, जंतुओं और प्राकृतिक पैटर्नों को आसानी से पहचान और वर्गीकृत कर सकती है। गार्डनर के सिद्धांत के अनुसार, उसमें किसकी प्रबलता है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Linguistic intelligence",
+          "Logical-mathematical intelligence",
+          "Spatial intelligence",
+          "Naturalistic intelligence"
+        ],
+        "hi": [
+          "भाषिक बुद्धि",
+          "तार्किक-गणितीय बुद्धि",
+          "स्थानिक बुद्धि",
+          "प्रकृतिवादी (नेचुरलिस्टिक) बुद्धि"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 7,
-      "text_en": "Which statement best describes 'inclusive education'?",
-      "text_hi": "'समावेशी शिक्षा' का सर्वोत्तम वर्णन कौन-सा कथन करता है?",
-      "options_en": ["Children with disabilities should study in separate special schools only", "All children learn together in the same classroom, with support for diverse needs", "Only gifted children should be admitted to regular schools", "Remedial coaching after school hours for slow learners"],
-      "options_hi": ["दिव्यांग बच्चों को केवल अलग विशेष विद्यालयों में पढ़ना चाहिए", "सभी बच्चे एक ही कक्षा में साथ-साथ सीखते हैं, विविध आवश्यकताओं के लिए सहायता दी जाती है", "सामान्य विद्यालयों में केवल प्रतिभाशाली बच्चों को प्रवेश मिलना चाहिए", "धीमे अधिगमकर्ताओं के लिए विद्यालय समय के बाद उपचारात्मक कोचिंग"]
+      "text": {
+        "en": "Which statement best describes 'inclusive education'?",
+        "hi": "'समावेशी शिक्षा' का सर्वोत्तम वर्णन कौन-सा कथन करता है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Children with disabilities should study in separate special schools only",
+          "All children learn together in the same classroom, with support for diverse needs",
+          "Only gifted children should be admitted to regular schools",
+          "Remedial coaching after school hours for slow learners"
+        ],
+        "hi": [
+          "दिव्यांग बच्चों को केवल अलग विशेष विद्यालयों में पढ़ना चाहिए",
+          "सभी बच्चे एक ही कक्षा में साथ-साथ सीखते हैं, विविध आवश्यकताओं के लिए सहायता दी जाती है",
+          "सामान्य विद्यालयों में केवल प्रतिभाशाली बच्चों को प्रवेश मिलना चाहिए",
+          "धीमे अधिगमकर्ताओं के लिए विद्यालय समय के बाद उपचारात्मक कोचिंग"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 8,
-      "text_en": "A bright child struggles with accurate and fluent reading of words, often confusing letters such as 'b' and 'd'. This difficulty is most likely:",
-      "text_hi": "एक होशियार बच्चा शब्दों को सटीक और प्रवाहमय रूप से पढ़ने में संघर्ष करता है और अक्सर 'ब' और 'द' जैसे अक्षरों में उलझ जाता है। यह कठिनाई सबसे अधिक संभावित रूप से क्या है?",
-      "options_en": ["Dyslexia", "Dyscalculia", "Intellectual disability", "Hearing impairment"],
-      "options_hi": ["डिसलेक्सिया (पठन कठिनाई)", "डिसकैलकुलिया (गणन कठिनाई)", "बौद्धिक दिव्यांगता", "श्रवण दोष"]
+      "text": {
+        "en": "A bright child struggles with accurate and fluent reading of words, often confusing letters such as 'b' and 'd'. This difficulty is most likely:",
+        "hi": "एक होशियार बच्चा शब्दों को सटीक और प्रवाहमय रूप से पढ़ने में संघर्ष करता है और अक्सर 'ब' और 'द' जैसे अक्षरों में उलझ जाता है। यह कठिनाई सबसे अधिक संभावित रूप से क्या है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Dyslexia",
+          "Dyscalculia",
+          "Intellectual disability",
+          "Hearing impairment"
+        ],
+        "hi": [
+          "डिसलेक्सिया (पठन कठिनाई)",
+          "डिसकैलकुलिया (गणन कठिनाई)",
+          "बौद्धिक दिव्यांगता",
+          "श्रवण दोष"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 9,
-      "text_en": "The main purpose of formative assessment is to:",
-      "text_hi": "रचनात्मक (फॉर्मेटिव) मूल्यांकन का मुख्य उद्देश्य क्या है?",
-      "options_en": ["Rank students at the end of the year", "Monitor learning during instruction and provide feedback to improve it", "Decide promotion to the next class", "Compare one school with another"],
-      "options_hi": ["वर्ष के अंत में छात्रों की रैंक तय करना", "अध्यापन के दौरान अधिगम की निगरानी करना और उसे बेहतर बनाने के लिए प्रतिपुष्टि देना", "अगली कक्षा में प्रोन्नति का निर्णय लेना", "एक विद्यालय की तुलना दूसरे से करना"]
+      "text": {
+        "en": "The main purpose of formative assessment is to:",
+        "hi": "रचनात्मक (फॉर्मेटिव) मूल्यांकन का मुख्य उद्देश्य क्या है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Rank students at the end of the year",
+          "Monitor learning during instruction and provide feedback to improve it",
+          "Decide promotion to the next class",
+          "Compare one school with another"
+        ],
+        "hi": [
+          "वर्ष के अंत में छात्रों की रैंक तय करना",
+          "अध्यापन के दौरान अधिगम की निगरानी करना और उसे बेहतर बनाने के लिए प्रतिपुष्टि देना",
+          "अगली कक्षा में प्रोन्नति का निर्णय लेना",
+          "एक विद्यालय की तुलना दूसरे से करना"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 10,
-      "text_en": "A teacher first demonstrates a task, then guides the child step by step, and gradually reduces help as the child gains competence. This strategy is called:",
-      "text_hi": "अध्यापक पहले किसी कार्य को करके दिखाता है, फिर बच्चे को चरण-दर-चरण मार्गदर्शन देता है, और जैसे-जैसे बच्चा सक्षम होता जाता है सहायता धीरे-धीरे कम करता जाता है। इस रणनीति को क्या कहते हैं?",
-      "options_en": ["Rote memorization", "Conditioning", "Scaffolding", "Over-learning"],
-      "options_hi": ["रटंत विधि", "अनुबंधन (कंडीशनिंग)", "स्कैफोल्डिंग (सहारा देना)", "अधिअध्ययन (ओवर-लर्निंग)"]
+      "text": {
+        "en": "A teacher first demonstrates a task, then guides the child step by step, and gradually reduces help as the child gains competence. This strategy is called:",
+        "hi": "अध्यापक पहले किसी कार्य को करके दिखाता है, फिर बच्चे को चरण-दर-चरण मार्गदर्शन देता है, और जैसे-जैसे बच्चा सक्षम होता जाता है सहायता धीरे-धीरे कम करता जाता है। इस रणनीति को क्या कहते हैं?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Rote memorization",
+          "Conditioning",
+          "Scaffolding",
+          "Over-learning"
+        ],
+        "hi": [
+          "रटंत विधि",
+          "अनुबंधन (कंडीशनिंग)",
+          "स्कैफोल्डिंग (सहारा देना)",
+          "अधिअध्ययन (ओवर-लर्निंग)"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 11,
-      "text_en": "Which classroom practice is most consistent with the constructivist view of learning?",
-      "text_hi": "अधिगम का रचनावाद (कंस्ट्रक्टिविज़्म) दृष्टिकोण किस कक्षा-अभ्यास से सबसे अधिक मेल खाता है?",
-      "options_en": ["Students copy notes silently from the blackboard", "Teacher lectures for the entire period", "Students memorize definitions before practice", "Students explore, discuss and build understanding through hands-on activities"],
-      "options_hi": ["छात्र श्यामपट्ट से चुपचाप नोट्स उतारते हैं", "अध्यापक पूरे पीरियड व्याख्यान देता है", "छात्र अभ्यास से पहले परिभाषाएँ याद करते हैं", "छात्र क्रियाकलापों द्वारा खोज, चर्चा और समझ का निर्माण करते हैं"]
+      "text": {
+        "en": "Which classroom practice is most consistent with the constructivist view of learning?",
+        "hi": "अधिगम का रचनावाद (कंस्ट्रक्टिविज़्म) दृष्टिकोण किस कक्षा-अभ्यास से सबसे अधिक मेल खाता है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Students copy notes silently from the blackboard",
+          "Teacher lectures for the entire period",
+          "Students memorize definitions before practice",
+          "Students explore, discuss and build understanding through hands-on activities"
+        ],
+        "hi": [
+          "छात्र श्यामपट्ट से चुपचाप नोट्स उतारते हैं",
+          "अध्यापक पूरे पीरियड व्याख्यान देता है",
+          "छात्र अभ्यास से पहले परिभाषाएँ याद करते हैं",
+          "छात्र क्रियाकलापों द्वारा खोज, चर्चा और समझ का निर्माण करते हैं"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 12,
-      "text_en": "The first and most influential agent of socialization for a young child is usually the:",
-      "text_hi": "छोटे बच्चे के लिए समाजीकरण का पहला और सबसे प्रभावशाली एजेंट सामान्यतः कौन होता है?",
-      "options_en": ["Family", "School", "Peer group", "Television"],
-      "options_hi": ["परिवार", "विद्यालय", "सहपाठी समूह", "दूरदर्शन"]
+      "text": {
+        "en": "The first and most influential agent of socialization for a young child is usually the:",
+        "hi": "छोटे बच्चे के लिए समाजीकरण का पहला और सबसे प्रभावशाली एजेंट सामान्यतः कौन होता है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Family",
+          "School",
+          "Peer group",
+          "Television"
+        ],
+        "hi": [
+          "परिवार",
+          "विद्यालय",
+          "सहपाठी समूह",
+          "दूरदर्शन"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 13,
-      "text_en": "The belief that 'girls are naturally weak in mathematics' is an example of:",
-      "text_hi": "'लड़कियाँ स्वाभाविक रूप से गणित में कमज़ोर होती हैं' — यह विश्वास किसका उदाहरण है?",
-      "options_en": ["A scientific fact", "A developmental principle", "A gender stereotype", "An inherited trait"],
-      "options_hi": ["वैज्ञानिक तथ्य", "विकास का सिद्धांत", "लैंगिक रूढ़िवाद (स्टीरियोटाइप)", "वंशानुगत लक्षण"]
+      "text": {
+        "en": "The belief that 'girls are naturally weak in mathematics' is an example of:",
+        "hi": "'लड़कियाँ स्वाभाविक रूप से गणित में कमज़ोर होती हैं' — यह विश्वास किसका उदाहरण है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "A scientific fact",
+          "A developmental principle",
+          "A gender stereotype",
+          "An inherited trait"
+        ],
+        "hi": [
+          "वैज्ञानिक तथ्य",
+          "विकास का सिद्धांत",
+          "लैंगिक रूढ़िवाद (स्टीरियोटाइप)",
+          "वंशानुगत लक्षण"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 14,
-      "text_en": "Which statement about development is correct?",
-      "text_hi": "विकास के संबंध में कौन-सा कथन सही है?",
-      "options_en": ["Development is only quantitative and stops at adulthood", "Development is qualitative and continues from conception to death", "Development is the same as physical growth", "Development depends only on heredity"],
-      "options_hi": ["विकास केवल मात्रात्मक है और वयस्कता पर रुक जाता है", "विकास गुणात्मक है और गर्भधारण से मृत्यु तक जारी रहता है", "विकास शारीरिक वृद्धि के समान ही है", "विकास केवल आनुवंशिकता पर निर्भर करता है"]
+      "text": {
+        "en": "Which statement about development is correct?",
+        "hi": "विकास के संबंध में कौन-सा कथन सही है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Development is only quantitative and stops at adulthood",
+          "Development is qualitative and continues from conception to death",
+          "Development is the same as physical growth",
+          "Development depends only on heredity"
+        ],
+        "hi": [
+          "विकास केवल मात्रात्मक है और वयस्कता पर रुक जाता है",
+          "विकास गुणात्मक है और गर्भधारण से मृत्यु तक जारी रहता है",
+          "विकास शारीरिक वृद्धि के समान ही है",
+          "विकास केवल आनुवंशिकता पर निर्भर करता है"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 15,
-      "text_en": "Which statement best describes the role of heredity and environment in development?",
-      "text_hi": "विकास में आनुवंशिकता और वातावरण की भूमिका का सर्वोत्तम वर्णन कौन-सा कथन करता है?",
-      "options_en": ["Only heredity matters", "Only environment matters", "Heredity and environment are unrelated", "Heredity and environment interact continuously to shape development"],
-      "options_hi": ["केवल आनुवंशिकता महत्वपूर्ण है", "केवल वातावरण महत्वपूर्ण है", "आनुवंशिकता और वातावरण असंबंधित हैं", "आनुवंशिकता और वातावरण निरंतर अन्योन्यक्रिया करके विकास को आकार देते हैं"]
+      "text": {
+        "en": "Which statement best describes the role of heredity and environment in development?",
+        "hi": "विकास में आनुवंशिकता और वातावरण की भूमिका का सर्वोत्तम वर्णन कौन-सा कथन करता है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Only heredity matters",
+          "Only environment matters",
+          "Heredity and environment are unrelated",
+          "Heredity and environment interact continuously to shape development"
+        ],
+        "hi": [
+          "केवल आनुवंशिकता महत्वपूर्ण है",
+          "केवल वातावरण महत्वपूर्ण है",
+          "आनुवंशिकता और वातावरण असंबंधित हैं",
+          "आनुवंशिकता और वातावरण निरंतर अन्योन्यक्रिया करके विकास को आकार देते हैं"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 16,
-      "text_en": "Progressive education, associated with John Dewey, emphasizes:",
-      "text_hi": "जॉन डीवी से संबद्ध प्रगतिशील शिक्षा किस पर बल देती है?",
-      "options_en": ["Strict discipline and memorization", "Textbook-centered teaching", "Learning by doing and connecting education with life", "Frequent high-stakes testing"],
-      "options_hi": ["कठोर अनुशासन और रटंत विधि", "पाठ्यपुस्तक-केंद्रित अध्यापन", "करके सीखना और शिक्षा को जीवन से जोड़ना", "बार-बार उच्च-दांव वाली परीक्षाएँ"]
+      "text": {
+        "en": "Progressive education, associated with John Dewey, emphasizes:",
+        "hi": "जॉन डीवी से संबद्ध प्रगतिशील शिक्षा किस पर बल देती है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Strict discipline and memorization",
+          "Textbook-centered teaching",
+          "Learning by doing and connecting education with life",
+          "Frequent high-stakes testing"
+        ],
+        "hi": [
+          "कठोर अनुशासन और रटंत विधि",
+          "पाठ्यपुस्तक-केंद्रित अध्यापन",
+          "करके सीखना और शिक्षा को जीवन से जोड़ना",
+          "बार-बार उच्च-दांव वाली परीक्षाएँ"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 17,
-      "text_en": "Which type of thinking is most closely associated with creativity?",
-      "text_hi": "रचनात्मकता (क्रिएटिविटी) से सबसे निकटता से कौन-सा चिंतन संबद्ध है?",
-      "options_en": ["Convergent thinking", "Divergent thinking", "Rote thinking", "Algorithmic thinking"],
-      "options_hi": ["अभिसारी चिंतन", "अपसारी चिंतन", "रटंत चिंतन", "एल्गोरिद्मी चिंतन"]
+      "text": {
+        "en": "Which type of thinking is most closely associated with creativity?",
+        "hi": "रचनात्मकता (क्रिएटिविटी) से सबसे निकटता से कौन-सा चिंतन संबद्ध है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Convergent thinking",
+          "Divergent thinking",
+          "Rote thinking",
+          "Algorithmic thinking"
+        ],
+        "hi": [
+          "अभिसारी चिंतन",
+          "अपसारी चिंतन",
+          "रटंत चिंतन",
+          "एल्गोरिद्मी चिंतन"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 18,
-      "text_en": "A child shows persistent inattention, excessive restlessness and difficulty waiting for turns. These are most likely indicators of:",
-      "text_hi": "एक बच्चे में लगातार ध्यान की कमी, अत्यधिक बेचैनी और अपनी बारी की प्रतीक्षा करने में कठिनाई दिखाई देती है। ये सबसे अधिक संभावित संकेत किसके हैं?",
-      "options_en": ["Attention Deficit Hyperactivity Disorder (ADHD)", "Giftedness", "Autism spectrum disorder", "Dysgraphia"],
-      "options_hi": ["ध्यान-अभाव अतिसक्रियता विकार (ADHD)", "प्रतिभाशालिता", "ऑटिज़्म स्पेक्ट्रम विकार", "डिसग्राफिया (लेखन कठिनाई)"]
+      "text": {
+        "en": "A child shows persistent inattention, excessive restlessness and difficulty waiting for turns. These are most likely indicators of:",
+        "hi": "एक बच्चे में लगातार ध्यान की कमी, अत्यधिक बेचैनी और अपनी बारी की प्रतीक्षा करने में कठिनाई दिखाई देती है। ये सबसे अधिक संभावित संकेत किसके हैं?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Attention Deficit Hyperactivity Disorder (ADHD)",
+          "Giftedness",
+          "Autism spectrum disorder",
+          "Dysgraphia"
+        ],
+        "hi": [
+          "ध्यान-अभाव अतिसक्रियता विकार (ADHD)",
+          "प्रतिभाशालिता",
+          "ऑटिज़्म स्पेक्ट्रम विकार",
+          "डिसग्राफिया (लेखन कठिनाई)"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 19,
-      "text_en": "A child reads story books in her free time because she enjoys the stories. Her reading behaviour is driven by:",
-      "text_hi": "एक बच्ची खाली समय में कहानियों की किताबें इसलिए पढ़ती है क्योंकि उसे कहानियाँ अच्छी लगती हैं। उसका पठन व्यवहार किससे प्रेरित है?",
-      "options_en": ["Extrinsic motivation", "Intrinsic motivation", "Fear of punishment", "Social pressure"],
-      "options_hi": ["बाह्य प्रेरणा", "आंतरिक प्रेरणा", "दंड का भय", "सामाजिक दबाव"]
+      "text": {
+        "en": "A child reads story books in her free time because she enjoys the stories. Her reading behaviour is driven by:",
+        "hi": "एक बच्ची खाली समय में कहानियों की किताबें इसलिए पढ़ती है क्योंकि उसे कहानियाँ अच्छी लगती हैं। उसका पठन व्यवहार किससे प्रेरित है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Extrinsic motivation",
+          "Intrinsic motivation",
+          "Fear of punishment",
+          "Social pressure"
+        ],
+        "hi": [
+          "बाह्य प्रेरणा",
+          "आंतरिक प्रेरणा",
+          "दंड का भय",
+          "सामाजिक दबाव"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 20,
-      "text_en": "In Continuous and Comprehensive Evaluation (CCE), the term 'comprehensive' refers to covering:",
-      "text_hi": "सतत एवं व्यापक मूल्यांकन (CCE) में 'व्यापक' शब्द किसको शामिल करने को कहता है?",
-      "options_en": ["Only scholastic areas", "Only co-scholastic areas", "Only final examinations", "Both scholastic and co-scholastic areas"],
-      "options_hi": ["केवल संज्ञानात्मक (स्कोलैस्टिक) क्षेत्र", "केवल सह-संज्ञानात्मक (को-स्कोलैस्टिक) क्षेत्र", "केवल अंतिम परीक्षाएँ", "संज्ञानात्मक और सह-संज्ञानात्मक दोनों क्षेत्र"]
+      "text": {
+        "en": "In Continuous and Comprehensive Evaluation (CCE), the term 'comprehensive' refers to covering:",
+        "hi": "सतत एवं व्यापक मूल्यांकन (CCE) में 'व्यापक' शब्द किसको शामिल करने को कहता है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Only scholastic areas",
+          "Only co-scholastic areas",
+          "Only final examinations",
+          "Both scholastic and co-scholastic areas"
+        ],
+        "hi": [
+          "केवल संज्ञानात्मक (स्कोलैस्टिक) क्षेत्र",
+          "केवल सह-संज्ञानात्मक (को-स्कोलैस्टिक) क्षेत्र",
+          "केवल अंतिम परीक्षाएँ",
+          "संज्ञानात्मक और सह-संज्ञानात्मक दोनों क्षेत्र"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 21,
-      "text_en": "According to NEP 2020, the foundational stage of schooling covers:",
-      "text_hi": "एनईपी 2020 के अनुसार, स्कूली शिक्षा की आधारभूत अवस्था (फाउंडेशनल स्टेज) में क्या शामिल है?",
-      "options_en": ["Classes 6 to 8", "Only Class 1", "Three years of pre-primary (Balvatika) plus Classes 1 and 2", "Classes 9 to 12"],
-      "options_hi": ["कक्षा 6 से 8", "केवल कक्षा 1", "तीन वर्ष की पूर्व-प्राथमिक (बालवाटिका) और कक्षा 1 व 2", "कक्षा 9 से 12"]
+      "text": {
+        "en": "According to NEP 2020, the foundational stage of schooling covers:",
+        "hi": "एनईपी 2020 के अनुसार, स्कूली शिक्षा की आधारभूत अवस्था (फाउंडेशनल स्टेज) में क्या शामिल है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Classes 6 to 8",
+          "Only Class 1",
+          "Three years of pre-primary (Balvatika) plus Classes 1 and 2",
+          "Classes 9 to 12"
+        ],
+        "hi": [
+          "कक्षा 6 से 8",
+          "केवल कक्षा 1",
+          "तीन वर्ष की पूर्व-प्राथमिक (बालवाटिका) और कक्षा 1 व 2",
+          "कक्षा 9 से 12"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 22,
-      "text_en": "According to Erikson, primary school children (about 6-12 years) face the psychosocial crisis of:",
-      "text_hi": "एरिकसन के अनुसार, प्राथमिक विद्यालय के बच्चे (लगभग 6-12 वर्ष) किस मनःसामाजिक संकट का सामना करते हैं?",
-      "options_en": ["Trust vs. mistrust", "Industry vs. inferiority", "Identity vs. role confusion", "Intimacy vs. isolation"],
-      "options_hi": ["विश्वास बनाम अविश्वास", "उद्योग बनाम हीनता (इंडस्ट्री बनाम इन्फिरीयोरिटी)", "पहचान बनाम भूमिका भ्रम", "अंतरंगता बनाम अलगाव"]
+      "text": {
+        "en": "According to Erikson, primary school children (about 6-12 years) face the psychosocial crisis of:",
+        "hi": "एरिकसन के अनुसार, प्राथमिक विद्यालय के बच्चे (लगभग 6-12 वर्ष) किस मनःसामाजिक संकट का सामना करते हैं?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Trust vs. mistrust",
+          "Industry vs. inferiority",
+          "Identity vs. role confusion",
+          "Intimacy vs. isolation"
+        ],
+        "hi": [
+          "विश्वास बनाम अविश्वास",
+          "उद्योग बनाम हीनता (इंडस्ट्री बनाम इन्फिरीयोरिटी)",
+          "पहचान बनाम भूमिका भ्रम",
+          "अंतरंगता बनाम अलगाव"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 23,
-      "text_en": "Which of the following is a characteristic of a gifted child?",
-      "text_hi": "निम्नलिखित में से कौन-सा प्रतिभाशाली बच्चे का लक्षण है?",
-      "options_en": ["Learns quickly and shows originality", "Avoids asking questions", "Shows very low curiosity", "Learns only by imitation"],
-      "options_hi": ["शीघ्र सीखता है और मौलिकता दिखाता है", "प्रश्न पूछने से बचता है", "बहुत कम जिज्ञासा दिखाता है", "केवल अनुकरण द्वारा सीखता है"]
+      "text": {
+        "en": "Which of the following is a characteristic of a gifted child?",
+        "hi": "निम्नलिखित में से कौन-सा प्रतिभाशाली बच्चे का लक्षण है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Learns quickly and shows originality",
+          "Avoids asking questions",
+          "Shows very low curiosity",
+          "Learns only by imitation"
+        ],
+        "hi": [
+          "शीघ्र सीखता है और मौलिकता दिखाता है",
+          "प्रश्न पूछने से बचता है",
+          "बहुत कम जिज्ञासा दिखाता है",
+          "केवल अनुकरण द्वारा सीखता है"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 24,
-      "text_en": "A child talks to herself softly while solving a difficult puzzle. According to Vygotsky, this 'private speech':",
-      "text_hi": "कठिन पहेली हल करते समय एक बच्ची धीरे-धीरे खुद से बात करती है। विगोत्स्की के अनुसार, यह 'निजी भाषण':",
-      "options_en": ["Shows a language disorder", "Should be punished", "Helps the child regulate her own thinking and behaviour", "Indicates egocentrism that never develops further"],
-      "options_hi": ["भाषा विकार दर्शाता है", "दंडनीय है", "बच्ची को अपने चिंतन और व्यवहार को नियंत्रित करने में सहायता करता है", "ऐसा आत्मकेंद्रण दर्शाता है जिसका आगे विकास नहीं होता"]
+      "text": {
+        "en": "A child talks to herself softly while solving a difficult puzzle. According to Vygotsky, this 'private speech':",
+        "hi": "कठिन पहेली हल करते समय एक बच्ची धीरे-धीरे खुद से बात करती है। विगोत्स्की के अनुसार, यह 'निजी भाषण':",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Shows a language disorder",
+          "Should be punished",
+          "Helps the child regulate her own thinking and behaviour",
+          "Indicates egocentrism that never develops further"
+        ],
+        "hi": [
+          "भाषा विकार दर्शाता है",
+          "दंडनीय है",
+          "बच्ची को अपने चिंतन और व्यवहार को नियंत्रित करने में सहायता करता है",
+          "ऐसा आत्मकेंद्रण दर्शाता है जिसका आगे विकास नहीं होता"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 25,
-      "text_en": "A child who has learned counting with beads finds it easier to learn addition. This is an example of:",
-      "text_hi": "मनकों से गिनती सीखने वाले बच्चे को जोड़ सीखना आसान लगता है। यह किसका उदाहरण है?",
-      "options_en": ["Positive transfer of learning", "Negative transfer of learning", "Zero transfer", "Rote learning"],
-      "options_hi": ["अधिगम का सकारात्मक स्थानांतरण", "अधिगम का नकारात्मक स्थानांतरण", "शून्य स्थानांतरण", "रटंत अधिगम"]
+      "text": {
+        "en": "A child who has learned counting with beads finds it easier to learn addition. This is an example of:",
+        "hi": "मनकों से गिनती सीखने वाले बच्चे को जोड़ सीखना आसान लगता है। यह किसका उदाहरण है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Positive transfer of learning",
+          "Negative transfer of learning",
+          "Zero transfer",
+          "Rote learning"
+        ],
+        "hi": [
+          "अधिगम का सकारात्मक स्थानांतरण",
+          "अधिगम का नकारात्मक स्थानांतरण",
+          "शून्य स्थानांतरण",
+          "रटंत अधिगम"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 26,
-      "text_en": "'Thinking about one's own thinking' is known as:",
-      "text_hi": "'अपने ही चिंतन के बारे में सोचना' क्या कहलाता है?",
-      "options_en": ["Conditioning", "Metacognition", "Habituation", "Imprinting"],
-      "options_hi": ["अनुबंधन", "मेटाकॉग्निशन (अधि-चिंतन)", "आदतन (हैबिचुएशन)", "मुद्रांकन (इम्प्रिंटिंग)"]
+      "text": {
+        "en": "'Thinking about one's own thinking' is known as:",
+        "hi": "'अपने ही चिंतन के बारे में सोचना' क्या कहलाता है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Conditioning",
+          "Metacognition",
+          "Habituation",
+          "Imprinting"
+        ],
+        "hi": [
+          "अनुबंधन",
+          "मेटाकॉग्निशन (अधि-चिंतन)",
+          "आदतन (हैबिचुएशन)",
+          "मुद्रांकन (इम्प्रिंटिंग)"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 27,
-      "text_en": "In cooperative learning, students:",
-      "text_hi": "सहकारात्मक अधिगम (कोऑपरेटिव लर्निंग) में छात्र:",
-      "options_en": ["Work alone and compete for ranks", "Listen passively to the teacher", "Memorize answers in pairs", "Work in mixed-ability groups toward a common goal, helping each other"],
-      "options_hi": ["अकेले काम करते हैं और रैंक के लिए प्रतिस्पर्धा करते हैं", "अध्यापक को निष्क्रिय रूप से सुनते हैं", "जोड़ों में उत्तर याद करते हैं", "मिश्रित-क्षमता वाले समूहों में एक-दूसरे की मदद करते हुए साझा लक्ष्य की ओर काम करते हैं"]
+      "text": {
+        "en": "In cooperative learning, students:",
+        "hi": "सहकारात्मक अधिगम (कोऑपरेटिव लर्निंग) में छात्र:",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Work alone and compete for ranks",
+          "Listen passively to the teacher",
+          "Memorize answers in pairs",
+          "Work in mixed-ability groups toward a common goal, helping each other"
+        ],
+        "hi": [
+          "अकेले काम करते हैं और रैंक के लिए प्रतिस्पर्धा करते हैं",
+          "अध्यापक को निष्क्रिय रूप से सुनते हैं",
+          "जोड़ों में उत्तर याद करते हैं",
+          "मिश्रित-क्षमता वाले समूहों में एक-दूसरे की मदद करते हुए साझा लक्ष्य की ओर काम करते हैं"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 28,
-      "text_en": "A constructivist teacher treats children's errors as:",
-      "text_hi": "रचनावादी अध्यापक बच्चों की गलतियों को किस रूप में लेता है?",
-      "options_en": ["Reasons for punishment", "Signs of permanent failure", "Windows into children's thinking and opportunities for learning", "Things to be ignored completely"],
-      "options_hi": ["दंड का कारण", "स्थायी असफलता के संकेत", "बच्चों के चिंतन को समझने का अवसर और सीखने का मौका", "पूरी तरह अनदेखा की जाने वाली चीज़ें"]
+      "text": {
+        "en": "A constructivist teacher treats children's errors as:",
+        "hi": "रचनावादी अध्यापक बच्चों की गलतियों को किस रूप में लेता है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Reasons for punishment",
+          "Signs of permanent failure",
+          "Windows into children's thinking and opportunities for learning",
+          "Things to be ignored completely"
+        ],
+        "hi": [
+          "दंड का कारण",
+          "स्थायी असफलता के संकेत",
+          "बच्चों के चिंतन को समझने का अवसर और सीखने का मौका",
+          "पूरी तरह अनदेखा की जाने वाली चीज़ें"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 29,
-      "text_en": "Which feature best characterizes a child-centred classroom?",
-      "text_hi": "बाल-केंद्रित कक्षा की सबसे अच्छी विशेषता कौन-सी है?",
-      "options_en": ["Children actively participate, ask questions and the teacher acts as a facilitator", "Children sit silently and listen", "Only the textbook is followed strictly", "Teaching is identical for every child without any adaptation"],
-      "options_hi": ["बच्चे सक्रिय रूप से भाग लेते हैं, प्रश्न पूछते हैं और अध्यापक सुगमकर्ता की भूमिका में होता है", "बच्चे चुपचाप बैठकर सुनते हैं", "केवल पाठ्यपुस्तक का कड़ाई से पालन होता है", "बिना किसी अनुकूलन के सभी बच्चों के लिए अध्यापन एक-सा रहता है"]
+      "text": {
+        "en": "Which feature best characterizes a child-centred classroom?",
+        "hi": "बाल-केंद्रित कक्षा की सबसे अच्छी विशेषता कौन-सी है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Children actively participate, ask questions and the teacher acts as a facilitator",
+          "Children sit silently and listen",
+          "Only the textbook is followed strictly",
+          "Teaching is identical for every child without any adaptation"
+        ],
+        "hi": [
+          "बच्चे सक्रिय रूप से भाग लेते हैं, प्रश्न पूछते हैं और अध्यापक सुगमकर्ता की भूमिका में होता है",
+          "बच्चे चुपचाप बैठकर सुनते हैं",
+          "केवल पाठ्यपुस्तक का कड़ाई से पालन होता है",
+          "बिना किसी अनुकूलन के सभी बच्चों के लिए अध्यापन एक-सा रहता है"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     },
     {
       "no": 30,
-      "text_en": "Which factor is most important for meaningful learning to occur?",
-      "text_hi": "अर्थपूर्ण अधिगम होने के लिए कौन-सा कारक सबसे महत्वपूर्ण है?",
-      "options_en": ["Fear of examination", "Connecting new content with the child's prior knowledge and experiences", "Rewarding every correct answer with gifts", "Daily memorization drills"],
-      "options_hi": ["परीक्षा का भय", "नई सामग्री को बच्चे के पूर्व ज्ञान और अनुभवों से जोड़ना", "हर सही उत्तर पर उपहार देना", "प्रतिदिन रटंत अभ्यास"]
+      "text": {
+        "en": "Which factor is most important for meaningful learning to occur?",
+        "hi": "अर्थपूर्ण अधिगम होने के लिए कौन-सा कारक सबसे महत्वपूर्ण है?",
+        "raw": null
+      },
+      "options": {
+        "en": [
+          "Fear of examination",
+          "Connecting new content with the child's prior knowledge and experiences",
+          "Rewarding every correct answer with gifts",
+          "Daily memorization drills"
+        ],
+        "hi": [
+          "परीक्षा का भय",
+          "नई सामग्री को बच्चे के पूर्व ज्ञान और अनुभवों से जोड़ना",
+          "हर सही उत्तर पर उपहार देना",
+          "प्रतिदिन रटंत अभ्यास"
+        ],
+        "raw": null
+      },
+      "answer": null,
+      "explanation": null,
+      "topic": null,
+      "difficulty": null,
+      "provenance": {
+        "content_type": "original_practice",
+        "session_id": null,
+        "set_code": null,
+        "source_file": null,
+        "source_url": null,
+        "page": null,
+        "reuse_permission": "not_required",
+        "notes": "Original question written for this repo (practice use)."
+      }
     }
   ]
 }

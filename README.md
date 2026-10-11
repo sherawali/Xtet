@@ -5,6 +5,12 @@ CTET Paper-I (Classes I–V) ke liye ek organized hub:
 - **`sessions/`** — 2020 ke baad ki har CTET session ka metadata (date, edition, mode, shifts,
   official answer-key info) + official sources ke links. Real question papers CBSE ki website se
   download kiye ja sakte hain — links har session ke folder mein hain.
+- **`sources/`** — saare official + third-party PYQ sources ka registry (`sources.json`),
+  session-wise known set codes ke saath.
+- **`schema/`** — app-ready database schema (question / section / paper JSON Schemas),
+  provenance + reuse-permission tracking ke saath.
+- **`ingest/`** — PDF → JSON ingestion workflow: extraction script, validator, self-test
+  (tumhare apne downloaded PDFs par chalta hai; extracted output gitignore hai).
 - **`practice/`** — CTET Paper-I ke exact pattern par likhe gaye **original practice sets**
   (150 questions, bilingual Hindi+English, section-wise JSON, answer key ke saath) — app-ready format.
 
