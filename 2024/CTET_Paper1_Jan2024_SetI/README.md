@@ -30,7 +30,9 @@ Is folder mein December 2023 cycle ka official January 2024 CTET Paper 1, Set I 
 - Booklet instructions ke mutabik is main booklet mein English aur Hindi ke language questions hain. Kisi aur Language I / Language II ke liye Code I ka alag Supplement (Language) Test Booklet maangna hota hai; isliye woh sections yahan shamil nahi hain.
 - CDP, Maths aur EVS booklet mein Hindi + English dono mein hain. Language sections single-language format mein hain.
 - Language sections ko translation pairs assume nahi kiya gaya hai: English aur Hindi comprehension passages alag hain aur unki answer keys bhi alag hain. Language-wise answers Answer-Key.txt mein official key se diye gaye hain.
-- Hindi-1 Q94 ke chaar options legacy-font text ko booklet extraction ke saath cross-check karke rakhe gaye hain.
+- Hindi-1 Q94 ke chaar options spelling-question ke distractors hain; kuch spellings jaan-boojhkar galat hain, isliye unhe original options ke roop mein rakha gaya hai.
+- CPD, Maths, EVS, Hindi-1 aur Hindi-2 ke sabhi Hindi blocks ka Unicode/script, spelling, grammar aur punctuation pass kiya gaya; saaf language issues sudhaare gaye, bina answer choices ya key badle.
+- Source booklet mirrors mein Hindi text legacy-font encoded hai. Ye manual language pass exact booklet wording ki clean-source verification nahi hai; clean scan/source milne par wording ko visually compare karein.
 - Answer-Key.txt CBSE ki official Final Answer Key se banayi gayi hai. E ka matlab options 2 aur 4; Z ka matlab sabhi options.
 - Exam shift README mein nahi diya gaya hai, kyunki sources mein shift details inconsistent mile.
 
