@@ -17,3 +17,11 @@ TET exam ke question bank - year wise, paper wise, section wise.
 
 Har paper folder me README.md me paper set aur sections ka note hota hai.
 Is Set A booklet me English + Hindi hi hain; Sanskrit alag supplement booklet me hota hai (isliye yahan nahi hai).
+
+## AGENT_MEMORY (AI agents ke liye)
+
+Jo bhi AI agent is repo par kaam kare, SABSE PEHLE AGENT_MEMORY/00_START_HERE.md padhe - usme start/end protocol hai.
+Current state + session log: AGENT_MEMORY/MEMORY.md
+Kaise karna hai (tools, sources, verification): AGENT_MEMORY/PLAYBOOK.md, SOURCES.md, MISTAKES.md
+Naye session ka ready prompt: AGENT_MEMORY/HANDOVER_PROMPT.md
+Session ke end me AGENT_MEMORY zaroor update karein.
