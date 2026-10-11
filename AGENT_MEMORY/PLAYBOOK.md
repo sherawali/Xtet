@@ -98,7 +98,7 @@ Priority order:
    - Baaki languages (03-SANSKRIT etc.) ke bhi pages hote hain aage.
 4. Multi-answer questions ke liye legend: A=1,2 B=1,3 C=1,4 D=2,3 E=2,4 F=3,4 Z=ALL. Letter aaye to Answer-Key.txt me "A (1 aur 2 dono)" jaisa likho + note.
 5. THIRD-PARTY KEYS (theexampillar etc.) se hamesha cross-check karo - Session 1 me EVS Q86-88 ki third-party key GALAT thi (official: 1,4,1). Official key hi final hai.
-6. Translation pairs ki sanity check: Hindi-1 Q91-105 = Eng-1 Q91-105 answers; Hindi-2 Q136-150 = Eng-2 Q136-150 answers (same questions translated).
+6. Cross-language sanity check booklet dekh kar hi karo. Language sections me passage-based question ranges alag ho sakte hain aur unke answers bhi alag ho sakte hain (Jan 2024 Set I me English/Hindi L1 Q91-105 aur L2 Q121-135 alag passages hain). Sirf wahi ranges compare karo jahan booklet se same question/translation confirm ho; har language ki final key independent official table se lo.
 
 ---
 
@@ -115,7 +115,8 @@ Ye commands chalao (folder ke andar):
 4. Answer-Key.txt me har section ke 30 answers:
    Total = 210 (7 sections x 30) - grep -cE '^[0-9]+\. ' Answer-Key.txt
 5. Aankhon se ek baar passages/poems ke directions aur numbering dekh lo.
-6. README me section table me saari files listed hon.
+6. Hindi wale har block ka alag spelling/grammar pass karo: ling-vachan, idiomatic phrasing, punctuation aur technical terms dekho. Unicode/mojibake scan encoding batata hai, grammar ya source fidelity nahi. Intentional wrong-spelling distractors ko preserve karo; clean source na ho to exact wording verified hone ka claim mat karo.
+7. README me section table me saari files listed hon aur Hindi-source caveat ho (agar lagu ho).
 
 PASS -> commit (clear message ke saath). FAIL -> fix -> dobara check.
 

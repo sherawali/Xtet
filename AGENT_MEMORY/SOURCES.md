@@ -1,6 +1,6 @@
 # SOURCES.md - Question Papers aur Answer Keys kahan se milte hain
 
-Sab URLs Session 1 me test kiye gaye hain (2026-10-11). Kaam karte hain - ye confirmed hai.
+Purane URLs Session 1 (2026-10-11) me test kiye gaye the; January 2024 ke naye sources Session 2 (2026-10-12) me verify kiye gaye.
 
 ---
 
@@ -79,6 +79,28 @@ https://mubeensir.blogspot.com/p/questionpapers-in-hindi-english-with.html
 https://ctet.nic.in/previous-year-final-answer-key/ - year-wise official keys.
 
 ---
+
+## 7. CTET January 2024 - Paper 1, Set I
+
+Official CBSE question-paper listing (January 2024):
+https://ctet.nic.in/question-paper-january-2024/
+
+The CBSE page identifies Paper 1 sets I/J/K/L and links to the official Drive copies. The Google Drive routes were not usable in this session, so the bilingual Set I transcript was taken from this 48-page booklet mirror:
+https://cdn-images.prepp.in/public/image/CTET_2024_Paper_1_Eng_Hin_SET_I_deabf389f06f0d87b87ea33f72b98bca.pdf
+
+Second Set I booklet mirror, whose cover confirms `SAS-24-I` (Hindi text layer is also legacy-font encoded):
+https://cache.careers360.mobi/media/uploads/froala_editor/files/CTET-2024-I-Paper-I-Eng%2BHin_y2JQeg9.pdf
+
+- Booklet title/code: SAS-24-I / Set I. The instructions say the main booklet contains English and Hindi; other languages require a Code I Supplement (Language) Test Booklet.
+- For the full booklet, use the r.jina.ai reader URL (15 chunks). Hindi Language I starts in chunk 9; Hindi Language II is in chunks 12-13. The Hindi PDF text layer is legacy-font encoded, so normalize it against the source and do not copy the raw garbled string.
+- Prepp and Careers360 text extraction both garble the Hindi; searches did not find a trustworthy clean Set I Hindi transcript. The manual spelling/grammar pass cannot establish exact source wording; compare visually if a clean scan becomes available.
+- Exam shift details from third-party pages conflicted; omit shift metadata unless a reliable official source confirms it.
+- Third-party text cross-checks only (not answer-key authority): Oswaal's solved-paper PDF helped verify Maths Q32's displayed working (1030) and Q54's printed fractions (1/12 kg packets from 7 1/2 kg; its explanation rewrites 7 1/2 as 15/2): https://www.oswaal360.com/pluginfile.php/10939/mod_folder/content/0/CTET/Paper%201/2024/21%20Jan%202024.pdf . Testbook's Q32 page also confirms the printed working and concept of regrouping: https://testbook.com/question-answer/a-student-of-class-iii-solved-26-5-asnbsp--65b011716430d0a8251724e9 .
+
+CBSE Official Final Answer Key (January 2024 Paper 1 and Paper 2):
+https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2024/02/2024021954.pdf
+
+The final key has Set I Paper-I MAIN, 01-ENGLISH, and 02-HINDI tables. Use it as the sole final answer source. Key notation: E = options 2 and 4; Z = all options.
 
 ## Sources jo TRY kiye par kaam nahi aaye
 
