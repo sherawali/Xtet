@@ -1,0 +1,20 @@
+{
+  "id": "2021-01",
+  "edition": 14,
+  "session_name": "CTET July 2020 (postponed) — held January 2021",
+  "exam_dates": ["2021-01-31"],
+  "mode": "CBT (Computer Based Test)",
+  "paper1": { "total_questions": 150, "duration_minutes": 150 },
+  "answer_key": {
+    "official": true,
+    "where": "ctet.nic.in (answer key archive)"
+  },
+  "links": {
+    "official": "https://ctet.nic.in/",
+    "pdf_sources": [
+      "https://www.careerpower.in/ctet-previous-year-question-paper.html",
+      "https://www.adda247.com/teaching-jobs-exam/ctet-previous-year-question-paper-pdfs/"
+    ]
+  },
+  "notes": "Pehla CTET jo CBT mode mein hua. July 2020 ka exam pandemic ki wajah se postpone hokar 31 Jan 2021 ko conduct hua. Calendar year 2020 mein koi CTET nahi hua."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2024-01",
+  "edition": 18,
+  "session_name": "CTET December 2023 (postponed) — held January 2024",
+  "exam_dates": ["2024-01-21"],
+  "mode": "Pen & Paper (offline)",
+  "shifts": ["09:30 AM – 12:00 Noon", "02:00 PM – 04:30 PM"],
+  "paper1": { "total_questions": 150, "duration_minutes": 150 },
+  "answer_key": {
+    "official": true,
+    "where": "ctet.nic.in"
+  },
+  "sets_known": ["Code J (Paper-I, per Adda247 listing)"],
+  "links": {
+    "official": "https://ctet.nic.in/",
+    "information_bulletin_pdf": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2023/11/2023110320.pdf",
+    "pdf_sources": [
+      "https://www.adda247.com/teaching-jobs-exam/ctet-previous-year-question-paper-pdfs/",
+      "https://www.careerpower.in/ctet-previous-year-question-paper.html"
+    ]
+  },
+  "notes": "18th edition. December 2023 session postpone hokar 21 Jan 2024 ko hua; is session se CTET wapas offline (pen & paper) mode mein chala gaya. Certificate validity lifetime kar di gayi."
+}

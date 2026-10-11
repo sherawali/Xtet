@@ -1,0 +1,21 @@
+{
+  "paper_id": "practice-set-01",
+  "note": "Option letters: a, b, c, d. Sections added one at a time; completed sections are listed below.",
+  "sections": {
+    "cdp": {
+      "status": "ready",
+      "answers": {
+        "1": "a", "2": "b", "3": "c", "4": "c", "5": "b",
+        "6": "d", "7": "b", "8": "a", "9": "b", "10": "c",
+        "11": "d", "12": "a", "13": "c", "14": "b", "15": "d",
+        "16": "c", "17": "b", "18": "a", "19": "b", "20": "d",
+        "21": "c", "22": "b", "23": "a", "24": "c", "25": "a",
+        "26": "b", "27": "d", "28": "c", "29": "a", "30": "b"
+      }
+    },
+    "language1": { "status": "pending" },
+    "language2": { "status": "pending" },
+    "math": { "status": "pending" },
+    "evs": { "status": "pending" }
+  }
+}

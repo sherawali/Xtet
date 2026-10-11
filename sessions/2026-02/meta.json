@@ -1,0 +1,24 @@
+{
+  "id": "2026-02",
+  "edition": 21,
+  "session_name": "CTET December 2025 (postponed) — held February 2026",
+  "exam_dates": ["2026-02-07", "2026-02-08"],
+  "mode": "Pen & Paper (offline)",
+  "scale": "132 cities, 20 languages",
+  "paper1": { "total_questions": 150, "duration_minutes": 150 },
+  "answer_key": {
+    "official": true,
+    "released": "2026-03-10 to 2026-03-12 (answer key + OMR + response sheet)",
+    "challenge_window": "2026-03-12 to 2026-03-15",
+    "where": "ctet.nic.in"
+  },
+  "sets_known": ["Set E, Set C (Paper-I, per ExamCart listing, 8 Feb 2026)"],
+  "links": {
+    "official": "https://ctet.nic.in/",
+    "pdf_sources": [
+      "https://examcart.in/blogs/central-exam/ctet-previous-year-question-paper-paper-1-2-out-download-pdf",
+      "https://www.adda247.com/teaching-jobs-exam/ctet-previous-year-question-paper-pdfs/"
+    ]
+  },
+  "notes": "21st edition. 2025 mein koi CTET nahi hua (July + December dono skip); December 2025 session postpone hokar 7–8 Feb 2026 ko conduct hua. Information Bulletin 27 Nov 2025 ko release hua tha."
+}

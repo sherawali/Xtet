@@ -1,0 +1,23 @@
+{
+  "id": "2024-12",
+  "edition": 20,
+  "session_name": "CTET December 2024",
+  "exam_dates": ["2024-12-14"],
+  "mode": "Pen & Paper (offline)",
+  "shifts": ["Paper-II: morning", "Paper-I: afternoon (02:00 PM – 04:30 PM)"],
+  "paper1": { "total_questions": 150, "duration_minutes": 150 },
+  "answer_key": {
+    "official": true,
+    "where": "ctet.nic.in"
+  },
+  "sets_known": ["Code H (Paper-I, per Adda247/ExamCart listings; answer key PDF bhi inhi listings mein available)"],
+  "links": {
+    "official": "https://ctet.nic.in/",
+    "pdf_sources": [
+      "https://www.adda247.com/teaching-jobs-exam/ctet-previous-year-question-paper-pdfs/",
+      "https://examcart.in/blogs/central-exam/ctet-previous-year-question-paper-paper-1-2-out-download-pdf",
+      "https://www.careerpower.in/ctet-previous-year-question-paper.html"
+    ]
+  },
+  "notes": "20th edition, 14 Dec 2024, single day, two shifts."
+}

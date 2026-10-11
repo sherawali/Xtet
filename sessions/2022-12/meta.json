@@ -1,0 +1,22 @@
+{
+  "id": "2022-12",
+  "edition": 16,
+  "session_name": "CTET December 2022",
+  "exam_dates": ["2022-12-28", "2023-02-07"],
+  "exam_window": "28 Dec 2022 to 7 Feb 2023",
+  "mode": "CBT (Computer Based Test)",
+  "paper1": { "total_questions": 150, "duration_minutes": 150 },
+  "answer_key": {
+    "official": true,
+    "released": "2023-02-14 (approx)",
+    "where": "ctet.nic.in"
+  },
+  "links": {
+    "official": "https://ctet.nic.in/",
+    "pdf_sources": [
+      "https://www.careerpower.in/ctet-previous-year-question-paper.html",
+      "https://www.adda247.com/teaching-jobs-exam/ctet-previous-year-question-paper-pdfs/"
+    ]
+  },
+  "notes": "16th edition, sabse lamba CBT window. Result March 2023 mein declare hua."
+}

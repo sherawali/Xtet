@@ -1,0 +1,21 @@
+{
+  "id": "2024-07",
+  "edition": 19,
+  "session_name": "CTET July 2024",
+  "exam_dates": ["2024-07-07"],
+  "mode": "Pen & Paper (offline)",
+  "paper1": { "total_questions": 150, "duration_minutes": 150 },
+  "answer_key": {
+    "official": true,
+    "where": "ctet.nic.in"
+  },
+  "sets_known": ["SET A", "SET B", "SET C", "SET D (Paper-I, per Adda247 listing; Hindi + English PDFs)"],
+  "links": {
+    "official": "https://ctet.nic.in/",
+    "pdf_sources": [
+      "https://www.adda247.com/teaching-jobs-exam/ctet-previous-year-question-paper-pdfs/",
+      "https://www.careerpower.in/ctet-previous-year-question-paper.html"
+    ]
+  },
+  "notes": "19th edition, 7 Jul 2024. Result July 2024 mein declared (ctet.nic.in)."
+}

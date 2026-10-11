@@ -1,0 +1,23 @@
+{
+  "id": "practice-set-01",
+  "title": "CTET Paper-I Model Practice Paper 1",
+  "kind": "original_practice",
+  "disclaimer": "Original questions written for practice. Not an actual CBSE CTET paper.",
+  "pattern": {
+    "exam": "CTET",
+    "paper": "Paper-I (Classes I–V)",
+    "total_questions": 150,
+    "max_marks": 150,
+    "duration_minutes": 150,
+    "negative_marking": false,
+    "languages": ["en", "hi"]
+  },
+  "sections": [
+    { "id": "cdp", "file": "sections/cdp.json", "name_en": "Child Development and Pedagogy", "name_hi": "बाल विकास एवं शिक्षण शास्त्र", "q_range": "1-30", "status": "ready" },
+    { "id": "language1", "file": "sections/language1.json", "name_en": "Language I (Hindi)", "name_hi": "भाषा-1 (हिन्दी)", "q_range": "31-60", "status": "pending" },
+    { "id": "language2", "file": "sections/language2.json", "name_en": "Language II (English)", "name_hi": "भाषा-2 (अंग्रेज़ी)", "q_range": "61-90", "status": "pending" },
+    { "id": "math", "file": "sections/math.json", "name_en": "Mathematics", "name_hi": "गणित", "q_range": "91-120", "status": "pending" },
+    { "id": "evs", "file": "sections/evs.json", "name_en": "Environmental Studies", "name_hi": "पर्यावरण अध्ययन", "q_range": "121-150", "status": "pending" }
+  ],
+  "answer_key": "answer_key.json"
+}

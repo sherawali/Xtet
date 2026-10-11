@@ -1,0 +1,14 @@
+{
+  "id": "2026-12",
+  "edition": 22,
+  "session_name": "CTET September 2026 cycle (postponed) — scheduled December 2026",
+  "exam_dates": ["2026-12-12", "2026-12-13"],
+  "status": "scheduled (not yet conducted as of 2026-10-11)",
+  "mode": "Pen & Paper (offline)",
+  "paper1": { "total_questions": 150, "duration_minutes": 150 },
+  "answer_key": { "official": false, "where": "ctet.nic.in (after exam)" },
+  "links": {
+    "official": "https://ctet.nic.in/"
+  },
+  "notes": "22nd edition. Supreme Court ke direction ke baad CBSE ne eligible candidates ko fresh chance dene ke liye exam postpone kiya; public notice 14 Sep 2026 ke anusaar ab 12–13 Dec 2026 ko hoga."
+}

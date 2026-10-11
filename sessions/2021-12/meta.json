@@ -1,0 +1,23 @@
+{
+  "id": "2021-12",
+  "edition": 15,
+  "session_name": "CTET December 2021",
+  "exam_dates": ["2021-12-16", "2022-01-13"],
+  "exam_window": "16 Dec 2021 to 13 Jan 2022",
+  "mode": "CBT (Computer Based Test)",
+  "shifts": ["Shift-I 09:30 AM – 12:00 Noon", "Shift-II 02:30 PM – 05:00 PM (exact date/shift per admit card)"],
+  "paper1": { "total_questions": 150, "duration_minutes": 150 },
+  "answer_key": {
+    "official": true,
+    "where": "ctet.nic.in (answer key released on the official website)"
+  },
+  "links": {
+    "official": "https://ctet.nic.in/",
+    "information_bulletin_pdf": "https://img.freejobalert.com/uploads/2021/09/Detailed-Notification-CBSE-CTET-Dec-2021.pdf",
+    "pdf_sources": [
+      "https://www.careerpower.in/ctet-previous-year-question-paper.html",
+      "https://www.adda247.com/teaching-jobs-exam/ctet-previous-year-question-paper-pdfs/"
+    ]
+  },
+  "notes": "15th edition. Multi-day CBT window; candidate ka exact din/shift admit card par hota tha."
+}
