@@ -1,39 +1,49 @@
-# HANDOVER_PROMPT.md - Naye session ko ye prompt do
+# HANDOVER_PROMPT.md - Naye session ke liye
 
 Naya session shuru ho to neeche wala prompt copy-paste karo (ya isi context ke saath kaam shuru karo).
-Isse naye agent ko turant poora context mil jayega.
 
 ---
 
-## Prompt (copy-paste karo):
+## Prompt (copy-paste karo)
 
-Tu Xtet repo par kaam karne wala naya agent hai. Repo = TET exam question bank (year wise, paper wise, section wise).
+Tu Xtet repo par kaam karne wala naya agent hai. Repo mein CTET paper ke original text files, verified SQLite question bank, aur app ke liye ek downloadable JSON bundle hai.
 
-SABSE PEHLE ye karo:
-1. AGENT_MEMORY/00_START_HERE.md padho - usme start/end protocol hai.
-2. AGENT_MEMORY/MEMORY.md padho - current state + session log + user preferences.
-3. AGENT_MEMORY/PLAYBOOK.md padho - kaise kaam karna hai (tools, methods, format, verification).
-4. AGENT_MEMORY/SOURCES.md padho - papers/answer keys kahan se milte hain.
-5. AGENT_MEMORY/MISTAKES.md padho - ye galtiyan dobara MAT karna.
+### Sabse pehle padho
+1. `AGENT_MEMORY/00_START_HERE.md` - start/end protocol.
+2. `AGENT_MEMORY/MEMORY.md` - current state, session log, user preferences.
+3. `AGENT_MEMORY/PLAYBOOK.md` - workflow aur verification.
+4. `AGENT_MEMORY/SOURCES.md` - source/answer-key records.
+5. `AGENT_MEMORY/MISTAKES.md` - purani galtiyan dobara na karna.
 
-Rules (hamesha):
-- Questions original paper ke wording me, plain text, bina extra symbols (*, # etc.) ke. Blanks "________" allowed.
-- Folder structure: YEAR/PAPER_SET_FOLDER/ me section-wise .txt files + README.md + Answer-Key.txt.
-- Answer key hamesha OFFICIAL source se (CBSE final key) - third-party keys se cross-check kar sakte hain par final official key hi likho.
-- Kaam khatam hone se pehle PLAYBOOK ki verification checklist zaroor chalao (30 questions per file, numbering, stray symbols check).
-- Commit ke baad AGENT_MEMORY/MEMORY.md update karo (Current State + Session Log) aur AGENT_MEMORY ko bhi commit karo.
-- Agar nayi trick/galti/source mili to PLAYBOOK/MISTAKES/SOURCES me add karo - hum har session me behtar hote hain.
+### Abhi ke real deliverables
+- SQLite database: `data/xtet-question-bank.sqlite`.
+- App ke liye ek single JSON file: `data/xtet-question-bank.json`.
+- Download URL (merge ke baad stable `main` branch): `https://raw.githubusercontent.com/sherawali/Xtet/main/data/xtet-question-bank.json`.
+- `python -m pipeline build` SQLite, quality report, aur JSON bundle regenerate karta hai. Detailed exports `build/exports/` mein hain.
+- JSON mein CTET aur UTET dono hain. `appearances` ke `exam_code` se exam alag hota hai; questions ko cross-exam merge nahi karna. Final answers ke liye `official_final_answers` use karo. `answer_key_history` mein UTET ke provisional answers bhi hain.
+- Counts: CTET 930 canonical questions / 1,050 appearances; UTET 900 questions / 900 appearances. Yeh sample/demo nahi, source data se bana deliverable hai.
+- App project is repo mein nahi hai. User ne kaha hai ki app code kisi doosre AI se update karwayenge. Isliye app integration tabhi implement karo jab user app repo de ya specifically bole. Raw link ready hai; custom API/CDN nahi hai.
 
-User ki bhasha Hinglish hai - Hinglish me hi reply karo. User ko pasand hai: kaam jaldi, ek baar me poora, aur galtiyan dobara nahi.
+### Agle session ke liye kaam / behtari
+1. Pehle verify karo ki current PR `main` mein merge hua aur GitHub Actions pass hue; agar nahi, `MEMORY.md` ke Next steps follow karo.
+2. Agar user app-side integration maange aur app repo de, JSON download ko us app ke current flow ke saath integrate/test karo: download failure, JSON parse failure, language selection, CTET/UTET filter, refresh/cache, aur app version display. App ko tab tak “integrated” mat bolo jab tak app repo mein test na ho.
+3. Naye CTET/UTET papers tabhi add karo jab user source/paper bataye. Source inspect/profile karo, parser/config/schema update karo, phir `python -m pipeline build`, `verify`, full tests, export aur determinism gates chalao. Build/push ke baad `main` Raw URL wahi rahega aur naya JSON serve karega.
+4. UTET ko official answers ke roop mein tab tak promote mat karo jab tak official UBSE key/source citation na mile. August 2023 CTET README mein direct key URI missing hai. `docs/DATA_QUALITY.md` ke caveats preserve karo.
+5. Database/schema ke changes mein forward migration add karo; applied migration rewrite mat karo. CTET source `.txt` read-only/source of truth hain. Pinned UTET upstream snapshot bhi read-only rakho.
 
-Ab user ka kaam suno aur MEMORY.md ke "Next steps" dekho - wahan likha hai kya karna baaki hai.
+### Hamesha ke rules
+- User se Hinglish mein, simple bhasha mein baat karo; kaam phase-wise karo aur chhota progress update do. User technical terms nahi samajhna chahta—seedha batao unhe kya karna hai.
+- CTET ke paper text, spelling, whitespace, answers, ya layout ko bina explicit permission edit/retranscribe/re-verify mat karo. Raw provenance preserve karo.
+- Official key hi final authority hai; third-party/embedded UTET values provisional rakho. Multi-correct answers ko expand karke preserve karo.
+- Existing manual-paper workflow ke liye folder layout `YEAR/PAPER_SET_FOLDER/` aur original paper format follow karo; all section/key/source checks run karo.
+- Nayi galti ho to `MISTAKES.md`; naya verified source ho to `SOURCES.md`; workflow seekh ho to `PLAYBOOK.md` update karo.
+- Session ke end par `MEMORY.md` ka Current State + Session Log + Next steps update karo. Verification ke bina commit nahi.
+- Hamesha current Arena branch par hi kaam karo; branch switch/push nahi. GitHub PR ke liye `gh` use karo. User ne explicitly merge na kaha ho toh PR merge mat karo.
+
+Ab user ka naya kaam suno aur `MEMORY.md` ke Next steps dekho. Agar koi unfinished/uncertain baat ho toh chhupao mat.
 
 ---
 
-## Note for the outgoing agent (jo abhi kaam kar raha hai)
+## Outgoing agent note
 
-Session end par MEMORY.md me ye zaroor likhna:
-- Is session me kya hua (3-6 lines + commit hashes)
-- Current State table update karna
-- Next steps clear rakhna
-- Agar koi incomplete/uncertain cheez hai (jaise koi wording jo verify nahi ho payi) to wo bhi likhna - taaki next agent pata rahe.
+Session end par `MEMORY.md` mein 3-6 line session log, current branch/commit/PR status, tests, aur pending caveats likho. `HANDOVER_PROMPT.md` ko tabhi update karo jab next session ke liye naya important state ya concrete next step ho.

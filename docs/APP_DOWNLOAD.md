@@ -5,11 +5,11 @@
 The app can download one regular JSON file:
 
 - Repository copy: `data/xtet-question-bank.json`
-- Public GitHub Raw URL: <https://raw.githubusercontent.com/sherawali/Xtet/arena/ed8a51c8-xtet/data/xtet-question-bank.json>
+- Public GitHub Raw URL: <https://raw.githubusercontent.com/sherawali/Xtet/main/data/xtet-question-bank.json>
 - File size in the current build: about 13 MB
 - Format: one UTF-8 JSON object (not plain text, not one JSON record per line)
 
-The URL serves the newest committed copy on the `arena/ed8a51c8-xtet` branch. No separate API or custom CDN is configured. When a new paper is added and the updated file is built and pushed to this branch, the same URL serves the updated question bank.
+The URL serves the newest committed copy on `main`. No separate API or custom CDN is configured. When a new paper is added, the updated file must be built, tested, and merged into `main`; the same URL will then serve the updated question bank.
 
 ## What the JSON contains
 
