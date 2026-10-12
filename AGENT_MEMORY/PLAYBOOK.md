@@ -152,3 +152,13 @@ PASS -> commit (clear message ke saath). FAIL -> fix -> dobara check.
 - **Third-party clean sources (adda247 solution PDFs, booklace)**: wording ke liye achhe, par numbering shifted + option order badla hota hai - ORDER hamesha booklet se (MISTAKES #10).
 - **Extraction gaps (Q37 type)**: chunk boundary par sawaal chhoot jaye to agla chunk dobara dekho / booklace jaisa cross-check source use karo.
 - **Thin blanks**: extract kiye gaye blanks 6/9/10 underscore ke ho sakte hain - commit se pehle sabko 8-underscore `________` standard kar do (checklist me add kiya gaya).
+
+## 11. Session 5 (Feb 2026 Set E) ki techniques - agli PDF papers ke liye
+
+- **Language-section built-in cross-check (BEST trick)**: Paper-1 me Q106-120 aur Q136-150 (bhasha shikshashastra) dono language tables (`01-English`, `02-Hindi`) me IDENTICAL values hone chahiye. Do independent tables jab 30/30 values EXACT match karein to transcription safe maano; 1 bhi mismatch = turant dobara padho. (Feb 2026 me dono tables match hui.)
+- **Feb 2026 key ka page pattern**: MAIN = pages 33/34/35/36 (B/C/D/E), 01-English = 37/38/39/40, 02-Hindi = 41/42/43/44 - har set ka ek page = ek table (5 columns). Chunk boundary table ke beech aa sakti hai - dono chunks jodkar padho.
+- **Answer-Key.txt script se banao**: values 5 lists me (CPD/Maths/EVS/Eng/Hin), python se "N. v" lines + `len()` asserts (30/30/30/60/60 = 210). Manual 210-line typing = typo risk.
+- **Per-set option rotation**: third-party solved pages doosre set ka option order dikhate hain (aur answer bhi us set ka hota hai - e.g., "gender" wala Q Set E me option 1, doosre set me option 3). Semantics validate karne me useful, ORDER ke liye kabhi nahi (MISTAKES #10).
+- **Poem/passage canonical search**: unique opening line Google karo - canonical text milta hai ("धन्यवाद/आभार" = Shivmangal Singh Suman; "सीमित पग डग" confirm hua; Kalahandi = Jagannath Prasad Das - booklet ka extract truncated hai, waisa hi rakho).
+- **Blank normalization (reminder)**: extract ke blanks 6/8/9/10 underscore kuch bhi ho sakte hain - commit se pehle sab `________` (8) karo; script se quickly: `re.sub(r"_{2,}","________",text)`.
+- Naye lessons: MISTAKES #11 (purani branch + papers/memory replace), #12 (key table grouping), #13 (matra loss).
