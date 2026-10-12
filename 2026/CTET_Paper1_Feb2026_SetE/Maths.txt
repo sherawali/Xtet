@@ -1,0 +1,401 @@
+CTET Paper 1 - February 2026 - Set E
+Section: Mathematics / गणित
+Part II - Questions 31 to 60
+Exam Date: 08 February 2026 | Paper Set: E
+
+Directions: Answer the following questions by selecting the correct/most appropriate options.
+निर्देश: निम्नलिखित प्रश्नों के उत्तर देने के लिए सही/सबसे उपयुक्त विकल्प चुनिए।
+
+31. How many twin primes are there in the numbers from 1 to 50 ?
+(1) 5
+(2) 4
+(3) 7
+(4) 6
+
+1 से 50 तक की संख्याओं में, कितने अभाज्य युग्म हैं?
+(1) 5
+(2) 4
+(3) 7
+(4) 6
+
+32. According to NIPUN Bharat Mission, the states will ensure to achieve foundational numeracy till grade III by the end of the year :
+(1) 2024-25
+(2) 2029-30
+(3) 2026-27
+(4) 2027-28
+
+निपुण भारत मिशन के अनुसार राज्य ________ वर्ष के अंत तक ग्रेड III तक मूलभूत अंकज्ञान प्राप्त करना सुनिश्चित करेंगे–
+(1) 2024-25
+(2) 2029-30
+(3) 2026-27
+(4) 2027-28
+
+33. A triangular pyramid has :
+(1) 3 faces and 6 edges.
+(2) 3 faces and 4 edges.
+(3) 4 faces and 4 edges.
+(4) 4 faces and 6 edges.
+
+एक त्रिभुजाकार पिरामिड में —
+(1) 3 फलक और 6 किनारे होते हैं।
+(2) 3 फलक और 4 किनारे होते हैं।
+(3) 4 फलक और 4 किनारे होते हैं।
+(4) 4 फलक और 6 किनारे होते हैं।
+
+34. Amita starts from the place A and reaches place B in 4 hours 44 minutes. From there, she returns to the starting place A in 3 hours 24 minutes. If she reaches back at 2.30 pm, then her starting time from place A was :
+(1) 6.22 am
+(2) 6.24 am
+(3) 6.44 am
+(4) 6.00 am
+
+अमीता स्थान A से प्रारंभ करके स्थान B तक 4 घंटे 44 मिनटों में पहुँचती है। वहाँ से वह वापिस प्रारंभिक स्थान A पर 3 घंटे 24 मिनटों में पहुँच जाती है। यदि वह वापिस 2.30 pm पर पहुँचती है, तो उसका स्थान A से चलने का प्रारंभिक समय था —
+(1) 6.22 am
+(2) 6.24 am
+(3) 6.44 am
+(4) 6.00 am
+
+35. Work of which Indian Mathematician can be associated with "Game Theory" ?
+(1) Ramanujan
+(2) Brahmgupta
+(3) Aryabhatta
+(4) Mahavira
+
+किस भारतीय गणितज्ञ के कार्य को "गेम थ्योरी" से संबंधित किया जा सकता है?
+(1) रामानुजन
+(2) ब्रह्मगुप्त
+(3) आर्यभट्ट
+(4) महावीर
+
+36. The perimeter of a rectangle is 410 m and its length is 123 m. The breadth of the rectangle (in m) is :
+(1) 86
+(2) 88
+(3) 92
+(4) 82
+
+एक आयत का परिमाप 410 m है और इसकी लंबाई 123 m है। आयत की चौड़ाई (m में) है —
+(1) 86
+(2) 88
+(3) 92
+(4) 82
+
+37. The missing number in the pattern 325, 259, 204, 160, 127, 105 ________ is :
+(1) 98
+(2) 94
+(3) 90
+(4) 96
+
+पैटर्न 325, 259, 204, 160, 127, 105, ________ में लुप्त संख्या है —
+(1) 98
+(2) 94
+(3) 90
+(4) 96
+
+38. Main objective of teaching Pictographs to students is :
+(1) To engage students in the class activities
+(2) To represent data in an interesting way
+(3) To develop drawing skills in students
+(4) To utilize the free time of the students in the class
+
+विद्यार्थियों को चित्रलेख पढ़ाने का मुख्य उद्देश्य है —
+(1) विद्यार्थियों को कक्षा की क्रियाकलापों में शामिल करना
+(2) रुचिपूर्ण तरीके से आँकड़ों का निरूपित करना
+(3) विद्यार्थियों में ड्राइंग कौशल विकसित करना
+(4) कक्षा में विद्यार्थियों के खाली समय का उपयोग करना
+
+39. Which of the following fractions are in descending order ?
+(1) 8/11, 5/9, 4/5, 3/7
+(2) 4/5, 8/11, 5/9, 3/7
+(3) 3/7, 4/5, 5/9, 8/11
+(4) 3/7, 5/9, 8/11, 4/5
+
+निम्न में से कौन सी भिन्न अवरोही क्रम में हैं?
+(1) 8/11, 5/9, 4/5, 3/7
+(2) 4/5, 8/11, 5/9, 3/7
+(3) 3/7, 4/5, 5/9, 8/11
+(4) 3/7, 5/9, 8/11, 4/5
+
+40. Ms. Rajlakshmi, a primary class mathematics teacher brings in a variety of concrete material in her classroom like bundles of match sticks, ice cream sticks, coloured buttons, base 10 blocks etc. to teach the concept of place value.
+Which of the following principles of theory of Zoltan P. Dienes is being used by her ?
+(1) Iconic Mode
+(2) Perceptual Variability Principle
+(3) Mathematical Variability Principle
+(4) Dynamic Principle
+
+सुश्री राजलक्ष्मी, प्राथमिक कक्षा की गणित की एक शिक्षिका, स्थानीय मान की अवधारणा के शिक्षण के लिए विभिन्न प्रकार की ठोस वस्तुएँ जैसे माचिस की तीलियों के बंडल, आइसक्रीम की डंडियाँ, रंग-बिरंगे बटन, आधारभूत (बेस) 10 के ब्लॉक्स इत्यादि अपनी कक्षा में लेकर आती हैं।
+निम्नलिखित में से ज़ोल्टन पी. डीन्स के सिद्धांत के किस नियम का उपयोग उनके द्वारा किया जा रहा है?
+(1) दृश्यमापिता नियम
+(2) बोधात्मक (प्रत्यक्षज्ञानात्मक) परिवर्तिता नियम
+(3) गणितीय परिवर्तिता नियम
+(4) गतिशील नियम
+
+41. In a class, teacher prepared following table showing colours of eyes of 40 students :
+
+Blue eye | Brown eye | Black eye
+Boys | 5 | 4 | 11
+Girls | 7 | 3 | 10
+
+Teacher told four students to write one statement each about this table on black-board. They wrote :
+(a) Number of boys and girls are equal.
+(b) Mostly students have black eye.
+(c) Total number of students having blue eyes is odd.
+(d) Total number of students having brown eyes is odd.
+Choose the correct option :
+(1) (a), (b) and (d) are true but (c) is false.
+(2) (b) and (c) are true but (a) and (d) are false.
+(3) (a), (b), (c) are true but (d) is false.
+(4) (a), (b) are true but (c), (d) are false.
+
+एक कक्षा में अध्यापक ने निम्न तालिका बनाई जो 40 विद्यार्थियों की आँखों के रंग को दर्शाती है —
+
+नीली आँखें | भूरी आँखें | काली आँखें
+लड़के | 5 | 4 | 11
+लड़कियाँ | 7 | 3 | 10
+
+अध्यापक ने चार विद्यार्थियों को कहा कि वे इस तालिका के बारे में एक-एक कथन श्यामपट्ट पर लिखें। उन्होंने लिखा —
+(a) लड़कों और लड़कियों की संख्याएँ समान हैं।
+(b) अधिकतर विद्यार्थियों की आँखों का काले रंग की हैं।
+(c) नीली आँखों वाले विद्यार्थियों की कुल संख्या विषम है।
+(d) भूरी आँखों वाले विद्यार्थियों की कुल संख्या विषम है।
+सही विकल्प को चुनिए —
+(1) (a), (b) और (d) सही हैं परन्तु (c) गलत है।
+(2) (b) और (c) सही हैं परन्तु (a) और (d) गलत हैं।
+(3) (a), (b), (c) सही हैं परन्तु (d) गलत है।
+(4) (a), (b) सही हैं परन्तु (c) और (d) गलत हैं।
+
+42. Which of the following statement is least appropriate about the errors made by students in a mathematics classroom ?
+(1) They can be persistent if not identified.
+(2) They can be described but cannot be analysed.
+(3) They can be repeated.
+(4) They can be determined by a diagnostic test.
+
+गणित की कक्षा में विद्यार्थियों द्वारा की गई त्रुटियों के बारे में निम्नलिखित में से कौन सा कथन सबसे कम उपयुक्त है?
+(1) वे बार-बार हो सकती हैं यदि उनकी पहचान न की जाए।
+(2) उनका वर्णन किया जा सकता है परन्तु विश्लेषण नहीं किया जा सकता।
+(3) वे दोहराई जा सकती हैं।
+(4) वे नैदानिक परीक्षा द्वारा पहचानी जा सकती हैं।
+
+43. Problem solving method of teaching mathematics involves which of the following steps ?
+(a) Posing mathematical problems and instructing steps of solutions.
+(b) Design a task based upon the current understanding of the students.
+(c) Posing everyday problems and help learners make sense of the mathematics involved.
+(d) Allowing the learners to actively take part in the finding solutions of the problems and justify the solutions.
+Choose the correct option :
+(1) only (d)
+(2) (c) and (d)
+(3) (b), (c) and (d)
+(4) only (a)
+
+गणित पढ़ाने की समस्या-समाधान विधि में निम्नलिखित में से कौन सा/से चरण शामिल है/हैं?
+(a) गणितीय समस्याओं को प्रस्तुत करना और समाधान के चरणों का निर्देश देना–
+(b) विद्यार्थियों की वर्तमान समझ के आधार पर एक कार्य का सृजन करें–
+(c) दैनिक जीवन की समस्याओं को प्रस्तुत करना और उनमें निहित गणित को समझने में विद्यार्थियों की सहायता करना–
+(d) शिक्षार्थियों को सक्रिय रूप से समस्याओं के समाधान खोजने में भाग लेने और समाधान को उचित सिद्ध करने के अवसर देना–
+सही विकल्प चुनें —
+(1) केवल (d)
+(2) (c) और (d)
+(3) (b), (c) और (d)
+(4) केवल (a)
+
+44. According to National Curriculum Framework 2005, mathematics curriculum must incorporate mathematical processes which are :
+(1) Problem solving using estimation, approximations and spatial reasoning
+(2) Doing quick mental calculations
+(3) Teaching and learning of procedures of problem solving
+(4) Memorization and application of formulae and multiplication tables in problem solving
+
+राष्ट्रीय पाठ्यचर्या रूपरेखा 2005 के अनुसार, गणित के पाठ्यक्रम में सबसे महत्त्वपूर्ण गणितीय प्रक्रियाओं को शामिल करना चाहिए, जो हैं —
+(1) अनुमान, सन्निकटन और दिक्स्थान संबंधी विवेचन का उपयोग करके समस्या समाधान करना
+(2) तीव्रता से मानसिक गणना करना
+(3) समस्या समाधान की प्रक्रियाओं का शिक्षण और अधिगम
+(4) समस्या समाधान में सूत्रों और गुणन सारणियों का स्मरण और अनुप्रयोग करना
+
+45. While giving a rectangular page to Mohan, Mathematics teacher told him to make a square out of it. Mohan folded that paper from one side and made a square. At what level of Van Heile's theory of geometrical understanding Mohan is ?
+(1) Level 1 (Analysis)
+(2) Level 0 (Visualisation)
+(3) Level 3 (Deduction)
+(4) Level 2 (Relationship)
+
+गणित की अध्यापिका ने मोहन को एक आयताकार कागज़ देते हुए कहा कि इससे आप एक वर्ग बनाओ। मोहन आयताकार कागज़ को एक तरफ से मोड़कर वर्ग बना देता है। मोहन, वैन हीले की ज्यामितीय समझ के सिद्धांत के किस स्तर पर है?
+(1) स्तर 1 (विश्लेषण)
+(2) स्तर 0 (दृश्यीकरण)
+(3) स्तर 3 (निगमन)
+(4) स्तर 2 (संबंधों की समझ)
+
+46. Which of the following letters has one line of symmetry ?
+(1) X
+(2) S
+(3) V
+(4) O
+
+निम्न में से किस अक्षर की एक सममित रेखा होती है?
+(1) X
+(2) S
+(3) V
+(4) O
+
+47. If HCF of two numbers is 18, then which of the following cannot be their LCM ?
+(1) 108
+(2) 72
+(3) 144
+(4) 128
+
+यदि दो संख्याओं का HCF =18 है, तो निम्न में से कौन सी संख्या इनका LCM नहीं हो सकती?
+(1) 108
+(2) 72
+(3) 144
+(4) 128
+
+48. Which of the following is an example of a task based on creative thinking that can be given to students of grade 5 ?
+(1) Find the area of a rectangle whose length is half of its breadth
+(2) Write multiplication table of 7
+(3) Add 415 and 237 using column addition
+(4) Find the area of a rectangle using formula
+
+निम्नलिखित में से कौन सा एक सृजनात्मक चिंतन पर आधारित कार्य का उदाहरण है जो ग्रेड 5 के विद्यार्थियों को दिया जा सकता है?
+(1) एक आयत जिसकी लंबाई उसकी चौड़ाई से आधी है, उसका क्षेत्रफल ज्ञात कीजिए
+(2) 7 का पहाड़ा लिखिए
+(3) कॉलम जोड़ द्वारा 415 और 237 जोड़ें
+(4) सूत्र की सहायता से आयत का क्षेत्रफल ज्ञात कीजिए
+
+49. Which of the following activities, most appropriately, represents the four stages involved in handling data i.e., collecting, organising, representing and interpreting data ?
+(1) Asking the pupils to mark their birth dates on a calendar.
+(2) Asking the pupils to write the names of their favourite cartoons.
+(3) Collecting data about how pupils travel to school and then comparing the different modes of transport used by the pupils.
+(4) Asking the pupils to list their favourite food.
+
+निम्नलिखित में कौन-सी गतिविधि, आँकड़ों के प्रबंधन के चार स्तरों, यानि कि, आँकड़े एकत्रित करने, संगठित करने, निरूपित करने और प्रतिपादित करने, को सबसे उपयुक्त रूप से दर्शाती है?
+(1) विद्यार्थियों को एक कैलेंडर पर अपनी जन्म तिथि को चिह्नित करने के लिए कहना–
+(2) विद्यार्थियों को अपने पसंदीदा कार्टून का नाम लिखने के लिए कहना–
+(3) यह आँकड़े एकत्रित करना कि विद्यार्थी स्कूल कैसे जाते हैं और फिर विद्यार्थियों द्वारा इस्तेमाल किए जाने वाले यातायात के विभिन्न साधनों की तुलना करना–
+(4) विद्यार्थियों से उनके पसंदीदा खाने की सूची बनाने को कहना–
+
+50. The numerical values of perimeter and area of a square are equal. The length of the side of the square is :
+(1) 4 units
+(2) 8 units
+(3) 1 unit
+(4) 2 units
+
+एक वर्ग के परिमाप और क्षेत्रफल के संख्यात्मक मान समान हैं। उस वर्ग की भुजा की लंबाई है —
+(1) 4 इकाई
+(2) 8 इकाई
+(3) 1 इकाई
+(4) 2 इकाई
+
+51. Which of the following is least appropriate in context of learning outcomes at foundational stage in mathematics ?
+(1) Children advance to the next level of learning outcomes only upon achieving certain level of proficiency at the current level.
+(2) Primarily summative assessment is used to assess the skills or concepts developed at each level.
+(3) Explicit and measurable learning outcomes are defined which are the pathways for competency acquisition.
+(4) Designing activities connected to real-life situations to strengthen the learning outcomes.
+
+निम्नलिखित में से कौन-सा गणित में मूलभूत स्तर पर अधिगम प्रतिफलों के लिए सबसे कम उपयुक्त है?
+(1) बच्चे वर्तमान स्तर पर प्रवीणता के एक निश्चित स्तर को प्राप्त करने पर ही अधिगम के प्रतिफलों के अगले स्तर पर आगे बढ़ते हैं।
+(2) मुख्य रूप से योगात्मक आकलन का उपयोग प्रत्येक स्तर पर विकसित कौशलों या अवधारणाओं का आकलन करने के लिए किया जाता है।
+(3) स्पष्ट और मापने योग्य अधिगम के प्रतिफलों को परिभाषित किया गया है जो योग्यता अधिग्रहण के रास्ते हैं।
+(4) अधिगम प्रतिफलों को सशक्त करने के लिए दैनिक जीवन से संबंधित गतिविधियाँ बनाना।
+
+52. If a six digits number 72 x292 is divisible by 36, then the value of (3 x+2) is :
+(1) 17
+(2) 20
+(3) 15
+(4) 16
+
+यदि एक छः अंकों की संख्या 72 x292 संख्या 36 से विभाज्य है, तो (3 x+2) का मान है —
+(1) 17
+(2) 20
+(3) 15
+(4) 16
+
+53. Radha bought 9 bags of rice each weighing 9 kg 995 g. Total weight of rice in the bags is :
+(1) 89.795 kg
+(2) 89.955 kg
+(3) 89.985 kg
+(4) 89.595 kg
+
+राधा ने चावल के 9 बोरियाँ खरीदीं, जिसमें से प्रत्येक में चावल का भार 9 kg 995 g है। इन बोरियों में चावल का कुल भार है —
+(1) 89.795 kg
+(2) 89.955 kg
+(3) 89.985 kg
+(4) 89.595 kg
+
+54. Which among the following is an example of a real life situation which represents 'division as equal sharing' ?
+(1) There are 30 students in a class. Teacher wants to form 5 groups of same size. How many students will be there in each group ?
+(2) Divide 50 into 10 equal groups.
+(3) There are 10 biscuits in a packet. How many biscuits will be there in 5 such packets ?
+(4) There are 60 toffees in a packet and Samir would like to distribute it to his friends. How many toffees each friend will get ?
+
+निम्नलिखित में से कौन सा वास्तविक जीवन की स्थिति का एक उदाहरण है जो "भाग को समभागी संरचना" के रूप में दर्शाता है?
+(1) एक कक्षा में 30 विद्यार्थी हैं। अध्यापक 5 समूह बराबर संख्या के बनाना चाहते हैं तो प्रत्येक समूह में कितने विद्यार्थी होंगे?
+(2) 50 का 10 के बराबर समूहों में विभाजन–
+(3) एक पैकेट में 10 बिस्कुट हैं। ऐसे पाँच पैकेटों में कितने बिस्कुट होंगे?
+(4) एक पैकेट में 60 टॉफ़ी हैं– समीर इन्हें अपने मित्रों में बाँटना चाहता है– उसके हर मित्र को कितनी टॉफ़ी मिलेंगी?
+
+55. One of the most important purposes of assessment in mathematics at primary school level is to :
+(1) prepare learners for secondary and high school mathematics
+(2) find out mathematicians of the future
+(3) determine learner's intelligence levels
+(4) find out important learning gaps and likewise make modifications in the pedagogy
+
+प्राथमिक विद्यालयी स्तर पर गणित में आकलन का कौन-सा एक सबसे महत्त्वपूर्ण उद्देश्य है?
+(1) माध्यमिक और उच्च विद्यालय के गणित के लिए शिक्षार्थियों को तैयार करना
+(2) भविष्य के गणितज्ञों को पहचानना
+(3) शिक्षार्थी के बुद्धि स्तर का निर्धारण करना
+(4) अधिगम में रहे महत्त्वपूर्ण कमियों का पता लगाना और उसके अनुसार शिक्षाशास्त्र में संशोधन करना
+
+56. The difference between the greatest and smallest five digit numbers that can be formed using the digits 8, 2, 7, 0 and 6 only once is :
+(1) 66942
+(2) 67942
+(3) 56942
+(4) 65942
+
+अंकों 8, 2, 7, 0 और 6 के उपयोग से पाँच अंकों की बनाई जा सकने वाली सबसे बड़ी और सबसे छोटी संख्याओं का अंतर है —
+(1) 66942
+(2) 67942
+(3) 56942
+(4) 65942
+
+57. What is the difference of the place values of the two 8s in the number 2853847 ?
+(1) 792000
+(2) 799920
+(3) 7999200
+(4) 799200
+
+संख्या 2853847 में दोनों 8 के स्थानीय मानों का क्या अंतर है?
+(1) 792000
+(2) 799920
+(3) 7999200
+(4) 799200
+
+58. Computational skills in mathematics can be enhanced by :
+(1) giving conceptual knowledge
+(2) clarifying concepts and procedures followed by a lot of practice
+(3) describing algorithms only
+(4) conducting hands-on-activities in class
+
+गणित में कंप्यूटेशनल कौशल को ________ बढ़ाया जा सकता है–
+(1) अवधारणात्मक ज्ञान देने से
+(2) अवधारणाओं और क्रियाकलापों को स्पष्ट करके अधिक अभ्यास पर बल देने के माध्यम से
+(3) केवल कलन विधि का वर्णन करके
+(4) क्रियाकलापों का संचालन करके
+
+59. Which of the following statements is least appropriate about mathematics curriculum for primary classes ?
+(1) It should enhance relational understanding.
+(2) It must be dynamic and coherent in nature.
+(3) It should be joyful and rigid.
+(4) It should help in making connections in mathematics.
+
+निम्नलिखित में से कौन-सा कथन प्राथमिक कक्षाओं के गणित के पाठ्यक्रम के बारे में सबसे कम उपयुक्त है?
+(1) इसे संबंधपरक समझ को बढ़ाना चाहिए।
+(2) यह प्रकृति में गतिशील और सुसंगत होना चाहिए।
+(3) यह आनंददायक और स्थिर होना चाहिए।
+(4) इसे गणित में संबंधों को बनाने में मदद करनी चाहिए।
+
+60. Which of the following statements is not correct ?
+(1) Reflex angle is greater than 180° but less than 360°.
+(2) Two acute angles can be put together to make a reflex angle.
+(3) Two acute angles can be put together to make an obtuse angle.
+(4) One acute angle and one obtuse angle can be put together to make a straight angle.
+
+निम्न कथनों में से कौन सा कथन सही नहीं है?
+(1) एक प्रतिवर्ती कोण 180° से बड़ा परन्तु 360° से छोटा होता है।
+(2) दो न्यून कोणों को एक साथ रखकर एक प्रतिवर्ती कोण बनाया जा सकता है।
+(3) दो न्यून कोणों को एक साथ रखकर एक अधिक कोण बनाया जा सकता है।
+(4) एक न्यून कोण और एक अधिक कोण को एक साथ रखकर एक ऋजु कोण बनाया जा सकता है।

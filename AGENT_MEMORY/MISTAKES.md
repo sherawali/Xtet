@@ -86,6 +86,26 @@ Kyun galat: Solution books apne numbering/order me saawaal ghuma dete hain; offi
 Fix: prepp CDN booklet ka legacy Hindi text padhne layak hai (Chanakya mapping consistent) - order + wording wahin se liya; adda247 sirf spelling cross-check ke liye. Phir har Hindi question ka official digit semantically verify kiya (digit wale option ka matlab question ke hisaab se sahi hona chahiye).
 Aage se: Option/question ORDER sirf booklet (ya official paper) se lo; third-party clean text sirf wording polish/cross-check ke liye. Har section me 10-15 questions ka official-digit semantic spot-check zaroor karo.
 
+## 11. Purani base wali branch + papers/memory ko replace karne wala restructure (c983b097 "pickle" task; UNMERGED)
+
+Galti: `arena/c983b097-xtet` branch (base = Initial commit `52c95fc`, main se 4 session peeche) ne repo ko "CTET Paper-I hub" me badal diya - root README replace, `sessions/*/meta.json` + `practice/set-01` JSON + `schema/`/`ingest/` pipeline add, aur `sessions/README.md` me likh diya ki actual papers "copyright" hone ki wajah se yahan copy nahi kiye jayenge. Uska section mapping bhi GALAT tha: "CDP Q1-30, Language I Q31-60, Language II Q61-90, Maths Q91-120, EVS Q121-150" (sahi: CDP 1-30, Maths 31-60, EVS 61-90, Language I 91-120, Language II 121-150).
+Kyun galat: (a) Repo ka CORE product = actual papers ka text (year/paper/section `.txt`) + AGENT_MEMORY; usse metadata/JSON hub se badalna = repo ka maqsad hi khatam. (b) Branch purani base par thi - agar merge hoti to main ke saare papers + AGENT_MEMORY "delete" ho jate (diff me 7729 deletions). (c) Galat section mapping future sessions ko bhatka deti.
+Fix: Branch unmerged chhodi. Session 5 ka kaam main ke latest (`eb4dcc3`) se nayi branch (`arena/27af2acc-xtet`) par kiya; papers + AGENT_MEMORY intact rakhe.
+Aage se: (1) Kaam shuru karne se pehle merge-base check karo (`git merge-base HEAD origin/main`) - purani base ho to pehle rebase/merge. (2) Papers ya AGENT_MEMORY ko DELETE/REPLACE karne wala restructure kabhi mat karo. (3) Schema/pipeline/app banani ho to papers ke UPAR add-on folder me banao (coexist), replacement nahi. (4) Section mapping sirf AGENT_MEMORY/PLAYBOOK se lo - khud se andaaza mat lagao.
+
+## 12. Official key table ki manual transcription me grouping error (PAKDA GAYA, FIX HUA)
+
+Galti: key PDF ke chunk text se MAIN table padhte waqt digits ko galat groups me baant diya - semantic check out-of-place aaya (Q60 aur Q70 confuses: socha Q70 = 2, actual 3; socha Q60 = 3, actual 2).
+Kyun galat: table 5-column hai (Q1-25 | Q26-50 | Q51-75 | Q76-90) par row me 3 pairs dikh sakte hain; chunk boundary table ke beech aati hai; aankh se grouping error-prone hai.
+Fix: Table dobara fetch karke COLUMN-BY-COLUMN padha, values 10-10 ke groups me likhe, phir semantic spot-check pass hua (twin primes 1-50 = 6 pairs -> option 4; "two acute angles se reflex nahi banta" -> 2; "paani sabko barabar nahi milta" -> 3). Answer-Key.txt python script se generate ki (5 lists -> file) + count assert (30/30/30/60/60 = 210).
+Aage se: (1) Table hamesha column-wise padho, group-of-10 me likho. (2) Answer key file haath se na likho - script + asserts. (3) Har section ke minimum 5 digits semantic check karo. (4) Language tables me Q106-120 & Q136-150 English vs Hindi values identical hone chahiye - mismatch = transcription bug (PLAYBOOK section 11).
+
+## 13. Legacy Hindi me matra (ा/े/ो) lost ho sakti hai - grammar + cross-source se validate karo
+
+Galti/Risk: Chanakya-legacy text me kuch matras drop/merge hoti hain - "बनना चाहता है" text me "’ŸŸ øÊ„ÃÊ „Ò" (बनने jaisa) dikhta hai; "रहा" vs "रहे" ambiguous. Blindly decode karo to Hindi galat chhapti hai.
+Fix: (a) Grammar/logic se sahi roop chuno (infinitive aksar "-ना"), (b) us paper ka clean third-party text se validate karo - is paper me askfilo ka Hindi-2 passage EXACT match nikla ("इसे इस रूप में भी समझ सकते हैं..."), testbook ka "कीरम काँटे" phrase confirm hua, (c) poem/passage ki opening line search se canonical text ("सीमित पग डग" - Shivmangal Singh Suman ki kavita; Kalahandi = Jagannath Prasad Das, booklet me truncated extract hai - waisa hi rakho).
+Aage se: Matra-ambiguous shabdon par teen-way check: grammar -> third-party clean text -> canonical text. Wording "as-printed" rakho (quirks preserve), sirf matra-level ambiguity theek karo; uncertainty README/MEMORY me note karo.
+
 ## Naya mistake mila? Yahan add karo (format):
 
 N. Title (SHORT)
