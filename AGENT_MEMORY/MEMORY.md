@@ -125,7 +125,8 @@ Root README.md year-wise index 2024 ke Set I folder ke saath update hua. AGENT_M
 - Answer-Key.txt official key PDF (`2024080797.pdf`, 29/07/2024) se: Set A MAIN Q1-90 (page 1-4), `Set :- A 01-ENGLISH` (page 5), `Set :- A 02-HINDI` (page 9). Semantic verification se confirm hua ki 01-ENGLISH = English sections ki stream, 02-HINDI = Hindi sections ki stream (Q121-135 dono streams mein alag; Q106-120 aur Q136-150 dono stream mein identical).
 - Verification: 30 Q per file, numbering sahi, blanks `________`, 210 key entries, chhote blanks (6/9/10 underscore) ko 8-underscore standard kiya (CPD/EVS/Hindi), markdown/`*` scan clean (Q59 ka `*` original notation hai), Devanagari scan OK.
 - Session learning: (1) prepp CDN booklet = is paper ka best source; (2) legacy Hindi text padhne layak hai - blindly garbled maankar third-party order mat lo; (3) official key ke pages set-wise + language-wise (01-ENGLISH/02-HINDI) hote hain - semantic check se stream assignment confirm karo.
-- Commits: `6c1a22e` (paper + root README) + Hindi-spelling polish & AGENT_MEMORY update wala commit.
+- Hindi spelling polish: booklet ki spelling ke hisaab se `सम्प्रेषणात्मक` (na ki "संप्रेषणात्मक") aur `मूल्याँकन` align kiye (Hindi-1 + Hindi-2), phir AGENT_MEMORY (MEMORY/SOURCES/MISTAKES/PLAYBOOK) update.
+- Commits: `6c1a22e` (paper + root README), `a5ac702` (Hindi spelling polish + AGENT_MEMORY). Branch `arena/3d996047-xtet` push kiya, PR #4 MERGED into main (merge commit `560907c`, 2026-10-12). Working tree clean.
 - Agli baar ke liye leads (agar language text dobara chahiye ho): prepp ka HTML quiz page "CTET 2024 Paper 1 Question Paper (07-Jul-2024)" (210 Q list + per-question pages - option order ka cross-check try kiya ja sakta hai, par confirm karna baaki hai); SET-D ka pyqonline text PDF; prepp CDN ke language supplement PDFs (Set A Sanskrit etc.).
 
 
