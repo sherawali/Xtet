@@ -1,13 +1,24 @@
 # MEMORY.md - Living Memory (har session me padho + update karo)
 
-Last updated: 2026-10-12 (Session 3 - Hindi QA for CTET January 2024 Paper 1 Set I)
+Last updated: 2026-10-12 (Session 4 - CTET July 2024 Paper 1 Set A, COMPLETE)
 
 ---
 
 ## Current State (ab kya hai)
 
-Repo: Xtet (current Arena branch: arena/01246188-xtet)
+Repo: Xtet (current Arena branch: arena/3d996047-xtet)
 Kaam: TET exam question bank - year wise, paper wise, section wise.
+
+### Session 4 COMPLETE: CTET July 2024 Paper 1 Set A
+
+Folder: 2024/CTET_Paper1_Jul2024_SetA/ - POORA COMPLETE (CPD, Maths, EVS, Eng-1, Hindi-1, Eng-2, Hindi-2, Answer-Key, README).
+
+- Paper: CTET July 2024 (19th CTET), Paper 1, Set A; exam 07-07-2024; booklet code JSS-24-I; Paper-I shift 2:00-4:30 PM.
+- Question text ka BEST source: prepp CDN ka poora 48-page text-layer booklet (`JSS_24_I_Paper_I_Eng_Hin_AAAA_df9531e82c9d92ed0b91bc08c0d69085.pdf`, r.jina.ai prefix zaroori, 14 chunks). English saaf; Hindi legacy Chanakya encoding - par PADHNE LAYAK hai (word-by-word decode ho jata hai), isi se Hindi sections transcribe kiye.
+- Official final answer key `2024080797.pdf` se Set A ki dono language tables: page 5 = `Set :- A PAPER-I 01-ENGLISH`, page 9 = `Set :- A PAPER-I 02-HINDI`. (Set B/C/D ki tables bhi usi PDF mein; P2 key = 2024080769.pdf.)
+- Hindi wording cross-check: adda247 clean Hindi PDFs (12155708/12155709) - par unka question numbering SHIFTED aur option order badla hua hai; option/question order HAMESHA booklet se liya (MISTAKES #10 dekho).
+- Verification pass hua: 30 Q per file, numbering, blanks `________`, 210 key entries, Devanagari/UTF-8 scan, Hindi grammar pass, README status table + source caveat.
+- Session commit (paper + README): `6c1a22e` (_Add CTET July 2024 Paper 1 Set A_); uske baad ek chhota polish commit - Hindi spelling ko booklet ke hisaab se align kiya (सम्प्रेषणात्मक, मूल्याँकन) + AGENT_MEMORY update.
 
 ### Completed
 
@@ -101,6 +112,22 @@ Root README.md year-wise index 2024 ke Set I folder ke saath update hua. AGENT_M
 - UTF-8/Devanagari scan, question numbering, four-option counts, 210 answer-key entries and `git diff --check` all passed. The official key was not edited.
 - Prepp/Careers360 PDFs still have garbled legacy-font Hindi text layers; no clean Set I Hindi transcript was found. This was a language-level proofread, not exact source-level verification. Updated PLAYBOOK, PDF/Hindi guide and MISTAKES with the separate QA workflow.
 - Content/README commit: `2394b47` (`Proofread Hindi in CTET January 2024 Set I`).
+
+---
+
+### Session 4 - 2026-10-12 - CTET July 2024 Paper 1 Set A (COMPLETE)
+
+- User ne kaha "Memory's folder dekho aage bado" - memory padhi, next paper = CTET July 2024 Paper 1 Set A chuna (Jan 2024 Set I ke baad ka agla session, user ke "same year ka doosra paper" instruction ke mutabik).
+- Source hunt: Shiksha/Prepp ke scan mirrors image-only nikle. adda247 ka text-layer mirror (sites/22/2026/01/15152514, 48 pages, "Haridwar Paper I Eng+Hin AAAA.pmd") mila - English saaf, Hindi legacy Chanakya. Baad me prepp CDN ka BEHTAR text-layer booklet mila (`JSS_24_I_Paper_I_Eng_Hin_AAAA_...pdf`, 14 chunks) - isi se saara content liya.
+- CPD/Maths/EVS (Q1-90) dual-language likhe. Maths Q37 extraction boundary par chhoot gaya tha - booklace chunk 1 se recover kiya ("One crore is : ...").
+- Language sections: Eng-1, Eng-2 alag files mein; Hindi-1, Hindi-2 booklet ke legacy Hindi text se decode karke likhe (Chanakya mapping consistent hai - padhna possible hai). Third-party (adda247/booklace) sirf cross-check ke liye.
+- **Pakda gaya error:** Hindi-1 Q97 ke options 3/4 adda247 ke order par likhe the - booklet ka order ulta hai. Booklet se fix kiya ("शुद्ध विचार, अच्छे कर्म" official key Q97 = 3 ke saath match). Baaki sab Hindi questions ka option order booklet se verified + har official digit ka semantic check kiya (sab pass).
+- Answer-Key.txt official key PDF (`2024080797.pdf`, 29/07/2024) se: Set A MAIN Q1-90 (page 1-4), `Set :- A 01-ENGLISH` (page 5), `Set :- A 02-HINDI` (page 9). Semantic verification se confirm hua ki 01-ENGLISH = English sections ki stream, 02-HINDI = Hindi sections ki stream (Q121-135 dono streams mein alag; Q106-120 aur Q136-150 dono stream mein identical).
+- Verification: 30 Q per file, numbering sahi, blanks `________`, 210 key entries, chhote blanks (6/9/10 underscore) ko 8-underscore standard kiya (CPD/EVS/Hindi), markdown/`*` scan clean (Q59 ka `*` original notation hai), Devanagari scan OK.
+- Session learning: (1) prepp CDN booklet = is paper ka best source; (2) legacy Hindi text padhne layak hai - blindly garbled maankar third-party order mat lo; (3) official key ke pages set-wise + language-wise (01-ENGLISH/02-HINDI) hote hain - semantic check se stream assignment confirm karo.
+- Commits: `6c1a22e` (paper + root README) + Hindi-spelling polish & AGENT_MEMORY update wala commit.
+- Agli baar ke liye leads (agar language text dobara chahiye ho): prepp ka HTML quiz page "CTET 2024 Paper 1 Question Paper (07-Jul-2024)" (210 Q list + per-question pages - option order ka cross-check try kiya ja sakta hai, par confirm karna baaki hai); SET-D ka pyqonline text PDF; prepp CDN ke language supplement PDFs (Set A Sanskrit etc.).
+
 
 ---
 

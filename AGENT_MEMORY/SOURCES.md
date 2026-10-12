@@ -102,6 +102,20 @@ https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2024/02
 
 The final key has Set I Paper-I MAIN, 01-ENGLISH, and 02-HINDI tables. Use it as the sole final answer source. Key notation: E = options 2 and 4; Z = all options.
 
+## 8. CTET July 2024 - Paper 1, Set A (Session 4 mein verify kiye)
+
+- **BEST source - prepp CDN ka 48-page text-layer booklet (Set A, session 4 me mila):** https://cdn-images.prepp.in/public/image/JSS_24_I_Paper_I_Eng_Hin_AAAA_df9531e82c9d92ed0b91bc08c0d69085.pdf - sirf `https://r.jina.ai/` prefix se fetch hota hai (direct fetch fail). 14 chunks; c7-c8 = EVS Q61-90 + Eng Part IV start, c9 = Hindi Part IV Q91-109, c10 = Hindi Q110-120 + Part V English start (A38-40), c11 = Eng Part V Q129-150 + Hindi Part V passage start, c12 = Hindi Part V Q121-149, c13 = Hindi Q150 + booklet instructions. Hindi pages legacy Chanakya encoding me hain par PADHNE LAYAK hain.
+- Text-layer question paper mirror (adda247, sites/22/2026/01/15152514; Set B/C/D: 15152515/15152516/15152517 same pattern). English saaf; Hindi Chanakya-legacy + OCR flow. Direct fetch_page (bina jina) se 12 chunks.
+- **Official key page map (2024080797.pdf, 23 chunks):** har set ke liye 2 tables - `Set :- A/B/C/D PAPER-I 01-ENGLISH` (pages 5/6/7/8) aur `02-HINDI` (pages 9/10/11/12). Semantic check se confirmed: 01-ENGLISH = English language sections ki stream, 02-HINDI = Hindi language sections ki stream; Q106-120 aur Q136-150 dono streams me identical (translation-pair questions, same option order).
+- Hindi clean-text cross-check (adda247 solution PDFs): https://www.adda247.com/jobs/wp-content/uploads/sites/22/2026/05/12155708/CTET-Paper-I-Answer-Key-07-July-2024.pdf aur .../12155709/CTET-Paper-I-Answer-Key-07-July-2024-Hindi.pdf - clean Unicode par question numbering SHIFTED + option order badla hua; sirf wording ke liye use karo, order ke liye NAHI (MISTAKES #10).
+- adda247 PYQ hub (aage ke papers ke links ke liye): https://www.adda247.com/teaching-jobs-exam/ctet-previous-year-question-papers/ - July24 P1 Set A-D = sites/22/2026/01/15152514-17; Jan24 papers/keys, Dec24 codes + key ids bhi yahan listed hain.
+- Official question paper page (Google Drive links, P1 Set A-D + P2 Set I-L): https://ctet.nic.in/question-paper-july-2024/ - direct fetch fail hota hai, r.jina.ai prefix se chalta hai.
+- Official final key (Paper 1): https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2024/08/2024080797.pdf ; (Paper 2): .../2024080769.pdf - r.jina.ai se chunks mein.
+- Scan mirrors (image-only, text nahi): Shiksha https://images.shiksha.com/mediadata/pdf/1720357972phpns3mo3.pdf , Prepp https://cdn-images.prepp.in/public/image/CTET_Paper_1_Question_Paper_SET_A_c895433323892119fd80c95a80b575fe.pdf
+- Cross-check (English): https://www.booklace.com/testpaper/questions/KJTODFVR (12 chunks; sections CDP/Mathematics/EVS/Bengali/English - Hindi section isme nahi; Set A ke English Part IV Q91-120 + Part V Q121-150 ka option order official key se consistent nikla; Q37 recovery bhi yahin se hui).
+- Chanakya-legacy decode ke liye mapping tables: github.com/deepakkamboj/indianlanguageconverter (src/lib/chanakya-converter.ts), github.com/ravifranklin/hindifontconverter.
+- Dec 2024 (fallback/next): key https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2025/01/2025012321.pdf ; Set H paper https://cdn-images.prepp.in/public/image/CTET_Question_Paper_1_Set_H_de74d86cff048636ae886810b8782677.pdf
+
 ## Sources jo TRY kiye par kaam nahi aaye
 
 - jagranjosh.com - sirf download links dete hain, questions nahi.
