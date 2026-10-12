@@ -25,7 +25,7 @@ Tu Xtet repo par kaam karne wala naya agent hai. Repo mein CTET paper ke origina
 - App project is repo mein nahi hai. User ne kaha hai ki app code kisi doosre AI se update karwayenge. Isliye app integration tabhi implement karo jab user app repo de ya specifically bole. Raw link ready hai; custom API/CDN nahi hai.
 
 ### Agle session ke liye kaam / behtari
-1. Pehle verify karo ki current PR `main` mein merge hua aur GitHub Actions pass hue; agar nahi, `MEMORY.md` ke Next steps follow karo.
+1. PR #8 is session mein `main` mein merge hua (`10b3f49e...`); GitHub Actions pass hue. Confirm `MEMORY.md` current status aur stable app Raw URL.
 2. Agar user app-side integration maange aur app repo de, JSON download ko us app ke current flow ke saath integrate/test karo: download failure, JSON parse failure, language selection, CTET/UTET filter, refresh/cache, aur app version display. App ko tab tak “integrated” mat bolo jab tak app repo mein test na ho.
 3. Naye CTET/UTET papers tabhi add karo jab user source/paper bataye. Source inspect/profile karo, parser/config/schema update karo, phir `python -m pipeline build`, `verify`, full tests, export aur determinism gates chalao. Build/push ke baad `main` Raw URL wahi rahega aur naya JSON serve karega.
 4. UTET ko official answers ke roop mein tab tak promote mat karo jab tak official UBSE key/source citation na mile. August 2023 CTET README mein direct key URI missing hai. `docs/DATA_QUALITY.md` ke caveats preserve karo.
