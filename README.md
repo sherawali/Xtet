@@ -26,6 +26,16 @@ TET exam ke question bank - year wise, paper wise, section wise.
     Hindi-2.txt    - Questions 121-150 (Language II - Hindi)
     Answer-Key.txt - CBSE Official Final Answer Key (Q1-150)
 
+  CTET_Paper1_Jul2024_SetA/     (CTET Paper 1, 07 July 2024, Set A)
+    CPD.txt        - Questions 1-30 (Hindi + English)
+    Maths.txt      - Questions 31-60 (Hindi + English)
+    EVS.txt        - Questions 61-90 (Hindi + English)
+    Hindi-1.txt    - Questions 91-120 (Language I - Hindi)
+    Eng-1.txt      - Questions 91-120 (Language I - English)
+    Eng-2.txt      - Questions 121-150 (Language II - English)
+    Hindi-2.txt    - Questions 121-150 (Language II - Hindi)
+    Answer-Key.txt - CBSE Official Final Answer Key (Q1-150)
+
 Har paper folder me README.md me paper set aur sections ka note hota hai.
 Set A aur Set I ki language availability unke alag-alag README files mein di gayi hai.
 

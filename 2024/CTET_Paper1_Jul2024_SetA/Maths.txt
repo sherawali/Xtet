@@ -1,0 +1,493 @@
+CTET Paper 1 - July 2024 - Set A
+Section: Mathematics / गणित
+Part II - Questions 31 to 60
+Exam Date: 07 July 2024 | Paper Set: A
+
+Directions: Answer the following questions by selecting the correct/most appropriate options.
+निर्देश: निम्नलिखित प्रश्नों के उत्तर देने के लिए सही/सबसे उपयुक्त विकल्प चुनिए।
+
+31. In order to identify individual differences of students in the mathematics class, which of the following assessment technique will not be appropriate ?
+(1) Summative assessment
+(2) Formative assessment
+(3) Diagnostic assessment
+(4) Peer assessment
+
+गणित की कक्षा में विद्यार्थियों में व्यक्तिगत भिन्नता की पहचान के लिए निम्नलिखित में से कौन सी आकलन तकनीक उपयुक्त नहीं होगी ?
+(1) योगात्मक आकलन
+(2) रचनात्मक आकलन
+(3) नैदानिक आकलन
+(4) समकक्षी आकलन
+
+32. Which of the following resources is best suited to explain the concept of decimals ?
+(a) Number Chart
+(b) Dienes Blocks
+(c) Taylor's Abacus
+(d) Graph Paper
+Choose the correct option :
+(1) Only (b)
+(2) (b) and (d)
+(3) (a) and (c)
+(4) (a) and (b)
+
+निम्नलिखित में से कौन-सा संसाधन दशमलव की अवधारणा को समझाने के लिए सबसे उचित है ?
+(a) संख्या चार्ट
+(b) डाइन्स ब्लॉक्स
+(c) टेलर का अबेकस
+(d) ग्राफ पेपर
+सही विकल्प चुनिए :
+(1) केवल (b)
+(2) (b) और (d)
+(3) (a) और (c)
+(4) (a) और (b)
+
+33. Students in a class are solving questions based on percentage discounts. One question requires the students to calculate the cost of two bikes, with a 8% discount on each bike. One of the groups calculates the total cost of the bikes and then deducts 16% from the total cost. The method used by this group is :
+(1) Correct and is the only way to calculate the discount and cost.
+(2) An alternate strategy to solve the question.
+(3) False, since they have deducted 16% discount from the total instead of 8%.
+(4) False, since they have deducted 16% from the total instead of 16% from the average of the total.
+
+एक कक्षा में विद्यार्थी प्रतिशत छूट पर आधारित प्रश्नों को हल कर रहे हैं। एक प्रश्न में विद्यार्थियों को प्रत्येक मोटरसाइकिल पर 8% छूट के साथ दो मोटरसाइकिलों के मूल्य का परिकलन करने की आवश्यकता है। एक समूह दोनों मोटरसाइकिलों के कुल मूल्य का परिकलन करता है और फिर कुल मूल्य में से 16% काट लेता है। इस समूह द्वारा प्रयोग की गई विधि —
+(1) सही है तथा यह छूट एवं मूल्य का परिकलन करने का एकमात्र तरीका है।
+(2) प्रश्न को हल करने की वैकल्पिक कार्यनीति है।
+(3) गलत है क्योंकि उन्होंने कुल मूल्य से 8% की जगह 16% छूट काट दी।
+(4) गलत है क्योंकि उन्होंने कुल मूल्य से 16% काट दिया, बजाय कुल मूल्य के औसत से 16% के।
+
+34. Arrangement of fractions 1/9, 1/21, 3/7, 12/63 in decreasing order is :
+(1) 3/7, 1/9, 12/63, 1/21
+(2) 3/7, 12/63, 1/9, 1/21
+(3) 12/63, 3/7, 1/21, 1/9
+(4) 1/9, 12/63, 3/7, 1/9
+
+भिन्नों 1/9, 1/21, 3/7, 12/63 को अवरोही क्रम में निम्न प्रकार से लिखा जाता है :
+(1) 3/7, 1/9, 12/63, 1/21
+(2) 3/7, 12/63, 1/9, 1/21
+(3) 12/63, 3/7, 1/21, 1/9
+(4) 1/9, 12/63, 3/7, 1/9
+
+35. Which of the following learning experiences for children does not reflect the contribution of mathematics to everyday life and society ?
+(1) Communication of mathematical ideas in writing using both formal and informal languages.
+(2) Meeting people from different areas of employment and exploring how they use mathematics in their work.
+(3) Collecting, organising, representing and interpreting data in day-to-day life.
+(4) Play small group games that draw on mathematical skills and concepts.
+
+निम्नलिखित में से बच्चों के लिए कौन सा अधिगम अनुभव समाज तथा दैनिक जीवन में गणित के योगदान को प्रतिबिंबित नहीं करता है ?
+(1) औपचारिक एवं अनौपचारिक भाषा दोनों का उपयोग कर गणितीय विचारों का लिखित में संप्रेषण।
+(2) रोजगार के भिन्न-भिन्न क्षेत्रों के लोगों से मिलना तथा अन्वेषण करना कि वे अपने काम में गणित का प्रयोग किस प्रकार करते हैं।
+(3) दैनिक जीवन में उत्पन्न डाटा को एकत्र करना, सुव्यवस्थित करना, निरूपित करना तथा प्रतिपादित करना।
+(4) छोटे समूह वाले ऐसे खेल खेलना जो गणितीय कौशल एवं अवधारणाओं पर आधारित हों।
+
+36. Which of the following represents the features of a mathematics laboratory ?
+(a) It is a place to enjoy mathematics through informal exploration.
+(b) It provides opportunities to prove mathematical theorems through experiments.
+(c) It provides opportunity to make conjectures, test them and to generalise observed patterns.
+(d) It is used to assess students' knowledge of mathematics and grade them accordingly.
+Choose the correct option.
+(1) (a) and (d)
+(2) (a) and (c)
+(3) (b) and (d)
+(4) (b) and (c)
+
+निम्नलिखित में से क्या गणित की एक प्रयोगशाला की विशेषताओं को निरूपित करता है ?
+(a) यह अनौपचारिक अन्वेषण के माध्यम से गणित में आनंद लेने का स्थान है।
+(b) यह प्रयोगों के माध्यम से गणितीय प्रमेयों को सिद्ध करने के अवसर प्रदान करती है।
+(c) यह कंजेक्चर बनाने, उनकी जाँच करने और देखे गए पैटर्न का सामान्यीकरण करने के अवसर प्रदान करती है।
+(d) इसका उपयोग विद्यार्थियों के गणित के ज्ञान का आकलन करने के लिए और तदनुसार उनको ग्रेड देने के लिए किया जाता है।
+सही विकल्प चुनिए :
+(1) (a) और (d)
+(2) (a) और (c)
+(3) (b) और (d)
+(4) (b) और (c)
+
+37. One crore is :
+(1) ten million
+(2) one million
+(3) one billion
+(4) hundred million
+
+एक करोड़ है :
+(1) दस मिलियन
+(2) एक मिलियन
+(3) एक बिलियन
+(4) सौ मिलियन
+
+38. In a certain week, the number of patients in a dental clinic was as follows :
+Day | Number of patients
+Monday | 25
+Tuesday | 38
+Wednesday | 45
+Thursday | 18
+Friday | 36
+Saturday | 39
+Based on above table, choose the wrong statement :
+(1) Range of the data is 27
+(2) On most of the days, number of patients was more than 30
+(3) Difference between the number of patients on Monday and Wednesday is 20
+(4) Total number of patients was 200
+
+किसी सप्ताह में एक दंत चिकित्सालय में मरीजों की संख्या इस प्रकार थी :
+दिन | मरीज़ों की संख्या
+सोमवार | 25
+मंगलवार | 38
+बुधवार | 45
+बृहस्पतिवार | 18
+शुक्रवार | 36
+शनिवार | 39
+इस तालिका के आधार पर, गलत कथन को चुनिए :
+(1) आंकड़ों का परिसर 27 है।
+(2) अधिकतर दिनों में मरीजों की संख्या 30 से अधिक थी।
+(3) सोमवार और बुधवार को मरीजों की संख्या का अंतर 20 है।
+(4) मरीजों की कुल संख्या 200 थी।
+
+39. Which of the following Indian mathematicians are known as founders of 'numerical analysis' ?
+(i) Ramanujan
+(ii) Bhaskaracharya
+(iii) Varahmihir
+(iv) Aryabhatta
+Choose the correct option.
+(1) (i) and (iii)
+(2) (ii) and (iv)
+(3) (ii) and (iii)
+(4) (i) and (iv)
+
+निम्नलिखित में से किन भारतीय गणितज्ञों को 'संख्यात्मक विश्लेषण' के संस्थापक के रूप में जाना जाता है ?
+(i) रामानुजन
+(ii) भास्कराचार्य
+(iii) वराहमिहिर
+(iv) आर्यभट्ट
+सही विकल्प चुनिए :
+(1) (i) और (iii)
+(2) (ii) और (iv)
+(3) (ii) और (iii)
+(4) (i) और (iv)
+
+40. One egg has a mass of about 65 g, what is the mass of 2 dozen eggs ?
+(1) 1.56 kg
+(2) 1 kg 56 g
+(3) 1.304 kg
+(4) 1 kg 544 g
+
+एक अंडे का द्रव्यमान लगभग 65 g है। 2 दर्जन अंडों का द्रव्यमान कितना है ?
+(1) 1.56 kg
+(2) 1 kg 56 g
+(3) 1.304 kg
+(4) 1 kg 544 g
+
+41. Saumya joined her job on 13-01-1992 and she took retirement on 31-03-2023. Duration of her service was :
+(1) 30 years 10 months and 19 days
+(2) 30 years 9 months and 18 days
+(3) 31 years 2 months and 19 days
+(4) 31 years 2 months and 18 days
+
+सौम्या ने 13-01-1992 को नौकरी करना आरंभ किया और 31-03-2023 को उसने सेवानिवृत्ति ले ली। उसकी नौकरी की अवधि थी :
+(1) 30 वर्ष 10 मास और 19 दिन
+(2) 30 वर्ष 9 मास और 18 दिन
+(3) 31 वर्ष 2 मास और 19 दिन
+(4) 31 वर्ष 2 मास और 18 दिन
+
+42. Two angles of a triangle are 50° and 30°. Then, the third angle of the triangle is :
+(1) 100°
+(2) 40°
+(3) 60°
+(4) 80°
+
+एक त्रिभुज के दो कोण 50° और 30° हैं। तब त्रिभुज का तीसरा कोण है :
+(1) 100°
+(2) 40°
+(3) 60°
+(4) 80°
+
+43. National Curriculum Framework For Foundational Stage (NCFFS), 2022 highlighted the importance of the following components while teaching an abstract mathematical concept :
+(a) Written Symbols
+(b) Experience
+(c) Spoken Language
+(d) Picture
+Which of the following is the appropriate sequence of these components while teaching an abstract mathematical concept ?
+(1) (c) → (a) → (d) → (b)
+(2) (b) → (c) → (a) → (d)
+(3) (c) → (d) → (a) → (b)
+(4) (b) → (c) → (d) → (a)
+
+बुनियादी स्तर के लिए राष्ट्रीय पाठ्यचर्या रूपरेखा (एन सी एफ एफ एस), 2022 ने अमूर्त गणितीय अवधारणा के शिक्षण के समय इन घटकों के महत्व पर प्रकाश डाला :
+(a) लिखित चिन्ह
+(b) अनुभव
+(c) बोल-चाल भाषा
+(d) चित्र
+अमूर्त गणितीय अवधारणा के शिक्षण के समय इन घटकों का कौन-सा निम्नलिखित उपयुक्त क्रम है ?
+(1) (c) → (a) → (d) → (b)
+(2) (b) → (c) → (a) → (d)
+(3) (c) → (d) → (a) → (b)
+(4) (b) → (c) → (d) → (a)
+
+44. Two columns are given as shown below :
+Column - I
+(a) face of a black-board
+(b) a line has
+(c) a ray has
+(d) a line segment has
+Column - II
+(i) two end points
+(ii) one end point
+(iii) represents a part of a plane
+(iv) no definite length
+Column - I and II are matched as :
+(1) (a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)
+(2) (a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)
+(3) (a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)
+(4) (a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)
+
+दो स्तंभ दिए गए हैं :
+स्तंभ - I
+(a) श्यामपट्ट का एक फलक
+(b) एक रेखा के
+(c) एक किरण के
+(d) एक रेखाखंड के
+स्तंभ - II
+(i) दो अंत बिंदु होते हैं।
+(ii) एक अंत बिंदु होता है।
+(iii) एक तल का एक भाग निरूपित करता है।
+(iv) की निश्चित लंबाई नहीं होती है।
+स्तंभ - I और II का मिलान है :
+(1) (a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)
+(2) (a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)
+(3) (a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)
+(4) (a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)
+
+45. 22 hm 8 dam is equal to :
+(1) 22800 m
+(2) 2208 m
+(3) 2280 m
+(4) 22080 m
+
+22 hm 8 dam बराबर है —
+(1) 22800 m
+(2) 2208 m
+(3) 2280 m
+(4) 22080 m
+
+46. If x : y = p : q, then which of the following is true ?
+(a) x+y : y = p+q : q
+(b) x-y : y = p-q : q
+(c) x : p = y : q
+(d) x+y : x-y = p-q : p+q
+(1) (a) and (b)
+(2) only (c)
+(3) (a) and (d)
+(4) (a), (b) and (c)
+
+यदि x : y = p : q, तो निम्नलिखित में से कौन-सा सत्य है ?
+(a) x+y : y = p+q : q
+(b) x-y : y = p-q : q
+(c) x : p = y : q
+(d) x+y : x-y = p-q : p+q
+(1) (a) और (b)
+(2) केवल (c)
+(3) (a) और (d)
+(4) (a), (b) और (c)
+
+47. 1233210 ÷ 5555 − 222 is equal to :
+(1) 1
+(2) 0
+(3) 2
+(4) 3
+
+1233210 ÷ 5555 − 222 बराबर है —
+(1) 1
+(2) 0
+(3) 2
+(4) 3
+
+48. Which of the following statement(s) is/are true about numbers ?
+(a) All positive integers are whole numbers.
+(b) All whole numbers are integers.
+(c) All rational numbers are real numbers.
+(d) All irrational numbers are real numbers.
+Choose the correct option :
+(1) Only (b)
+(2) Only (c)
+(3) (b), (c) and (d)
+(4) (a) and (d)
+
+संख्याओं के बारे में निम्नलिखित में से कौन सा/से कथन सत्य है/हैं ?
+(a) सभी धनात्मक पूर्णांक, पूर्ण संख्याएँ हैं।
+(b) सभी पूर्ण संख्याएँ पूर्णांक होती हैं।
+(c) सभी परिमेय संख्याएँ वास्तविक संख्याएँ होती हैं।
+(d) सभी अपरिमेय संख्याएँ वास्तविक संख्याएँ होती हैं।
+सही विकल्प चुनिए :
+(1) केवल (b)
+(2) केवल (c)
+(3) (b), (c) और (d)
+(4) (a) और (d)
+
+49. Which of the following are correct examples of the statement "mathematics is hierarchical in levels that are logically structured".
+(a) The concept of integers needs to be developed before the concept of multiplication and division of numbers.
+(b) Multiplication follows and builds on the concept of addition.
+(c) Number sense needs to be developed before the concepts of addition and subtraction.
+Choose the correct option :
+(1) (a) and (b)
+(2) (b) and (c)
+(3) (a) and (c)
+(4) only (b)
+
+कथन "गणित उन स्तरों में पदानुक्रमित है जो कि तार्किक रूप से व्यवस्थित हैं" के लिए निम्नलिखित में से कौन-से सही उदाहरण हैं ?
+(a) पूर्णांकों की अवधारणा को संख्याओं के गुणन और भाग की अवधारणा से पूर्व विकसित करने की आवश्यकता होती है।
+(b) गुणन, योग की अवधारणा का अनुसरण करता है और उस पर विकसित होता है।
+(c) संख्या बोध को योग और व्यवकलन की अवधारणा से पूर्व विकसित करने की आवश्यकता होती है।
+सही विकल्प चुनिए :
+(1) (a) और (b)
+(2) (b) और (c)
+(3) (a) और (c)
+(4) केवल (b)
+
+50. 12 thousand + 13 hundred + 2 tens is equal to :
+(1) 12132
+(2) 130132
+(3) 13320
+(4) 121320
+
+12 हजार + 13 सौ + 2 दस बराबर है —
+(1) 12132
+(2) 130132
+(3) 13320
+(4) 121320
+
+51. While teaching equations a teacher explains the concept of a linear equation having unique solution. She further asks, "If a solution is given then how many equations you can create" ?
+Choose the correct option :
+(1) One equation
+(2) No equation
+(3) Many equations
+(4) Two equations
+
+समीकरण पढ़ाते समय शिक्षिका अद्वितीय हल वाले रैखिक समीकरण की अवधारणा को समझाती है। वह आगे पूछती है, "अगर हल दिया गया है तो आप कितने समीकरण बना सकते हैं" ?
+सही विकल्प चुनिए :
+(1) एक समीकरण
+(2) कोई समीकरण नहीं
+(3) अनेक समीकरण
+(4) दो समीकरण
+
+52. Which among the following is/are true about the computation in basic operations for Grade-II learners ?
+(a) It involves child's ability to develop informal strategies.
+(b) It involves child's ability to estimate.
+(c) It involves child's ability to do calculations with large numbers.
+Choose the correct option :
+(1) Only (c)
+(2) (b) and (c)
+(3) (a) and (c)
+(4) (a) and (b)
+
+कक्षा-II के अधिगमकर्ताओं के लिए आधारभूत संक्रियाओं में अभिकलन के लिए निम्नलिखित में से कौन-सा/से सही है/हैं ?
+(a) इसमें बच्चे की अनौपचारिक कार्यनीतियों को विकसित करने की क्षमता समाकलित है।
+(b) इसमें बच्चे की अनुमान लगाने की क्षमता समाकलित है।
+(c) इसमें बड़ी संख्याओं के साथ परिकलन करने की बच्चे की क्षमता समाकलित है।
+सही विकल्प चुनें :
+(1) केवल (c)
+(2) (b) और (c)
+(3) (a) और (c)
+(4) (a) और (b)
+
+53. A mathematics teacher discusses the concept of open and closed curve in class. For better understanding of students she gave an example with four points. If the curve is open then nature of four points is :
+(1) All are collinear
+(2) Two of them must be collinear
+(3) Three of them must be collinear
+(4) Three of them must be non-collinear
+
+गणित की एक शिक्षिका कक्षा में विवृत्त एवं संवृत्त वक्र की अवधारणा पर चर्चा करती है। विद्यार्थियों की बेहतर समझ के लिए वह चार बिंदुओं के साथ एक उदाहरण देती है। अगर वक्र विवृत्त है तब चार बिंदुओं की स्थिति है :
+(1) सभी संरेखी हैं
+(2) उनमें से दो संरेखी होने चाहिए
+(3) उनमें से तीन संरेखी होने चाहिए
+(4) उनमें से तीन असंरेखी होने चाहिए
+
+54. The main approach suggested by National Curriculum Framework (NCF) 2005 in teaching learning of mathematics is :
+(1) Instructivism
+(2) Pragmatism
+(3) Behaviourism
+(4) Constructivism
+
+राष्ट्रीय पाठ्यचर्या रूपरेखा (एन सी एफ) 2005 में गणित के शिक्षण अधिगम को लेकर जिसकी सलाह दी गई है वह है :
+(1) निर्देशनवाद
+(2) प्रयोजनवाद
+(3) व्यवहारवाद
+(4) रचनात्मकतावाद
+
+55. The missing number (?) in the following :
+43, 47, 53, 59, ?, 67, 71, 73 is :
+(1) 61
+(2) 60
+(3) 63
+(4) 65
+
+निम्नलिखित में लुप्त संख्या (?) है :
+43, 47, 53, 59, ?, 67, 71, 73
+(1) 61
+(2) 60
+(3) 63
+(4) 65
+
+56. In a mathematics class a teacher explains the concept of different angles. He/she realizes that scissors is a best example to explain ________.
+(a) Vertically opposite angles
+(b) Linear pair of angles
+(c) Corresponding angles
+(d) Alternate angles
+Choose the correct option :
+(1) (a) and (b)
+(2) (a) and (c)
+(3) (c) and (d)
+(4) (b) and (c)
+
+गणित कक्षा में शिक्षक भिन्न-भिन्न कोणों की अवधारणा को समझाता/समझाती है। उसे यह अनुभूति होती है कि कैंची ________ को समझाने के लिए सर्वोत्तम उदाहरण है।
+(a) शीर्षाभिमुख कोण
+(b) कोणों का रैखिक युगल
+(c) संगत कोण
+(d) एकांतर कोण
+सही विकल्प चुनिए :
+(1) (a) और (b)
+(2) (a) और (c)
+(3) (c) और (d)
+(4) (b) और (c)
+
+57. Raju has turpentine oil in 5 containers each of 20 L size. He fills them in 10 cans of 5 L, 10 cans of 2 L and rest in 1 L cans. Number of 1 L cans filled is :
+(1) 25
+(2) 30
+(3) 22
+(4) 28
+
+राजू के पास प्रत्येक 20 L वाले 5 बर्तनों में तारपीन का तेल है। उसने इसे 5 L वाले 10 बर्तनों, 2 L वाले 10 बर्तनों और बाकी को 1 L वाले बर्तनों में भरा। 1 L वाले बर्तनों की संख्या है :
+(1) 25
+(2) 30
+(3) 22
+(4) 28
+
+58. Which of the following letters has no line of symmetry ?
+(1) L
+(2) A
+(3) M
+(4) X
+
+निम्नलिखित में से किस अक्षर में कोई सममित रेखा नहीं है ?
+(1) L
+(2) A
+(3) M
+(4) X
+
+59. If (7 * 2) × (123) = 92496, then value of * is :
+(1) 2
+(2) 1
+(3) 4
+(4) 5
+
+यदि (7 * 2) × (123) = 92496 है, तो * का मान है —
+(1) 2
+(2) 1
+(3) 4
+(4) 5
+
+60. The difference between the greatest and smallest 6-digit numbers formed by using the digits 5, 1, 0, 3, 9 and 6 is :
+(1) 861741
+(2) 862731
+(3) 951741
+(4) 851731
+
+अंकों 5, 1, 0, 3, 9 और 6 से बनी सबसे बड़ी और सबसे छोटी 6-अंकों की संख्या का अंतर है :
+(1) 861741
+(2) 862731
+(3) 951741
+(4) 851731

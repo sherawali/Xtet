@@ -144,3 +144,11 @@ PASS -> commit (clear message ke saath). FAIL -> fix -> dobara check.
 - HTML source paper: 30-45 min | PDF-only (r.jina.ai + decode): 45-75 min | Max 1 hour per set.
 - PDF se text + Hindi decode ka FASTEST tareeka + advanced tools + decode table: **PDF_AND_HINDI_GUIDE.md** me hai - uske bina PDF kaam mat shuru karo.
 - Speed rules: chunks parallel fetch; file pehli baar me final format; key usi PDF se; checklist ek baar; chunk map MEMORY me. Details guide section 5.
+
+## 10. Session 4 (July 2024 Set A) ki techniques - agli PDF papers ke liye
+
+- **Legacy Hindi text (Chanakya) aksar PADHNE LAYAK hota hai**: prepp CDN booklet ke Hindi pages me "◊Ÿ", "•äÿÊà◊", "∑§◊¸" jaisa text aata hai - mapping consistent hoti hai (◊=म, ∑§=क, ¬=प, Œ/Œ/ŒÊ=द/दे/दा, fl=व, àfl=त्व, ‚=स, „=ह, M§=रू, L§=रु etc.). Pehle ye decode karke transcript karo; blindly "garbled" maankar third-party ka order mat lo.
+- **Official key ke pages set-wise + language-wise hote hain**: "Set :- A PAPER-I 01-ENGLISH" / "02-HINDI" - Set A: pages 5 aur 9 (B: 6/10, C: 7/11, D: 8/12). Stream assignment (kaunsa table kis language section ka hai) semantic check se confirm karo - 15-20 questions ka correct option khud judge karo.
+- **Third-party clean sources (adda247 solution PDFs, booklace)**: wording ke liye achhe, par numbering shifted + option order badla hota hai - ORDER hamesha booklet se (MISTAKES #10).
+- **Extraction gaps (Q37 type)**: chunk boundary par sawaal chhoot jaye to agla chunk dobara dekho / booklace jaisa cross-check source use karo.
+- **Thin blanks**: extract kiye gaye blanks 6/9/10 underscore ke ho sakte hain - commit se pehle sabko 8-underscore `________` standard kar do (checklist me add kiya gaya).

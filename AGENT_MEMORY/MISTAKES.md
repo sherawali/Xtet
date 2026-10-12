@@ -79,6 +79,13 @@ Kyun hua: PDF ka Hindi text layer legacy-font encoded/garbled tha; Unicode scan 
 Fix: CPD, Maths, EVS, Hindi-1 aur Hindi-2 ke Hindi blocks ko line-by-line spelling, grammar, punctuation, agreement aur terminology ke liye manually proofread kiya. Clear issues sudhaare; answer choices/key nahi badle. Hindi-1 Q94 ke jaan-boojhkar galat spelling distractors preserve kiye.
 Aage se: Transcription, Unicode/script validation, Hindi proofreading aur source-level verification ko alag steps samjho. Clean Hindi scan/source na ho to sirf saaf language corrections karo aur exact booklet wording verified hone ka daava na karo. Answer choices ya official key ko bina evidence mat badlo.
 
+## 10. Third-party text ka option/question ORDER booklet jaisa nahi hota
+
+Galti: Hindi sections (Hindi-1/Hindi-2) ka order/position clean third-party source (adda247 solution PDF) ke hisaab se likh diya tha. Hindi-1 Q97 me options 3 aur 4 ulte the (official key Q97 = 3 = "शुद्ध विचार, अच्छे कर्म", par file me woh option 4 par tha). Us PDF ka question numbering bhi shifted hai (unka Q107 = booklet ka Q106).
+Kyun galat: Solution books apne numbering/order me saawaal ghuma dete hain; official key ke digits BOOKLET ke printed option numbers hote hain - agar order galat ho to poora file key se mismatch ho jata hai.
+Fix: prepp CDN booklet ka legacy Hindi text padhne layak hai (Chanakya mapping consistent) - order + wording wahin se liya; adda247 sirf spelling cross-check ke liye. Phir har Hindi question ka official digit semantically verify kiya (digit wale option ka matlab question ke hisaab se sahi hona chahiye).
+Aage se: Option/question ORDER sirf booklet (ya official paper) se lo; third-party clean text sirf wording polish/cross-check ke liye. Har section me 10-15 questions ka official-digit semantic spot-check zaroor karo.
+
 ## Naya mistake mila? Yahan add karo (format):
 
 N. Title (SHORT)
