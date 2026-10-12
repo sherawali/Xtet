@@ -17,13 +17,13 @@ Current deliverable: deterministic SQLite question-bank database, a single downl
 - Verified counts: CTET 5 forms / 930 canonical questions / 1,050 appearances / 1,050 answer entries; UTET 6 forms / 900 questions / 900 appearances / 900 source-provisional answers; combined 64 stimuli / 411 links / 2,850 FTS documents. CTET official-final views contain 1,050 entries; UTET provisional rows remain excluded. One SQLite file houses both, but `exams`/sessions/forms/sections/keys are separate; CTET and UTET IDs have distinct prefixes, and a direct DB query found zero exam-prefix mismatches or question IDs reused across exams.
 - Validation: 12 UTET schemas + 1,830 source records pass; all 9 integration tests pass, including CTET key spot checks, 29 SQL examples, FTS/FK/integrity, two-build determinism, and deterministic single-file JSON/NDJSON exports. Full `pipeline build`, separate `verify`, and `export` commands pass. No CTET text or upstream UTET source files were edited.
 - Authority caveat: CTET keys use the final-key claims in the paper READMEs; the parser did not compare transcriptions to PDFs. August 2023 has no direct official-key URI in its README. UTET answers are independently authored source-repository values, provisional/non-authority. See `docs/DATA_QUALITY.md`.
-- Original SQLite delivery commits: `9641312` and `aa79d19` on `arena/ed8a51c8-xtet`. The app JSON download update is being validated before its own commit/push. Final source review showed no changes in CTET paper folders; database query found zero CTET/UTET prefix mismatches and zero question IDs reused across exams.
+- Delivery commits: SQLite/pipeline `9641312`, memory `aa79d19`, and app JSON `7162b95`; all pushed to `arena/ed8a51c8-xtet`. GitHub Contents API confirms the JSON download URL and file size (12,730,793 bytes). No PR was requested. Final source review showed no changes in CTET paper folders; database query found zero CTET/UTET prefix mismatches and zero question IDs reused across exams.
 - User-facing handover should be Hinglish and phase-wise. The app itself is in a separate project; this repo now supplies a single JSON download file and a public Raw link, but no custom API/CDN.
 
 ### Next steps
 
-1. Run final staged diff/status check, then commit and push the app JSON bundle/exporter/docs/tests to `arena/ed8a51c8-xtet` only.
-2. Verify the committed JSON `download_url` with GitHub Contents API, then record the final commit/link here. No PR/merge was requested.
+1. No unfinished build/validation/publish steps remain. App JSON link verified by GitHub Contents API: `https://raw.githubusercontent.com/sherawali/Xtet/arena/ed8a51c8-xtet/data/xtet-question-bank.json`.
+2. No PR/merge was requested. The app AI should fetch that URL; after new paper imports, run `python -m pipeline build`, test, commit, and push the updated JSON to this branch so the same link serves it.
 3. For future schema/source changes: add a forward migration, retain the upstream commit/license, re-run the complete tests plus two-clean-build content-hash gate, rebuild the SQLite and app JSON artifacts/report, and update this memory.
 
 ---
@@ -234,8 +234,9 @@ Note: Hindi-1 Q100-105 kavita = Shivmangal Singh 'Suman' ki "धन्यवा�
 
 - User said they did not want technical explanations and asked to make the question data downloadable for their separate app; app-code changes will be handled by another AI. Keep replies plain Hinglish.
 - Added a single, regular JSON bundle at `data/xtet-question-bank.json` in addition to SQLite/NDJSON. `pipeline build` now regenerates it; deterministic bundle has metadata/content version plus questions, appearances (with `exam_code`), stimuli, complete answer history, and a separate official-final answers array. Size 12,730,793 bytes; SHA-256 `14c7204255f8341cd73ef96b5dcaf418ce8fb13f1f5c831dac8ccbc46f727d5b`; DB content hash unchanged at `f92ebbb63338c1bc06570899dbb3376437c39a911bae4819107a49f72fe105cd`.
-- Added `docs/APP_DOWNLOAD.md` with public GitHub Raw URL: `https://raw.githubusercontent.com/sherawali/Xtet/arena/ed8a51c8-xtet/data/xtet-question-bank.json`. No custom API/CDN or separate app project is present. After push, verify the API download URL and update this log.
-- Updated exporter, CLI full-build flow, README, pipeline/data-profile docs, PLAYBOOK, and integration tests. Full build, verify, export, py_compile, and all 9 integration tests passed; bundle checked as valid JSON with 1,830 questions, 1,950 appearances, 64 stimuli, 1,950 answer-history rows, 1,050 official-final rows, and both exam codes. App-data commit/push remains pending.
+- Added `docs/APP_DOWNLOAD.md` with public GitHub Raw URL: `https://raw.githubusercontent.com/sherawali/Xtet/arena/ed8a51c8-xtet/data/xtet-question-bank.json`. No custom API/CDN or separate app project is present. GitHub Contents API confirms this exact `download_url` and 12,730,793-byte size.
+- Updated exporter, CLI full-build flow, README, pipeline/data-profile docs, PLAYBOOK, and integration tests. Full build, verify, export, py_compile, and all 9 integration tests passed; bundle checked as valid JSON with 1,830 questions, 1,950 appearances, 64 stimuli, 1,950 answer-history rows, 1,050 official-final rows, and both exam codes.
+- Commit/push succeeded: `7162b95` (`Add downloadable single-file question bank JSON`) on `arena/ed8a51c8-xtet`. Working tree check pending after memory update; no PR requested.
 
 ---
 
