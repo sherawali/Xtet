@@ -116,6 +116,28 @@ The final key has Set I Paper-I MAIN, 01-ENGLISH, and 02-HINDI tables. Use it as
 - Chanakya-legacy decode ke liye mapping tables: github.com/deepakkamboj/indianlanguageconverter (src/lib/chanakya-converter.ts), github.com/ravifranklin/hindifontconverter.
 - Dec 2024 (fallback/next): key https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2025/01/2025012321.pdf ; Set H paper https://cdn-images.prepp.in/public/image/CTET_Question_Paper_1_Set_H_de74d86cff048636ae886810b8782677.pdf
 
+## 9. CTET 2020 cycle - January 2021 Paper 1, Set I
+
+Official CBSE question booklet (56 pages; booklet code `AAT-20-I`):
+https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2022/04/2022040421.pdf
+
+Use the `https://r.jina.ai/` prefix for the full text-layer parse (12 chunks). English is readable; the Hindi text layer is legacy-font encoded. The booklet instructions specify Parts I-V, Q1-150, 2.5 hours, no negative marking, and English/Hindi language sections in Parts IV-V. Booklet sequence and option order are the authority for transcription.
+
+CBSE Official Final Answer Key:
+https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2022/03/2022033154.pdf
+
+- The Set I key has `PAPER-I MAIN` for Q1-90, `PAPER-I 01-ENGLISH` for English Q91-150, and `PAPER-I 02-HINDI` for Hindi Q91-150. Use the English table for Eng-1/Eng-2 and Hindi table for Hindi-1/Hindi-2.
+- Official key discrepancies vs Studyfry's suggested answers were found at EVS Q90 (official 3, South America), English Language II Q145 (official 3, multilingualism), and Hindi Language I Q106 (official 2). Always use the CBSE final key.
+
+Studyfry wording cross-checks (not answer authority):
+- CPD: https://www.studyfry.com/ctet-exam-paper-31-january-2021-paper-1-answer-key-child-development-and-pedagogy
+- Mathematics: https://www.studyfry.com/ctet-exam-paper-31-january-2021-paper-1-answer-key-mathematics-%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4 and `/2`
+- EVS: https://www.studyfry.com/ctet-exam-paper-31-january-2021-paper-1-answer-key-environmental-studies and `/2`
+- Language I English: https://www.studyfry.com/ctet-exam-paper-31-january-2021-paper-1-answer-key-english-1 and `/2`
+- Language I Hindi: https://www.studyfry.com/ctet-exam-paper-31-january-2021-paper-1-answer-key-hindi-1 and `/2`
+- Language II English: https://www.studyfry.com/ctet-exam-paper-31-january-2021-paper-1-answer-key-english-2 and `/2`
+- Language II Hindi: https://www.studyfry.com/ctet-exam-paper-31-january-2021-paper-1-answer-key-hindi-2 and `/2`
+
 ## Sources jo TRY kiye par kaam nahi aaye
 
 - jagranjosh.com - sirf download links dete hain, questions nahi.

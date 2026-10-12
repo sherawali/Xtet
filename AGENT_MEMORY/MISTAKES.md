@@ -27,9 +27,9 @@ Aage se: attachment ka wait mat karo, turant URL maango ya online source dhoondh
 
 ## 4. Third-party answer key par bharosa (GALAT ANSWERS)
 
-Galti: theexampillar ki EVS key use ki (Q86-88 = 4,1,4). Baad me CBSE Final Key me Q86-88 = 1,4,1 nikla.
+Galti: theexampillar ki EVS key use ki (Q86-88 = 4,1,4). Baad me CBSE Final Key me Q86-88 = 1,4,1 nikla. January 2021 Set I me Studyfry ke suggested answers bhi official key se EVS Q90, English Language II Q145 aur Hindi Language I Q106 par alag the.
 Kyun galat: third-party sites ki keys me transcription errors ho sakti hain ya purani (provisional) key hoti hai.
-Fix: Answer-Key.txt CBSE Final Key se banaya. Q88 = 1 ("A ग़लत, B सही") - bamboo stilt houses Assam me hote hain, Manali me nahi - bilkul sahi hai official key.
+Fix: Answer-Key.txt CBSE Final Key se banaya. Q88 = 1 ("A ग़लत, B सही") - bamboo stilt houses Assam me hote hain, Manali me nahi - bilkul sahi hai official key. January 2021 Set I discrepancies ko bhi official CBSE table se settle kiya.
 Aage se: answer key HAMESHA CBSE official final key PDF se. Third-party se sirf cross-check.
 
 ## 5. Pehle "missing sections" ka galat andaza (WRONG ASSUMPTION)
