@@ -10,6 +10,7 @@ Agar tum ek naye AI agent ho jo abhi is repo par kaam karne aaye ho, to SABSE PE
 4. AGENT_MEMORY/SOURCES.md padho - question papers aur answer keys kahan se milte hain.
 5. AGENT_MEMORY/MISTAKES.md padho - pehle ki galtiyan DOBARA mat karna.
 6. Zarurat ho to AGENT_MEMORY/HANDOVER_PROMPT.md se ready-made context prompt lo.
+7. SQLite question-bank task ho to `docs/DATA_PROFILE.md` → `docs/SCHEMA.md` → `docs/PIPELINE.md` phase order me padho; source snapshot/license aur current build state verify karo.
 
 ## Session End Protocol (har baar, bhoolna mat)
 

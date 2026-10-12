@@ -148,6 +148,16 @@ Studyfry wording cross-checks (not answer authority):
 - Language II English: https://www.studyfry.com/ctet-exam-paper-31-january-2021-paper-1-answer-key-english-2 and `/2`
 - Language II Hindi: https://www.studyfry.com/ctet-exam-paper-31-january-2021-paper-1-answer-key-hindi-2 and `/2`
 
+## 11. UTET Paper I `bank-v2` snapshot (database importer source)
+
+- Public source repository: https://github.com/sherawali/tet
+- Local immutable scope: `data/utet/bank-v2/` in this repository, pinned to commit `6792637052eb0bcddd27b9290ddd082faa725a4d`. The source repo itself was inspected read-only; only a scoped copy was vendored here.
+- Scope includes UTET Paper I forms/appearances, question/stimulus streams, JSON Schema files, six source manifests, six question-audit NDJSON files, and root `bank-v2/README.md`. Empty unselected language streams are retained/fingerprinted too.
+- License: upstream root `LICENSE` is CC BY 4.0; attribution “TET Question Bank contributors (2026)” and source/change note are in `data/utet/NOTICE.md`. Keep the pinned commit/attribution attached to imported source files and exports.
+- Phase 1 inspected 900 questions, 900 appearances, 6 forms, 24 stimuli, 900 audit rows, and 12 Draft 2020-12 schemas. `python -m pipeline validate-sources` validates the schemas and the four source NDJSON record groups.
+- The manifests/audits provide repository verification claims but no official UBSE answer-key URL/citation; upstream `LICENSE` disclaims authority affiliation. Import `question.answer` only as `source_repository`/`provisional`, excluded from official-final answers. Do not call these an official transcription or key.
+- Rebuild workflow/documentation: `docs/PIPELINE.md`; source inventory: `docs/DATA_PROFILE.md`; schema: `docs/SCHEMA.md`.
+
 ## Sources jo TRY kiye par kaam nahi aaye
 
 - jagranjosh.com - sirf download links dete hain, questions nahi.

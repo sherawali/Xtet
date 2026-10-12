@@ -1,0 +1,17 @@
+# Reproducible build intermediates (the verified SQLite deliverable is data/xtet-question-bank.sqlite)
+build/
+*.tmp
+*.staging.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+
+# Local editor/OS files
+.DS_Store
+.idea/
+.vscode/

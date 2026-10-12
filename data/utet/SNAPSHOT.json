@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/sherawali/tet",
+  "commit": "6792637052eb0bcddd27b9290ddd082faa725a4d",
+  "upstream_path": "bank-v2",
+  "included_paths": [
+    "bank-v2/exams/utet/paper-1/",
+    "bank-v2/paper-forms/utet/paper-1/",
+    "bank-v2/schemas/",
+    "bank-v2/sources/utet-p1-*-sources.json",
+    "bank-v2/audits/utet-p1-*-question-audit.ndjson",
+    "bank-v2/README.md",
+    "LICENSE"
+  ],
+  "license": "CC BY 4.0",
+  "attribution": "TET Question Bank contributors (2026)",
+  "change_note": "Scoped snapshot copied without modifying upstream files; imported into a new normalized SQLite schema. UTET answer values remain provisional and non-authority until an official UBSE final key is evidenced.",
+  "upstream_disclaimer": "The upstream license describes the bank as independently authored, not affiliated with an examination authority, and not derived verbatim from an authority."
+}

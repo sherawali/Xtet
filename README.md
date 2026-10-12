@@ -62,6 +62,19 @@ Har paper folder me README.md me paper set aur sections ka note hota hai.
 Set A aur Set I ki language availability unke alag-alag README files mein di gayi hai.
 CTET December 2025 session ka Paper 1 February 2026 mein hua (08 Feb 2026, Set E yahan hai).
 
+## SQLite question-bank database
+
+Verified question-bank data is available as SQLite (`data/xtet-question-bank.sqlite`) and as one app-downloadable JSON file (`data/xtet-question-bank.json`). The JSON combines the five CTET Paper 1 text sets and six pinned UTET Paper 1 forms; each appearance identifies its exam, so CTET and UTET remain separate. It includes localized questions, options, stimuli, provenance, answer-key history, and a separate official-final answer list. UTET repository answers remain provisional and are not included in the official-final list. UTET source/license attribution is preserved under `data/utet/`.
+
+- App data file and download notes: [`docs/APP_DOWNLOAD.md`](docs/APP_DOWNLOAD.md).
+- Build/verify/export: see [`docs/PIPELINE.md`](docs/PIPELINE.md).
+- Schema decisions: [`docs/SCHEMA.md`](docs/SCHEMA.md); observed source profile: [`docs/DATA_PROFILE.md`](docs/DATA_PROFILE.md).
+- Quality gates and verified counts: [`docs/DATA_QUALITY.md`](docs/DATA_QUALITY.md).
+- 29 example app-ready SQL queries: [`docs/QUERIES.md`](docs/QUERIES.md).
+- Rebuild commands (Python 3.11+, pinned requirements): `python -m pipeline build`, then `python -m pipeline verify`. The build refreshes the SQLite and app JSON files; deterministic NDJSON exports are also written under `build/exports/`.
+
+No app code is included in this repository; its data file and download instructions are ready for the app AI to use.
+
 ## AGENT_MEMORY (AI agents ke liye)
 
 Jo bhi AI agent is repo par kaam kare, SABSE PEHLE AGENT_MEMORY/00_START_HERE.md padhe - usme start/end protocol hai.

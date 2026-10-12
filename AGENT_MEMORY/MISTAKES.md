@@ -106,6 +106,20 @@ Galti/Risk: Chanakya-legacy text me kuch matras drop/merge hoti hain - "बन�
 Fix: (a) Grammar/logic se sahi roop chuno (infinitive aksar "-ना"), (b) us paper ka clean third-party text se validate karo - is paper me askfilo ka Hindi-2 passage EXACT match nikla ("इसे इस रूप में भी समझ सकते हैं..."), testbook ka "कीरम काँटे" phrase confirm hua, (c) poem/passage ki opening line search se canonical text ("सीमित पग डग" - Shivmangal Singh Suman ki kavita; Kalahandi = Jagannath Prasad Das, booklet me truncated extract hai - waisa hi rakho).
 Aage se: Matra-ambiguous shabdon par teen-way check: grammar -> third-party clean text -> canonical text. Wording "as-printed" rakho (quirks preserve), sirf matra-level ambiguity theek karo; uncertainty README/MEMORY me note karo.
 
+## 14. Correct-option link order ko printed option number samajhna (SPOT-CHECK BUG, FIXED)
+
+Galti: Multi-correct spot-check me `answer_key_entry_options.position` ko paper par printed option position maana. January 2024 L1 Q106 ka raw token `E` sahi tarah options 2 and 4 expand hua tha, lekin link-order values `1,2` dekh kar pehle expected value ko galat compare kiya.
+Kyun galat: `answer_key_entry_options.position` correct-option set ke andar order hai; actual printed answer choice `option_id`/`question_options.position` se milta hai.
+Fix: test aur app views me `question_options.position` ko `correct_option_position` expose kiya; link field ko `answer_set_order` kaha. E/Z/A–F answer vectors ke explicit paper-option spot-checks add kiye.
+Aage se: Key expansion validate karte waqt raw token + linked option IDs + linked `question_options.position` dekho; join table ka local `position` question-option number nahi hota.
+
+## 15. Hindi stem me Roman variables hone par locale ko raw Latin-vs-Devanagari count se infer karna (PARSER BUG, FIXED)
+
+Galti: July 2024 Maths Q45/Q46 ke Hindi blocks me `hm`, `dam`, `x`, `y`, `p`, `q` jaise Roman units/variables the. Full-block Latin character count Devanagari se zyada/lagbhag barabar nikla, aur parser ne dono locale groups ko English mark karke duplicate-locale error diya.
+Kyun galat: Hindi math/science stem me Latin variables ya units aam hain; raw Latin count bhasha ka sahi signal nahi.
+Fix: Core section ke numbered question stem par script detection karo, Devanagari ko meaningful threshold do, aur zarurat par option text fallback use karo. Language-file locale ko section header hint se validate karo. Q45/Q46 aur poore paanch-papers parser regression tests se pass hue.
+Aage se: Locale inference ko source structure + question stem + Unicode script ke saath test karo; sirf Latin/Devanagari character totals se language decide mat karo. Mixed-script edge cases ke raw snippets aur expected locale preserve karo.
+
 ## Naya mistake mila? Yahan add karo (format):
 
 N. Title (SHORT)

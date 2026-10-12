@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "policy": "Parser discovers maximal runs of at least 15 matching expanded answer sets for English/Hindi streams in one language slot, excluding questions linked to stimuli. These reviewed detections are an allow-list: source changes or new candidates require re-review; values are not parser constants.",
+  "forms": {
+    "ctet-2021-01-31-set-i": [],
+    "ctet-2023-08-20-set-a": [
+      {"slot_code": "language-1", "locale_a": "en", "locale_b": "hi", "question_start": 91, "question_end": 105, "review": "parallel question stems/options and identical expanded CBSE-key answers; checked against source README"},
+      {"slot_code": "language-2", "locale_a": "en", "locale_b": "hi", "question_start": 136, "question_end": 150, "review": "parallel question stems/options and identical expanded CBSE-key answers; passage-linked Q135 excluded"}
+    ],
+    "ctet-2024-01-21-set-i": [
+      {"slot_code": "language-1", "locale_a": "en", "locale_b": "hi", "question_start": 106, "question_end": 120, "review": "parallel pedagogy stems/options and identical expanded CBSE-key answers; passage ranges are independent"},
+      {"slot_code": "language-2", "locale_a": "en", "locale_b": "hi", "question_start": 136, "question_end": 150, "review": "parallel pedagogy stems/options and identical expanded CBSE-key answers; passage ranges are independent"}
+    ],
+    "ctet-2024-07-07-set-a": [
+      {"slot_code": "language-1", "locale_a": "en", "locale_b": "hi", "question_start": 106, "question_end": 120, "review": "parallel pedagogy stems/options and identical expanded CBSE-key answers; confirmed by source README"},
+      {"slot_code": "language-2", "locale_a": "en", "locale_b": "hi", "question_start": 136, "question_end": 150, "review": "parallel pedagogy stems/options and identical expanded CBSE-key answers; confirmed by source README"}
+    ],
+    "ctet-2026-02-08-set-e": [
+      {"slot_code": "language-1", "locale_a": "en", "locale_b": "hi", "question_start": 106, "question_end": 120, "review": "parallel pedagogy stems/options and identical expanded CBSE-key answers; confirmed by source README"},
+      {"slot_code": "language-2", "locale_a": "en", "locale_b": "hi", "question_start": 136, "question_end": 150, "review": "parallel pedagogy stems/options and identical expanded CBSE-key answers; passage-linked Q134-Q135 excluded"}
+    ]
+  }
+}
