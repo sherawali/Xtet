@@ -15,13 +15,14 @@ Current deliverable: deterministic, offline SQLite question-bank database and pa
 - Verified counts: CTET 5 forms / 930 canonical questions / 1,050 appearances / 1,050 answer entries; UTET 6 forms / 900 questions / 900 appearances / 900 source-provisional answers; combined 64 stimuli / 411 links / 2,850 FTS documents. CTET official-final views contain 1,050 entries; UTET provisional rows remain excluded. One SQLite file houses both, but `exams`/sessions/forms/sections/keys are separate; CTET and UTET IDs have distinct prefixes, and a direct DB query found zero exam-prefix mismatches or question IDs reused across exams.
 - Validation: 12 UTET schemas + 1,830 source records pass; all 9 integration tests pass, including CTET key spot checks, 29 SQL examples, FTS/FK/integrity, two-build determinism, and export determinism. Full `pipeline build`, separate `verify`, and `export` commands pass. No CTET text or upstream UTET source files were edited.
 - Authority caveat: CTET keys use the final-key claims in the paper READMEs; the parser did not compare transcriptions to PDFs. August 2023 has no direct official-key URI in its README. UTET answers are independently authored source-repository values, provisional/non-authority. See `docs/DATA_QUALITY.md`.
+- **Committed and pushed:** commit `9641312` (`Build deterministic CTET and UTET SQLite bank`) to `arena/ed8a51c8-xtet`; no PR was opened. Final source review showed no changes in CTET paper folders; database query found zero CTET/UTET prefix mismatches and zero question IDs reused across exams.
 - User-facing handover should be Hinglish and phase-wise. No app/frontend/API/service is in scope.
 
 ### Next steps
 
-1. Final diff/status review; confirm the CTET `.txt`/key/README and pinned upstream source files remain unchanged.
-2. Commit and push the verified work only to `arena/ed8a51c8-xtet`; do not change branches. No PR/merge was requested in this pipeline task.
-3. Future schema/source changes: add a forward migration, retain the upstream commit/license, re-run the complete tests plus two-clean-build content-hash gate, rebuild the SQLite artifact/report, and update this memory.
+1. No unfinished implementation/validation gates remain; artifact and docs are committed and pushed.
+2. No PR was requested. Open one only if the user asks.
+3. For future schema/source changes: add a forward migration, retain the upstream commit/license, re-run the complete tests plus two-clean-build content-hash gate, rebuild the SQLite artifact/report, and update this memory.
 
 ---
 
@@ -222,7 +223,8 @@ Note: Hindi-1 Q100-105 kavita = Shivmangal Singh 'Suman' ki "धन्यवा�
 - Vendored a scoped, unmodified UTET snapshot at commit `6792637052eb0bcddd27b9290ddd082faa725a4d`; recorded CC BY 4.0 attribution/change notice. Its embedded answer fields remain `source_repository`/`provisional`, outside the official-final view. CTET raw source files remained unmodified; key text was structurally parsed only.
 - Implemented migration, CTET parser with configured mirror drift checks/stimuli/multi-key expansion, UTET schema/parser/audit import, provenance staging, atomic clean rebuild, SQLite integrity/FK/FTS/content-hash verification, data-quality report and deterministic NDJSON exports. Added `docs/PIPELINE.md`, `docs/QUERIES.md` (29 executable SQL examples), `docs/DATA_QUALITY.md`, `.github/workflows/question-bank.yml`, and root README database instructions.
 - Built `data/xtet-question-bank.sqlite` (26 MB); content hash `f92ebbb63338c1bc06570899dbb3376437c39a911bae4819107a49f72fe105cd`; source manifest hash `5ca08551abdba96646e9341eba59fb3c22d25c746951d45bdad87953ad4c4e7f`. Counts: CTET 930 canonical questions / 1,050 appearances / 1,050 official-final key entries; UTET 900 questions / 900 appearances / 900 provisional source answer entries; combined 64 stimuli / 411 links / 2,850 FTS documents.
-- Validation passed: 12 UTET schemas; 9 integration tests; 29 SQL examples; exact CTET multi-answer spot-checks; CTET/UTET counts; clean two-build content-hash equality; deterministic exports; `PRAGMA integrity_check`; zero FK violations; FTS5 integrity/search; official-vs-provisional boundary; full `pipeline build`, `verify`, `export`, Python compile, and `git diff --check`. GitHub Actions workflow added. Before commit/push, do one final status/source-read-only review; work remains on `arena/ed8a51c8-xtet`.
+- Validation passed: 12 UTET schemas; 9 integration tests; 29 SQL examples; exact CTET multi-answer spot-checks; CTET/UTET counts; clean two-build content-hash equality; deterministic exports; `PRAGMA integrity_check`; zero FK violations; FTS5 integrity/search; official-vs-provisional boundary; full `pipeline build`, `verify`, `export`, Python compile, and `git diff --check`. GitHub Actions workflow added. CTET paper folders remained unchanged; DB query found zero CTET/UTET prefix mismatches and zero question IDs reused across exams.
+- Commit/push: `9641312` (`Build deterministic CTET and UTET SQLite bank`) on `arena/ed8a51c8-xtet`; push succeeded. No PR opened because none was requested.
 
 ---
 
