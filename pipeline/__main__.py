@@ -24,6 +24,7 @@ DEFAULT_DB = ROOT / "data" / "xtet-question-bank.sqlite"
 DEFAULT_REPORT = ROOT / "docs" / "DATA_QUALITY.md"
 DEFAULT_EXPORT_DIR = ROOT / "build" / "exports"
 DEFAULT_APP_JSON = ROOT / "data" / "xtet-question-bank.json"
+DEFAULT_APP_MANIFEST = ROOT / "data" / "xtet-question-bank.manifest.json"
 
 
 def parse_sources() -> dict[str, Any]:
@@ -72,6 +73,8 @@ def _parser() -> argparse.ArgumentParser:
     export_cmd.add_argument("--db", type=Path, default=DEFAULT_DB)
     export_cmd.add_argument("--output-dir", type=Path, default=DEFAULT_EXPORT_DIR)
     export_cmd.add_argument("--app-json", type=Path, default=DEFAULT_APP_JSON)
+    export_cmd.add_argument("--app-manifest", type=Path, default=DEFAULT_APP_MANIFEST,
+                            help="Small sync/version manifest published next to the app JSON bundle.")
 
     build_cmd = sub.add_parser("build", help="Build and verify the database, report, and downloadable app JSON.")
     build_cmd.add_argument("--stage", type=Path, default=DEFAULT_STAGE)
@@ -79,6 +82,7 @@ def _parser() -> argparse.ArgumentParser:
     build_cmd.add_argument("--report", type=Path, default=DEFAULT_REPORT)
     build_cmd.add_argument("--export-dir", type=Path, default=DEFAULT_EXPORT_DIR)
     build_cmd.add_argument("--app-json", type=Path, default=DEFAULT_APP_JSON)
+    build_cmd.add_argument("--app-manifest", type=Path, default=DEFAULT_APP_MANIFEST)
 
     return parser
 
@@ -128,7 +132,7 @@ def main(argv: list[str] | None = None) -> int:
             return 0
 
         if args.command == "export":
-            result = export_database(args.db, args.output_dir, args.app_json)
+            result = export_database(args.db, args.output_dir, args.app_json, args.app_manifest)
             _json_print(result)
             return 0
 
@@ -137,12 +141,13 @@ def main(argv: list[str] | None = None) -> int:
             write_stage(args.stage, stage)
             result = rebuild_database(stage, args.db)
             report_path = write_data_quality_report(args.db, args.report)
-            export_result = export_database(args.db, args.export_dir, args.app_json)
+            export_result = export_database(args.db, args.export_dir, args.app_json, args.app_manifest)
             _json_print(
                 {
                     "stage": str(args.stage),
                     "report": str(report_path),
                     "app_json": export_result["app_json"],
+                    "app_manifest": export_result["app_manifest"],
                     "export_manifest": str(args.export_dir / "manifest.json"),
                     "status": "passed",
                     **result,

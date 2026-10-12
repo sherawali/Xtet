@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import copy
+import hashlib
 import json
 import re
 import sqlite3
@@ -200,10 +201,89 @@ class PipelineIntegrationTests(unittest.TestCase):
             self.assertEqual(shipped_json.read_bytes(), bundle_path.read_bytes())
         history = [json.loads(line) for line in (first_dir / "answer-key-history.ndjson").read_text(encoding="utf-8").splitlines()]
         official = [json.loads(line) for line in (first_dir / "official-final-answers.ndjson").read_text(encoding="utf-8").splitlines()]
+        papers_ndjson = [json.loads(line) for line in (first_dir / "papers.ndjson").read_text(encoding="utf-8").splitlines()]
         self.assertEqual(len(history), 1950)
         self.assertEqual(len(official), 1050)
+        self.assertEqual(len(papers_ndjson), 11)
+        self.assertEqual(bundle["metadata"]["record_counts"]["papers"], 11)
         self.assertTrue(all(row["authority_class"] == "exam_authority" and row["status"] == "final" for row in official))
         self.assertTrue(any(row["authority_class"] == "source_repository" for row in history))
+        shipped_manifest = ROOT / "data" / "xtet-question-bank.manifest.json"
+        if shipped_json.exists() and shipped_manifest.exists():
+            shipped = json.loads(shipped_manifest.read_text(encoding="utf-8"))
+            self.assertEqual(shipped["format"], "xtet-question-bank-manifest")
+            self.assertEqual(shipped["bundle"]["sha256"], hashlib.sha256(shipped_json.read_bytes()).hexdigest())
+            self.assertEqual(shipped["bundle"]["byte_size"], shipped_json.stat().st_size)
+            self.assertEqual(shipped["database_content_hash"], self.build_result["content_hash"])
+            self.assertEqual([paper["form_id"] for paper in shipped["papers"]], [paper["form_id"] for paper in bundle["papers"]])
+
+    def test_app_bundle_papers_and_denormalized_mirrors(self) -> None:
+        export_dir = self.temp_path / "export-mirrors"
+        app_json = self.temp_path / "xtet-app.json"
+        app_manifest = self.temp_path / "xtet-app.manifest.json"
+        result = export_database(self.db_path, export_dir, app_json, app_manifest)
+        bundle = json.loads(app_json.read_text(encoding="utf-8"))
+        manifest = json.loads(app_manifest.read_text(encoding="utf-8"))
+
+        papers = {paper["form_id"]: paper for paper in bundle["papers"]}
+        self.assertEqual(len(papers), 11)
+        feb_2026 = papers["ctet-2026-02-08-set-e"]
+        self.assertEqual(feb_2026["title"], "CTET Feb 2026 Paper I (Set E)")
+        self.assertEqual(feb_2026["year"], 2026)
+        self.assertEqual(feb_2026["exam_code"], "CTET")
+        self.assertEqual(feb_2026["appearance_count"], 210)
+        self.assertEqual(feb_2026["official_answer_count"], 210)
+        self.assertEqual(feb_2026["provisional_answer_count"], 0)
+        self.assertEqual((feb_2026["question_number_min"], feb_2026["question_number_max"]), (1, 150))
+        self.assertEqual([section["section_code"] for section in feb_2026["sections"]][:3], ["cpd", "mathematics", "environmental-studies"])
+        self.assertTrue(all(section["declared_question_count"] == section["appearance_count"] for section in feb_2026["sections"]))
+        utet_2020 = papers["utet-p1-2020-set-a"]
+        self.assertEqual(utet_2020["title"], "UTET Nov 2020 Paper I (Set A)")
+        self.assertEqual(utet_2020["official_answer_count"], 0)
+        self.assertEqual(utet_2020["provisional_answer_count"], 150)
+        self.assertTrue(all(paper["exam_date"] and paper["year"] and paper["paper_number"] == 1 for paper in papers.values()))
+        self.assertFalse(any(paper["form_id"].startswith("ctet-") and paper["provisional_answer_count"] for paper in papers.values()))
+
+        self.assertEqual(manifest["format"], "xtet-question-bank-manifest")
+        self.assertEqual(manifest["bundle_format_version"], bundle["format_version"])
+        self.assertEqual(manifest["bundle"]["path"], app_json.resolve().as_posix())
+        self.assertEqual(manifest["bundle"]["byte_size"], app_json.stat().st_size)
+        self.assertEqual(manifest["bundle"]["sha256"], hashlib.sha256(app_json.read_bytes()).hexdigest())
+        self.assertEqual([paper["form_id"] for paper in manifest["papers"]], [paper["form_id"] for paper in bundle["papers"]])
+        self.assertEqual(manifest["record_counts"], bundle["metadata"]["record_counts"])
+        self.assertTrue(all(paper["has_official_answers"] is (paper["official_answer_count"] > 0) for paper in manifest["papers"]))
+        self.assertEqual(result["app_manifest"], str(app_manifest))
+        self.assertEqual((export_dir / "app-manifest.json").read_bytes(), app_manifest.read_bytes())
+
+        appearances = bundle["appearances"]
+        self.assertTrue(all({"stimulus_ids", "answer"} <= set(appearance) for appearance in appearances))
+        with_stimulus = [appearance for appearance in appearances if appearance["stimulus_ids"]]
+        self.assertEqual(len(with_stimulus), 411)
+        self.assertEqual(sum(len(appearance["stimulus_ids"]) for appearance in appearances), 411)
+        answered = [appearance for appearance in appearances if appearance["answer"] is not None]
+        self.assertEqual(len(answered), 1950)
+        official_mirror = [appearance for appearance in answered if appearance["answer"]["is_official"]]
+        self.assertEqual(len(official_mirror), 1050)
+        self.assertTrue(all(appearance["exam_code"] == "CTET" for appearance in official_mirror))
+        self.assertTrue(
+            all(appearance["answer"]["status"] == "provisional" for appearance in answered if not appearance["answer"]["is_official"])
+        )
+
+        authority = {row["appearance_id"]: row for row in bundle["official_final_answers"]}
+        for appearance in official_mirror:
+            row = authority[appearance["appearance_id"]]
+            self.assertEqual(appearance["answer"]["answer_key_entry_id"], row["answer_key_entry_id"])
+            self.assertEqual(appearance["answer"]["raw_answer"], row["raw_answer"])
+            self.assertEqual(appearance["answer"]["correct_option_positions"], [link["option_position"] for link in row["correct_options"]])
+            self.assertEqual(appearance["answer"]["correct_option_labels"], [link["original_label"] for link in row["correct_options"]])
+        self.assertTrue(any(len(appearance["answer"]["correct_option_positions"]) > 1 for appearance in official_mirror))
+
+        stimulus_side = {link["appearance_id"]: stimulus["stimulus_id"] for stimulus in bundle["stimuli"] for link in stimulus["question_appearances"]}
+        for appearance in with_stimulus:
+            self.assertEqual(appearance["stimulus_ids"], [stimulus_side[appearance["appearance_id"]]])
+        for appearance in appearances:
+            if appearance["appearance_id"] not in stimulus_side:
+                self.assertEqual(appearance["stimulus_ids"], [])
 
 
 if __name__ == "__main__":

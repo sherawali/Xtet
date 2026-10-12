@@ -17,10 +17,11 @@ Tu Xtet repo par kaam karne wala naya agent hai. Repo mein CTET paper ke origina
 
 ### Abhi ke real deliverables
 - SQLite database: `data/xtet-question-bank.sqlite`.
-- App ke liye ek single JSON file: `data/xtet-question-bank.json`.
-- Download URL (merge ke baad stable `main` branch): `https://raw.githubusercontent.com/sherawali/Xtet/main/data/xtet-question-bank.json`.
-- `python -m pipeline build` SQLite, quality report, aur JSON bundle regenerate karta hai. Detailed exports `build/exports/` mein hain.
-- JSON mein CTET aur UTET dono hain. `appearances` ke `exam_code` se exam alag hota hai; questions ko cross-exam merge nahi karna. Final answers ke liye `official_final_answers` use karo. `answer_key_history` mein UTET ke provisional answers bhi hain.
+- App ke liye ek single JSON file: `data/xtet-question-bank.json` (about 13.4 MB).
+- Chhoti sync file (about 4 KB): `data/xtet-question-bank.manifest.json` - content hash, papers list, aur bundle ka byte size/SHA-256; app pehle isse check karke bada bundle download karna skip kar sakti hai. Contract/sync recipe: `docs/APP_DOWNLOAD.md`.
+- Download URLs (merge ke baad stable `main` branch): `https://raw.githubusercontent.com/sherawali/Xtet/main/data/xtet-question-bank.json` aur `.../data/xtet-question-bank.manifest.json`.
+- `python -m pipeline build` SQLite, quality report, JSON bundle aur manifest regenerate karta hai. Detailed exports `build/exports/` mein hain.
+- JSON mein CTET aur UTET dono hain. Root `papers` list (11 forms) se paper picker turant ban jata hai; `appearances` ke `exam_code` se exam alag hota hai; har appearance me `stimulus_ids` aur derived `answer` mirror hai (`is_official` se CTET final vs UTET provisional pata chalta hai). Authority lists `official_final_answers` / `answer_key_history` hi rehti hain; mirror sirf convenience hai. Bundle changes additive hain, isliye `format_version` 1 hai - app unknown fields ignore kare aur key-presence se feature detect kare.
 - Counts: CTET 930 canonical questions / 1,050 appearances; UTET 900 questions / 900 appearances. Yeh sample/demo nahi, source data se bana deliverable hai.
 - App project is repo mein nahi hai. User ne kaha hai ki app code kisi doosre AI se update karwayenge. Isliye app integration tabhi implement karo jab user app repo de ya specifically bole. Raw link ready hai; custom API/CDN nahi hai.
 
