@@ -17,7 +17,7 @@ Folder: `2021/CTET_Paper1_Jan2021_SetI/` - all seven section files, `Answer-Key.
 - Transcribed CPD Q1-30, Maths Q31-60, EVS Q61-90 bilingually; English and Hindi Language I/II are separate streams for Q91-150. Added each language part's IMPORTANT eligibility notice and kept the booklet's English-before-Hindi order in the 2021 index.
 - Official source booklet and CBSE Official Final Answer Key URLs are in the folder README and SOURCES.md. Hindi text layer is legacy-font encoded; clean Hindi wording received Studyfry cross-check only, with the source limitation documented. Studyfry is not answer authority.
 - `Answer-Key.txt` uses Set I MAIN for Q1-90, `01-ENGLISH` for English Q91-150, and `02-HINDI` for Hindi Q91-150. All seven answer vectors matched the official key. Studyfry discrepancies at EVS Q90, English Language II Q145 and Hindi Language I Q106 are recorded in README and MISTAKES.md.
-- Verification passed: 30 questions and four options per language per section; 210 answers across seven key sections; UTF-8/Devanagari, plain-text and blank-marker scans; `git diff --check`. Final content/source review completed. Commit pending after this memory update.
+- Verification passed: 30 questions and four options per language per section; 210 answers across seven key sections; UTF-8/Devanagari, plain-text and blank-marker scans; `git diff --check`. Final content/source review completed. Paper and supporting memory were committed as `52a0951` (`Add CTET 2020 cycle January 2021 Paper 1 Set I`).
 
 ### Session 4 COMPLETE: CTET July 2024 Paper 1 Set A
 
@@ -83,7 +83,7 @@ Root README.md year-wise index 2024 ke Set I folder ke saath update hua. AGENT_M
 
 ### Baaki / Next steps (jab user kahe)
 
-- CTET 2020 cycle (31 January 2021), Paper 1 Set I is complete in `2021/CTET_Paper1_Jan2021_SetI/`; this session's content, source notes and verification are complete on `arena/0a9a02c8-xtet` (commit pending at this update). Keep it separate from the other session's 2025 work. The source's Hindi text layer is legacy-font encoded, so exact Hindi wording remains subject to the caveat in that paper's README.
+- CTET 2020 cycle (31 January 2021), Paper 1 Set I is complete in `2021/CTET_Paper1_Jan2021_SetI/`; this session's content, source notes and verification are complete on `arena/0a9a02c8-xtet`; paper commit `52a0951`. Keep it separate from the other session's 2025 work. The source's Hindi text layer is legacy-font encoded, so exact Hindi wording remains subject to the caveat in that paper's README.
 - CTET January 2024 Paper 1 Set I and its manual Hindi language QA are complete; content/README commit `2394b47`. Exact Hindi source wording remains unverified until a clean scan/transcript is available. For the next paper, follow the user's choice and use PLAYBOOK.md plus PDF_AND_HINDI_GUIDE.md. Keep CDP/Maths/EVS bilingual and each language section single-language.
 - Set A ko bilingual convert karna ho to English text booklet PDF me hai (r.jina.ai chunks 0-4); only do it if user asks.
 - User ko Sanskrit chahiye to supplement booklet sources dhoondho (mubeensir.blogspot.com par Urdu/Marathi supplements mile the Dec 2022/Aug 2023 ke liye - Sanskrit wala koi link nahi mila tha).
@@ -147,7 +147,7 @@ Root README.md year-wise index 2024 ke Set I folder ke saath update hua. AGENT_M
 - Official booklet URL `2022040421.pdf`; final key URL `2022033154.pdf`. Booklet code `AAT-20-I`. Official key mapping: Set I MAIN Q1-90, `01-ENGLISH` English Q91-150, `02-HINDI` Hindi Q91-150. Seven answer vectors verified against the official tables; Studyfry discrepancies: EVS Q90 (CBSE 3 vs Studyfry 4), English Language II Q145 (CBSE 3 vs Studyfry 2), Hindi Language I Q106 (CBSE 2 vs Studyfry 1).
 - CDP/Maths/EVS are bilingual; each language section is single-language. English appears before Hindi within Parts IV/V. Added the IMPORTANT English/Hindi eligibility note to all four files; README notes Language II must differ from Language I and language streams are not assumed to be translations.
 - Hindi booklet text layer is legacy-font encoded; Studyfry was used as wording cross-check only. Exact Hindi source typography/wording caveat and third-party key differences are documented in the paper README. No clean official Hindi scan/transcript was obtained.
-- Validation: all seven section files have 30 questions and four options per language, Answer-Key has 7 sections/210 entries, all vector checks passed, blank markers are eight underscores, UTF-8/Devanagari/plain-text scans passed, and `git diff --check` passed. Manually reviewed section content/source notes and the answer-key mapping. Commit pending at memory update.
+- Validation: all seven section files have 30 questions and four options per language, Answer-Key has 7 sections/210 entries, all vector checks passed, blank markers are eight underscores, UTF-8/Devanagari/plain-text scans passed, and `git diff --check` passed. Manually reviewed section content/source notes and the answer-key mapping. Paper commit: `52a0951` (`Add CTET 2020 cycle January 2021 Paper 1 Set I`).
 
 ---
 
