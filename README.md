@@ -4,6 +4,17 @@ TET exam ke question bank - year wise, paper wise, section wise.
 
 ## Structure
 
+2021/
+  CTET_Paper1_Jan2021_SetI/    (CTET 2020 cycle, Paper 1, 31 January 2021, Set I)
+    CPD.txt        - Questions 1-30 (Child Development & Pedagogy, Hindi + English)
+    Maths.txt      - Questions 31-60 (Mathematics, Hindi + English)
+    EVS.txt        - Questions 61-90 (Environmental Studies, Hindi + English)
+    Eng-1.txt      - Questions 91-120 (Language I - English)
+    Hindi-1.txt    - Questions 91-120 (Language I - Hindi)
+    Eng-2.txt      - Questions 121-150 (Language II - English)
+    Hindi-2.txt    - Questions 121-150 (Language II - Hindi)
+    Answer-Key.txt - CBSE Official Final Answer Key (Q1-150)
+
 2023/
   CTET_Paper1_Aug2023_SetA/    (CTET Paper 1, 20 August 2023, Set A)
     CPD.txt        - Questions 1-30 (Child Development & Pedagogy)
