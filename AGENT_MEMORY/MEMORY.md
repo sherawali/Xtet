@@ -1,28 +1,30 @@
 # MEMORY.md - Living Memory (har session me padho + update karo)
 
-Last updated: 2026-10-12 (Session 7 - deterministic CTET/UTET SQLite bank pipeline)
+Last updated: 2026-10-12 (Session 8 - single-file app JSON download bundle)
 
 ---
 
 ## Current State (ab kya hai)
 
 Repo: Xtet (active Arena branch: `arena/ed8a51c8-xtet`)
-Current deliverable: deterministic, offline SQLite question-bank database and parse/validate/load/verify/report/export pipeline for the five existing CTET Paper 1 texts plus pinned UTET `bank-v2` Paper 1.
+Current deliverable: deterministic SQLite question-bank database, a single downloadable app JSON bundle, and parse/validate/load/verify/report/export pipeline for the five existing CTET Paper 1 texts plus pinned UTET `bank-v2` Paper 1.
 
 - Phase 1 `docs/DATA_PROFILE.md` and Phase 2 `docs/SCHEMA.md` were completed in order before implementation.
-- Pipeline implementation is complete: migrations, separate CTET/UTET parsers, JSON Schema source validation, atomic/idempotent database build, SQLite integrity/FK/unique/FTS verification, deterministic NDJSON exports, data-quality report, 29 app-ready SQL examples, tests, and GitHub Actions CI.
-- Verified artifact: `data/xtet-question-bank.sqlite` (26 MB). Content hash: `f92ebbb63338c1bc06570899dbb3376437c39a911bae4819107a49f72fe105cd`; source manifest hash: `5ca08551abdba96646e9341eba59fb3c22d25c746951d45bdad87953ad4c4e7f`.
+- Pipeline implementation is complete: migrations, separate CTET/UTET parsers, JSON Schema source validation, atomic/idempotent database build, SQLite integrity/FK/unique/FTS verification, deterministic single-file JSON and NDJSON exports, data-quality report, 29 app-ready SQL examples, tests, and GitHub Actions CI.
+- Verified artifact: `data/xtet-question-bank.sqlite` (26 MB), content hash `f92ebbb63338c1bc06570899dbb3376437c39a911bae4819107a49f72fe105cd`; source manifest hash `5ca08551abdba96646e9341eba59fb3c22d25c746951d45bdad87953ad4c4e7f`.
+- App file: `data/xtet-question-bank.json` (12,730,793 bytes; SHA-256 `14c7204255f8341cd73ef96b5dcaf418ce8fb13f1f5c831dac8ccbc46f727d5b`), one valid JSON object with 1,830 questions, 1,950 appearances, 64 stimuli, full answer history and separate official-final answers. `python -m pipeline build` regenerates it. Intended public GitHub Raw URL: `https://raw.githubusercontent.com/sherawali/Xtet/arena/ed8a51c8-xtet/data/xtet-question-bank.json`; no custom API/CDN exists.
+- `docs/APP_DOWNLOAD.md` explains the file, fields, URL, and how a rebuilt paper bank refreshes the same download.
 - Verified counts: CTET 5 forms / 930 canonical questions / 1,050 appearances / 1,050 answer entries; UTET 6 forms / 900 questions / 900 appearances / 900 source-provisional answers; combined 64 stimuli / 411 links / 2,850 FTS documents. CTET official-final views contain 1,050 entries; UTET provisional rows remain excluded. One SQLite file houses both, but `exams`/sessions/forms/sections/keys are separate; CTET and UTET IDs have distinct prefixes, and a direct DB query found zero exam-prefix mismatches or question IDs reused across exams.
-- Validation: 12 UTET schemas + 1,830 source records pass; all 9 integration tests pass, including CTET key spot checks, 29 SQL examples, FTS/FK/integrity, two-build determinism, and export determinism. Full `pipeline build`, separate `verify`, and `export` commands pass. No CTET text or upstream UTET source files were edited.
+- Validation: 12 UTET schemas + 1,830 source records pass; all 9 integration tests pass, including CTET key spot checks, 29 SQL examples, FTS/FK/integrity, two-build determinism, and deterministic single-file JSON/NDJSON exports. Full `pipeline build`, separate `verify`, and `export` commands pass. No CTET text or upstream UTET source files were edited.
 - Authority caveat: CTET keys use the final-key claims in the paper READMEs; the parser did not compare transcriptions to PDFs. August 2023 has no direct official-key URI in its README. UTET answers are independently authored source-repository values, provisional/non-authority. See `docs/DATA_QUALITY.md`.
-- **Committed and pushed:** commit `9641312` (`Build deterministic CTET and UTET SQLite bank`) to `arena/ed8a51c8-xtet`; no PR was opened. Final source review showed no changes in CTET paper folders; database query found zero CTET/UTET prefix mismatches and zero question IDs reused across exams.
-- User-facing handover should be Hinglish and phase-wise. No app/frontend/API/service is in scope.
+- Original SQLite delivery commits: `9641312` and `aa79d19` on `arena/ed8a51c8-xtet`. The app JSON download update is being validated before its own commit/push. Final source review showed no changes in CTET paper folders; database query found zero CTET/UTET prefix mismatches and zero question IDs reused across exams.
+- User-facing handover should be Hinglish and phase-wise. The app itself is in a separate project; this repo now supplies a single JSON download file and a public Raw link, but no custom API/CDN.
 
 ### Next steps
 
-1. No unfinished implementation/validation gates remain; artifact and docs are committed and pushed.
-2. No PR was requested. Open one only if the user asks.
-3. For future schema/source changes: add a forward migration, retain the upstream commit/license, re-run the complete tests plus two-clean-build content-hash gate, rebuild the SQLite artifact/report, and update this memory.
+1. Run final staged diff/status check, then commit and push the app JSON bundle/exporter/docs/tests to `arena/ed8a51c8-xtet` only.
+2. Verify the committed JSON `download_url` with GitHub Contents API, then record the final commit/link here. No PR/merge was requested.
+3. For future schema/source changes: add a forward migration, retain the upstream commit/license, re-run the complete tests plus two-clean-build content-hash gate, rebuild the SQLite and app JSON artifacts/report, and update this memory.
 
 ---
 
@@ -225,6 +227,15 @@ Note: Hindi-1 Q100-105 kavita = Shivmangal Singh 'Suman' ki "धन्यवा�
 - Built `data/xtet-question-bank.sqlite` (26 MB); content hash `f92ebbb63338c1bc06570899dbb3376437c39a911bae4819107a49f72fe105cd`; source manifest hash `5ca08551abdba96646e9341eba59fb3c22d25c746951d45bdad87953ad4c4e7f`. Counts: CTET 930 canonical questions / 1,050 appearances / 1,050 official-final key entries; UTET 900 questions / 900 appearances / 900 provisional source answer entries; combined 64 stimuli / 411 links / 2,850 FTS documents.
 - Validation passed: 12 UTET schemas; 9 integration tests; 29 SQL examples; exact CTET multi-answer spot-checks; CTET/UTET counts; clean two-build content-hash equality; deterministic exports; `PRAGMA integrity_check`; zero FK violations; FTS5 integrity/search; official-vs-provisional boundary; full `pipeline build`, `verify`, `export`, Python compile, and `git diff --check`. GitHub Actions workflow added. CTET paper folders remained unchanged; DB query found zero CTET/UTET prefix mismatches and zero question IDs reused across exams.
 - Commit/push: `9641312` (`Build deterministic CTET and UTET SQLite bank`) on `arena/ed8a51c8-xtet`; push succeeded. No PR opened because none was requested.
+
+---
+
+### Session 8 - 2026-10-12 - Single-file app JSON download
+
+- User said they did not want technical explanations and asked to make the question data downloadable for their separate app; app-code changes will be handled by another AI. Keep replies plain Hinglish.
+- Added a single, regular JSON bundle at `data/xtet-question-bank.json` in addition to SQLite/NDJSON. `pipeline build` now regenerates it; deterministic bundle has metadata/content version plus questions, appearances (with `exam_code`), stimuli, complete answer history, and a separate official-final answers array. Size 12,730,793 bytes; SHA-256 `14c7204255f8341cd73ef96b5dcaf418ce8fb13f1f5c831dac8ccbc46f727d5b`; DB content hash unchanged at `f92ebbb63338c1bc06570899dbb3376437c39a911bae4819107a49f72fe105cd`.
+- Added `docs/APP_DOWNLOAD.md` with public GitHub Raw URL: `https://raw.githubusercontent.com/sherawali/Xtet/arena/ed8a51c8-xtet/data/xtet-question-bank.json`. No custom API/CDN or separate app project is present. After push, verify the API download URL and update this log.
+- Updated exporter, CLI full-build flow, README, pipeline/data-profile docs, PLAYBOOK, and integration tests. Full build, verify, export, py_compile, and all 9 integration tests passed; bundle checked as valid JSON with 1,830 questions, 1,950 appearances, 64 stimuli, 1,950 answer-history rows, 1,050 official-final rows, and both exam codes. App-data commit/push remains pending.
 
 ---
 

@@ -22,6 +22,8 @@ from .utet import parse_utet
 DEFAULT_STAGE = ROOT / "build" / "xtet-stage.json"
 DEFAULT_DB = ROOT / "data" / "xtet-question-bank.sqlite"
 DEFAULT_REPORT = ROOT / "docs" / "DATA_QUALITY.md"
+DEFAULT_EXPORT_DIR = ROOT / "build" / "exports"
+DEFAULT_APP_JSON = ROOT / "data" / "xtet-question-bank.json"
 
 
 def parse_sources() -> dict[str, Any]:
@@ -66,14 +68,17 @@ def _parser() -> argparse.ArgumentParser:
     report_cmd.add_argument("--db", type=Path, default=DEFAULT_DB)
     report_cmd.add_argument("--output", type=Path, default=DEFAULT_REPORT)
 
-    export_cmd = sub.add_parser("export", help="Write deterministic, app-ready NDJSON exports from a verified database.")
+    export_cmd = sub.add_parser("export", help="Write a single app-ready JSON bundle plus detailed NDJSON exports.")
     export_cmd.add_argument("--db", type=Path, default=DEFAULT_DB)
-    export_cmd.add_argument("--output-dir", type=Path, default=ROOT / "build" / "exports")
+    export_cmd.add_argument("--output-dir", type=Path, default=DEFAULT_EXPORT_DIR)
+    export_cmd.add_argument("--app-json", type=Path, default=DEFAULT_APP_JSON)
 
-    build_cmd = sub.add_parser("build", help="Run the full parse → validate → load → verify → report pipeline.")
+    build_cmd = sub.add_parser("build", help="Build and verify the database, report, and downloadable app JSON.")
     build_cmd.add_argument("--stage", type=Path, default=DEFAULT_STAGE)
     build_cmd.add_argument("--db", type=Path, default=DEFAULT_DB)
     build_cmd.add_argument("--report", type=Path, default=DEFAULT_REPORT)
+    build_cmd.add_argument("--export-dir", type=Path, default=DEFAULT_EXPORT_DIR)
+    build_cmd.add_argument("--app-json", type=Path, default=DEFAULT_APP_JSON)
 
     return parser
 
@@ -123,7 +128,7 @@ def main(argv: list[str] | None = None) -> int:
             return 0
 
         if args.command == "export":
-            result = export_database(args.db, args.output_dir)
+            result = export_database(args.db, args.output_dir, args.app_json)
             _json_print(result)
             return 0
 
@@ -132,10 +137,13 @@ def main(argv: list[str] | None = None) -> int:
             write_stage(args.stage, stage)
             result = rebuild_database(stage, args.db)
             report_path = write_data_quality_report(args.db, args.report)
+            export_result = export_database(args.db, args.export_dir, args.app_json)
             _json_print(
                 {
                     "stage": str(args.stage),
                     "report": str(report_path),
+                    "app_json": export_result["app_json"],
+                    "export_manifest": str(args.export_dir / "manifest.json"),
                     "status": "passed",
                     **result,
                 }

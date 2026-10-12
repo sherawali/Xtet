@@ -21,15 +21,20 @@ def _decoded_json(value: str | None) -> Any:
     return json.loads(value)
 
 
-def _write_ndjson(path: Path, records: list[dict[str, Any]]) -> bytes:
-    payload = "".join(canonical_json(record) + "\n" for record in records).encode("utf-8")
+def _write_bytes(path: Path, payload: bytes) -> bytes:
+    path.parent.mkdir(parents=True, exist_ok=True)
     temp = path.with_name(path.name + ".tmp")
     temp.write_bytes(payload)
     os.replace(temp, path)
     return payload
 
 
-def export_database(db_path: Path, output_dir: Path) -> dict[str, Any]:
+def _write_ndjson(path: Path, records: list[dict[str, Any]]) -> bytes:
+    payload = "".join(canonical_json(record) + "\n" for record in records).encode("utf-8")
+    return _write_bytes(path, payload)
+
+
+def export_database(db_path: Path, output_dir: Path, app_json_path: Path | None = None) -> dict[str, Any]:
     verification = verify_database(db_path)
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
@@ -167,6 +172,30 @@ def export_database(db_path: Path, output_dir: Path) -> dict[str, Any]:
             for row in answer_rows
         ]
         official_rows = [row for row in answer_history if row["authority_class"] == "exam_authority" and row["status"] == "final"]
+        record_counts = {
+            "questions": len(questions),
+            "appearances": len(appearances),
+            "stimuli": len(stimuli),
+            "answer_key_history": len(answer_history),
+            "official_final_answers": len(official_rows),
+        }
+        app_bundle = {
+            "format": "xtet-question-bank",
+            "format_version": 1,
+            "metadata": {
+                "database_content_hash": metadata["content_hash"],
+                "source_manifest_hash": metadata["source_manifest_hash"],
+                "database_schema_version": metadata["schema_version"],
+                "exam_codes": sorted({row["exam_code"] for row in appearances}),
+                "record_counts": record_counts,
+            },
+            "questions": questions,
+            "appearances": appearances,
+            "stimuli": stimuli,
+            "answer_key_history": answer_history,
+            "official_final_answers": official_rows,
+        }
+        app_bundle_bytes = (canonical_json(app_bundle) + "\n").encode("utf-8")
 
         output_dir.mkdir(parents=True, exist_ok=True)
         payloads: dict[str, bytes] = {}
@@ -175,18 +204,15 @@ def export_database(db_path: Path, output_dir: Path) -> dict[str, Any]:
         payloads["stimuli.ndjson"] = _write_ndjson(output_dir / "stimuli.ndjson", stimuli)
         payloads["answer-key-history.ndjson"] = _write_ndjson(output_dir / "answer-key-history.ndjson", answer_history)
         payloads["official-final-answers.ndjson"] = _write_ndjson(output_dir / "official-final-answers.ndjson", official_rows)
+        payloads["question-bank.json"] = _write_bytes(output_dir / "question-bank.json", app_bundle_bytes)
+        if app_json_path is not None:
+            _write_bytes(app_json_path, app_bundle_bytes)
         export_manifest = {
             "export_version": 1,
             "content_hash": metadata["content_hash"],
             "source_manifest_hash": metadata["source_manifest_hash"],
             "database_schema_version": metadata["schema_version"],
-            "record_counts": {
-                "questions": len(questions),
-                "appearances": len(appearances),
-                "stimuli": len(stimuli),
-                "answer_key_history": len(answer_history),
-                "official_final_answers": len(official_rows),
-            },
+            "record_counts": record_counts,
             "files": {
                 name: {"byte_size": len(payload), "sha256": sha256_bytes(payload)}
                 for name, payload in sorted(payloads.items())
@@ -201,6 +227,10 @@ def export_database(db_path: Path, output_dir: Path) -> dict[str, Any]:
         temp_manifest = output_dir / "manifest.json.tmp"
         temp_manifest.write_bytes(manifest_bytes)
         os.replace(temp_manifest, output_dir / "manifest.json")
-        return {"output_dir": str(output_dir), "manifest": export_manifest}
+        return {
+            "output_dir": str(output_dir),
+            "app_json": str(app_json_path or (output_dir / "question-bank.json")),
+            "manifest": export_manifest,
+        }
     finally:
         conn.close()

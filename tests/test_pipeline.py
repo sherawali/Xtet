@@ -186,6 +186,18 @@ class PipelineIntegrationTests(unittest.TestCase):
         self.assertEqual(first["manifest"]["record_counts"]["official_final_answers"], 1050)
         for name in first["manifest"]["files"]:
             self.assertEqual((first_dir / name).read_bytes(), (second_dir / name).read_bytes())
+        bundle_path = first_dir / "question-bank.json"
+        bundle = json.loads(bundle_path.read_text(encoding="utf-8"))
+        self.assertEqual(bundle["format"], "xtet-question-bank")
+        self.assertEqual(bundle["format_version"], 1)
+        self.assertEqual(bundle["metadata"]["database_content_hash"], self.build_result["content_hash"])
+        self.assertEqual(bundle["metadata"]["exam_codes"], ["CTET", "UTET"])
+        self.assertEqual(bundle["metadata"]["record_counts"], first["manifest"]["record_counts"])
+        self.assertEqual(len(bundle["questions"]), 1830)
+        self.assertEqual(len(bundle["appearances"]), 1950)
+        shipped_json = ROOT / "data" / "xtet-question-bank.json"
+        if shipped_json.exists():
+            self.assertEqual(shipped_json.read_bytes(), bundle_path.read_bytes())
         history = [json.loads(line) for line in (first_dir / "answer-key-history.ndjson").read_text(encoding="utf-8").splitlines()]
         official = [json.loads(line) for line in (first_dir / "official-final-answers.ndjson").read_text(encoding="utf-8").splitlines()]
         self.assertEqual(len(history), 1950)
