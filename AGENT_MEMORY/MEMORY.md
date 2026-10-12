@@ -1,13 +1,33 @@
 # MEMORY.md - Living Memory (har session me padho + update karo)
 
-Last updated: 2026-10-12 (Session 6 - CTET 2020 cycle, January 2021 Paper 1 Set I, COMPLETE)
+Last updated: 2026-10-12 (Session 7 - deterministic CTET/UTET SQLite bank pipeline)
 
 ---
 
 ## Current State (ab kya hai)
 
-Repo: Xtet (current Arena branch: arena/0a9a02c8-xtet)
-Kaam: TET exam question bank - year wise, paper wise, section wise.
+Repo: Xtet (active Arena branch: `arena/ed8a51c8-xtet`)
+Current deliverable: deterministic, offline SQLite question-bank database and parse/validate/load/verify/report/export pipeline for the five existing CTET Paper 1 texts plus pinned UTET `bank-v2` Paper 1.
+
+- Phase 1 `docs/DATA_PROFILE.md` and Phase 2 `docs/SCHEMA.md` were completed in order before implementation.
+- Pipeline implementation is complete: migrations, separate CTET/UTET parsers, JSON Schema source validation, atomic/idempotent database build, SQLite integrity/FK/unique/FTS verification, deterministic NDJSON exports, data-quality report, 29 app-ready SQL examples, tests, and GitHub Actions CI.
+- Verified artifact: `data/xtet-question-bank.sqlite` (26 MB). Content hash: `f92ebbb63338c1bc06570899dbb3376437c39a911bae4819107a49f72fe105cd`; source manifest hash: `5ca08551abdba96646e9341eba59fb3c22d25c746951d45bdad87953ad4c4e7f`.
+- Verified counts: CTET 5 forms / 930 canonical questions / 1,050 appearances / 1,050 answer entries; UTET 6 forms / 900 questions / 900 appearances / 900 source-provisional answers; combined 64 stimuli / 411 links / 2,850 FTS documents. CTET official-final views contain 1,050 entries; UTET provisional rows remain excluded. One SQLite file houses both, but `exams`/sessions/forms/sections/keys are separate; CTET and UTET IDs have distinct prefixes, and a direct DB query found zero exam-prefix mismatches or question IDs reused across exams.
+- Validation: 12 UTET schemas + 1,830 source records pass; all 9 integration tests pass, including CTET key spot checks, 29 SQL examples, FTS/FK/integrity, two-build determinism, and export determinism. Full `pipeline build`, separate `verify`, and `export` commands pass. No CTET text or upstream UTET source files were edited.
+- Authority caveat: CTET keys use the final-key claims in the paper READMEs; the parser did not compare transcriptions to PDFs. August 2023 has no direct official-key URI in its README. UTET answers are independently authored source-repository values, provisional/non-authority. See `docs/DATA_QUALITY.md`.
+- User-facing handover should be Hinglish and phase-wise. No app/frontend/API/service is in scope.
+
+### Next steps
+
+1. Final diff/status review; confirm the CTET `.txt`/key/README and pinned upstream source files remain unchanged.
+2. Commit and push the verified work only to `arena/ed8a51c8-xtet`; do not change branches. No PR/merge was requested in this pipeline task.
+3. Future schema/source changes: add a forward migration, retain the upstream commit/license, re-run the complete tests plus two-clean-build content-hash gate, rebuild the SQLite artifact/report, and update this memory.
+
+---
+
+## Prior CTET paper transcription history (Sessions 1-6)
+
+Historical paper descriptions below were completed on earlier branches; they are preserved for context and do not describe the active branch/status.
 
 ### Session 6 COMPLETE: CTET 2020 cycle - January 2021 Paper 1 Set I
 
@@ -112,7 +132,7 @@ Note: Hindi-1 Q100-105 kavita = Shivmangal Singh 'Suman' ki "धन्यवा�
 - Validation run: 30 numbered questions and options (1)-(4) in each of seven section files, 210 answer-key entries, plain-text scan and `git diff --check` passed.
 - Hindi QA (Session 3): CPD, Maths, EVS, Hindi-1 and Hindi-2 Hindi blocks were manually proofread for Unicode/Devanagari script, spelling, grammar, punctuation, agreement and terminology. Clear language issues were corrected; numbering, option order, and official key were left unchanged. Hindi-1 Q94's deliberately misspelled spelling-test distractors were preserved. UTF-8/script and structural scans passed. Source PDFs' Hindi text layers remain legacy-font garbled, so exact booklet wording is still not independently verified; do not claim source-level word-for-word verification.
 
-### Baaki / Next steps (jab user kahe)
+### Historical CTET paper backlog (not active unless user requests that paper)
 
 - CTET 2020 cycle (31 January 2021), Paper 1 Set I is complete in `2021/CTET_Paper1_Jan2021_SetI/`; content, source notes and verification are complete on `arena/0a9a02c8-xtet`; commits `52a0951` (paper) and `95d382f` (memory update) are pushed. Keep it separate from the other session's Dec-2025 cycle (Feb-2026 exam) work. The source's Hindi text layer is legacy-font encoded, so exact Hindi wording remains subject to the caveat in that paper's README.
 - CTET January 2024 Paper 1 Set I and its manual Hindi language QA are complete; content/README commit `2394b47`. Exact Hindi source wording remains unverified until a clean scan/transcript is available. For the next paper, follow the user's choice and use PLAYBOOK.md plus PDF_AND_HINDI_GUIDE.md. Keep CDP/Maths/EVS bilingual and each language section single-language.
@@ -193,6 +213,16 @@ Note: Hindi-1 Q100-105 kavita = Shivmangal Singh 'Suman' ki "धन्यवा�
 - CDP/Maths/EVS are bilingual; each language section is single-language. English appears before Hindi within Parts IV/V. Added the IMPORTANT English/Hindi eligibility note to all four files; README notes Language II must differ from Language I and language streams are not assumed to be translations.
 - Hindi booklet text layer is legacy-font encoded; Studyfry was used as wording cross-check only. Exact Hindi source typography/wording caveat and third-party key differences are documented in the paper README. No clean official Hindi scan/transcript was obtained.
 - Validation: all seven section files have 30 questions and four options per language, Answer-Key has 7 sections/210 entries, all vector checks passed, blank markers are eight underscores, UTF-8/Devanagari/plain-text scans passed, and `git diff --check` passed. Manually reviewed section content/source notes and the answer-key mapping. Paper commit: `52a0951` (`Add CTET 2020 cycle January 2021 Paper 1 Set I`); memory follow-ups: `95d382f` and `dfbdabf`. Branch `arena/0a9a02c8-xtet` was pushed. While preparing PR #7, latest `origin/main` (including the separate Feb-2026/Dec-2025 session) was merged into this branch; MEMORY/SOURCES conflicts were resolved without dropping either paper. SOURCES #9 is Feb 2026 and #10 is January 2021. PR #7 merge requested by user.
+
+---
+
+### Session 7 - 2026-10-12 - CTET/UTET SQLite question-bank pipeline
+
+- User request: build an extensible SQLite database and deterministic parse/validate/load/verify/report/export pipeline from the five existing CTET Paper 1 text sets and six UTET Paper 1 forms in `sherawali/tet` `bank-v2`, with documentation, CI, report, artifact, and memory update. Followed the required order: completed Phase 1 `docs/DATA_PROFILE.md`, presented Phase 2 `docs/SCHEMA.md` summary, then implemented.
+- Vendored a scoped, unmodified UTET snapshot at commit `6792637052eb0bcddd27b9290ddd082faa725a4d`; recorded CC BY 4.0 attribution/change notice. Its embedded answer fields remain `source_repository`/`provisional`, outside the official-final view. CTET raw source files remained unmodified; key text was structurally parsed only.
+- Implemented migration, CTET parser with configured mirror drift checks/stimuli/multi-key expansion, UTET schema/parser/audit import, provenance staging, atomic clean rebuild, SQLite integrity/FK/FTS/content-hash verification, data-quality report and deterministic NDJSON exports. Added `docs/PIPELINE.md`, `docs/QUERIES.md` (29 executable SQL examples), `docs/DATA_QUALITY.md`, `.github/workflows/question-bank.yml`, and root README database instructions.
+- Built `data/xtet-question-bank.sqlite` (26 MB); content hash `f92ebbb63338c1bc06570899dbb3376437c39a911bae4819107a49f72fe105cd`; source manifest hash `5ca08551abdba96646e9341eba59fb3c22d25c746951d45bdad87953ad4c4e7f`. Counts: CTET 930 canonical questions / 1,050 appearances / 1,050 official-final key entries; UTET 900 questions / 900 appearances / 900 provisional source answer entries; combined 64 stimuli / 411 links / 2,850 FTS documents.
+- Validation passed: 12 UTET schemas; 9 integration tests; 29 SQL examples; exact CTET multi-answer spot-checks; CTET/UTET counts; clean two-build content-hash equality; deterministic exports; `PRAGMA integrity_check`; zero FK violations; FTS5 integrity/search; official-vs-provisional boundary; full `pipeline build`, `verify`, `export`, Python compile, and `git diff --check`. GitHub Actions workflow added. Before commit/push, do one final status/source-read-only review; work remains on `arena/ed8a51c8-xtet`.
 
 ---
 

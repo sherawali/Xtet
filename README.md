@@ -62,6 +62,18 @@ Har paper folder me README.md me paper set aur sections ka note hota hai.
 Set A aur Set I ki language availability unke alag-alag README files mein di gayi hai.
 CTET December 2025 session ka Paper 1 February 2026 mein hua (08 Feb 2026, Set E yahan hai).
 
+## SQLite question-bank database
+
+Verified, offline SQLite artifact: `data/xtet-question-bank.sqlite`. It combines the five CTET Paper 1 text sets and six pinned UTET Paper 1 forms with canonical/localized questions, form appearances, versioned answer keys, stimuli, source-line provenance, and FTS5 search. CTET key versions follow the final-key claims in each paper README; UTET repository answers remain provisional and are excluded from official-final answers. UTET source/license attribution is preserved under `data/utet/`.
+
+- Build/verify/export: see [`docs/PIPELINE.md`](docs/PIPELINE.md).
+- Schema decisions: [`docs/SCHEMA.md`](docs/SCHEMA.md); observed source profile: [`docs/DATA_PROFILE.md`](docs/DATA_PROFILE.md).
+- Quality gates and verified counts: [`docs/DATA_QUALITY.md`](docs/DATA_QUALITY.md).
+- 29 example app-ready SQL queries: [`docs/QUERIES.md`](docs/QUERIES.md).
+- Rebuild commands (Python 3.11+, pinned requirements): `python -m pipeline build`, then `python -m pipeline verify`. Deterministic NDJSON exports can be written with `python -m pipeline export --output-dir build/exports`.
+
+No frontend/API/service is included; this deliverable is a local database, read views, CLI build/verify/report tooling, and optional NDJSON exports.
+
 ## AGENT_MEMORY (AI agents ke liye)
 
 Jo bhi AI agent is repo par kaam kare, SABSE PEHLE AGENT_MEMORY/00_START_HERE.md padhe - usme start/end protocol hai.

@@ -162,3 +162,15 @@ PASS -> commit (clear message ke saath). FAIL -> fix -> dobara check.
 - **Poem/passage canonical search**: unique opening line Google karo - canonical text milta hai ("धन्यवाद/आभार" = Shivmangal Singh Suman; "सीमित पग डग" confirm hua; Kalahandi = Jagannath Prasad Das - booklet ka extract truncated hai, waisa hi rakho).
 - **Blank normalization (reminder)**: extract ke blanks 6/8/9/10 underscore kuch bhi ho sakte hain - commit se pehle sab `________` (8) karo; script se quickly: `re.sub(r"_{2,}","________",text)`.
 - Naye lessons: MISTAKES #11 (purani branch + papers/memory replace), #12 (key table grouping), #13 (matra loss).
+
+## 12. Offline SQLite question-bank pipeline (CTET + UTET)
+
+Ye workflow tab use karo jab user existing exam-text bank ko database me import karne ko kahe; isse manual source-text workflow replace nahi hota.
+
+1. **Phase order mat todo:** complete source profile first (`docs/DATA_PROFILE.md`) → schema summary/user handoff (`docs/SCHEMA.md`) → parser/loader → every validation gate → pipeline/quality/query docs + CI → memory → commit/push.
+2. Existing CTET paper `.txt`/key/README aur pinned upstream UTET snapshot read-only hain. Parser failures ko source rewrite/reformat se nahi, source-aware parser/config/schema changes se resolve karo. UTET answer NDJSON fields repository assertions hi hain; official UBSE final key evidence ke bina `source_repository`/`provisional` se aage promote mat karo.
+3. CTET language streams/stimulus ranges source structure se parse karo; mirror run config (`config/ctet_mirrors.json`) human-reviewed data hai aur parser har build me candidates se compare karta hai. Mismatched candidate = fail closed, range ko silently shift/merge mat karo. Mixed-script Hindi math stems me Roman variable count locale ka proof nahi hota.
+4. Source-level stage command: `python -m pipeline validate-sources`; full tests: `python -m unittest discover -s tests -v`; full build: `python -m pipeline build`; independent verify: `python -m pipeline verify`; deterministic app export: `python -m pipeline export`. Use `python -m venv .venv` + `python -m pip install -r requirements.txt`; only direct third-party dependency is pinned JSON-Schema validation.
+5. Always inspect `docs/DATA_QUALITY.md` and execute every SQL example in `docs/QUERIES.md` (tests do this). Verify source counts/provenance, mirror and stimulus links, answer expansions, official/provisional boundary, FK/unique constraints, FTS5 integrity, two clean-build content hashes, report and export hashes.
+6. The SQLite DB is atomically rebuilt to `data/xtet-question-bank.sqlite`. Failed builds must leave the previous deliverable untouched. The raw UTET snapshot/license stays under `data/utet/`; `build/` and app-ready NDJSON exports are generated/ignored.
+7. Final handover is Hinglish and phase-wise: report metrics, source limits (CTET README key citations vs no transcription recheck; UTET non-authority answers), output paths, tests, content hash. Update `MEMORY.md` Current State + Session Log + next steps, then commit/push only the Arena session branch. Keep app/API/frontend/sync/hosting scope out.
