@@ -20,7 +20,7 @@ Folder: 2026/CTET_Paper1_Feb2026_SetE/ - POORA COMPLETE (CPD, Maths, EVS, Eng-1,
 - **Built-in cross-check (naya trick)**: Q106-120 aur Q136-150 (bhasha shikshashastra) dono language tables me IDENTICAL hote hain - English aur Hindi keys exactly match hui (do independent tables se poora verify). Agar mismatch aaye to transcription me galti hai.
 - Hindi sections legacy Chanakya text se decode kiye (jaise July/Jan me). Kuch matras encoding me lost hoti hain ("बनना" vs "बनने") - grammar + third-party clean text se validate kiya (askfilo ka Hindi-2 passage = exact match; testbook "कीरम काँटे"; poem ka canonical text search se "सीमित पग डग" confirm).
 - Verification: 30 Q per file, numbering, blanks sab 8-underscore `________` standard, 210 key entries (script se generate ki - typo-proof), markdown/stray-symbol scan clean, Devanagari/Latin script scan clean, Hindi QA pass hua. Answer-Key.txt me note: official Feb-2026 key me har language ka ek hi table Q91-150 (Part IV+V) cover karta hai.
-- Commits: paper + READMEs + Answer-Key + root README index, phir ye AGENT_MEMORY update (Session 5 ke commit hashes Session Log me).
+- Commits: `4f7d6a5` (paper + READMEs + Answer-Key + root index) aur `624b940` (ye AGENT_MEMORY update).
 
 ### Session 4 COMPLETE: CTET July 2024 Paper 1 Set A
 
@@ -173,7 +173,7 @@ Note: Hindi-1 Q100-105 kavita = Shivmangal Singh 'Suman' ki "धन्यवा�
 - Pickle task (c983b097) analysis: branch Initial commit se forked (4 session purani base), papers/memory ko metadata-hub + JSON schema se replace karne wala approach, aur `sessions/README.md` me galat section mapping. Unmerged chhoda; lessons MISTAKES #11 me.
 - Memory me pehle jo B-02-Hindi key adhoori thi (Q99/Q110-112/Q124-150) usko chunk 3+4 dobara fetch karke poori verify ki - Q99 = 1 nikla (pehle "4" ka shak tha). Key-table reading ka grouping lesson MISTAKES #12 me.
 - Verification pass: 30 Q/file, numbering, blanks sab `________` (8-underscore) standard, 210 key entries, markdown/stray-symbol + script scans clean, Hindi QA pass, README (folder) + root index update.
-- Commits: `4f7d6a5` (paper + Answer-Key + READMEs + root index), phir AGENT_MEMORY update (SOURCES #9, MISTAKES #11-13, PLAYBOOK #11, PDF_AND_HINDI_GUIDE note) + commit-hashes record commit. Branch `arena/27af2acc-xtet` push → PR → merge (memory update ke BAAD - user ki is baar ki shart).
+- Commits: `4f7d6a5` (paper + Answer-Key + READMEs + root index), `624b940` (AGENT_MEMORY update: SOURCES #9, MISTAKES #11-13, PLAYBOOK #11, PDF_AND_HINDI_GUIDE note, MEMORY Session 5 + preferences). Branch `arena/27af2acc-xtet` push → PR → merge (memory update ke BAAD - user ki is baar ki shart).
 
 ---
 
