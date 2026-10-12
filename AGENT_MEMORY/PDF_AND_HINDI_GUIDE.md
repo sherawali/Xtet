@@ -108,6 +108,8 @@ Layer 2 - Unicode text bhi garbled (font ki ToUnicode map tooti hai):
 Yaad rakho: ye mapping MANY-TO-ONE hai (lossy) - perfect reverse impossible hai.
 Isliye decode hamesha: patterns + meaning + parallel English + answer key - TEENO se confirm karo.
 
+**Naya note (Session 5 - Feb 2026 prepp CDN booklets):** kuch booklets me Hindi legacy Chanakya text PADHNE LAYAK hota hai (◊=म, ∑§=क, ¬˝=प्र, ⁄U=र, ‚=स, fl=व, Ã=त, Œ=द, „=ह...). Par ye encoding kuch MATRAS drop kar deti hai - "बनना चाहता है" text me "’ŸŸ øÊ„ÃÊ „Ò" jaisa dikh sakta hai (ा/े dono ambiguous), "रहा/रहे" bhi merge ho jaate hain. Aise cases me: (1) grammar se sahi roop chuno, (2) third-party clean text se validate karo (testbook/askfilo page), (3) poem/passage ki opening line Google karke canonical text confirm karo. Details: MISTAKES.md #13.
+
 ---
 
 ## 4. HINDI GRAMMAR CLEAN-UP (jab likh rahe ho)

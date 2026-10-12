@@ -1,13 +1,26 @@
 # MEMORY.md - Living Memory (har session me padho + update karo)
 
-Last updated: 2026-10-12 (Session 4 - CTET July 2024 Paper 1 Set A, COMPLETE)
+Last updated: 2026-10-12 (Session 5 - CTET Feb 2026 Paper 1 Set E, COMPLETE)
 
 ---
 
 ## Current State (ab kya hai)
 
-Repo: Xtet (current Arena branch: arena/3d996047-xtet)
+Repo: Xtet (current Arena branch: arena/27af2acc-xtet)
 Kaam: TET exam question bank - year wise, paper wise, section wise.
+
+### Session 5 COMPLETE: CTET Feb 2026 Paper 1 Set E (December 2025 session)
+
+Folder: 2026/CTET_Paper1_Feb2026_SetE/ - POORA COMPLETE (CPD, Maths, EVS, Eng-1, Hindi-1, Eng-2, Hindi-2, Answer-Key, README).
+
+- Paper: CTET December 2025 session (21st edition) - exam 08-02-2026, Paper 1, Set E; booklet code `FSC-26-I`; 150 Q / 150 min; negative marking nahi. (User "2025 ka paper" keh rahe the - 2025 me koi CTET session nahi hua, Dec-2025 session ka exam Feb 2026 me hua; wahi target tha.)
+- "Do paper" ka matlab is cycle me Paper 1 + Paper 2 dono hain; abhi sirf Paper 1 kiya. Paper 2 baad me add kar sakte hain.
+- Question text source: prepp CDN ka 48-page text-layer booklet (`ctet-2026-paper-1-question-paper-pdf-feb-08-2026-1775556035.pdf`, r.jina.ai, 15 chunks). Chunk map: c0-c3 = cover + CDP Q1-30 + Maths start; c3-c5 = Maths Q31-60; c5-c8 = EVS Q61-90; c8 = Part IV English notice + Q91-96 (Tarawati/Roopa); c9 = Q96-105 (Kalahandi extract) + Part IV Hindi header/passage start; c10 = Hindi Q91-99 + verse Q100-105 + Hindi pedagogy Q106-117; c11 = Hindi Q117-120 + Part V English Q121-135; c12 = English Q136-150 + Part V Hindi notice/passage + Q121-135; c13 = Hindi Q136-150 + back cover. (c14 = instructions page.)
+- Official final answer key (84 pages) se Set E ke 3 tables: page 36 = `Set :- E PAPER-I- MAIN` (Q1-90), page 40 = `Set :- E PAPER-I- 01-English` (Q91-150), page 44 = `Set :- E PAPER-I- 02-Hindi` (Q91-150). Page pattern: B/C/D/E ke MAIN = 33/34/35/36, 01-English = 37/38/39/40, 02-Hindi = 41/42/43/44. Multi answers: MAIN Q26 = F; 01-English Q125 = F (son/relative).
+- **Built-in cross-check (naya trick)**: Q106-120 aur Q136-150 (bhasha shikshashastra) dono language tables me IDENTICAL hote hain - English aur Hindi keys exactly match hui (do independent tables se poora verify). Agar mismatch aaye to transcription me galti hai.
+- Hindi sections legacy Chanakya text se decode kiye (jaise July/Jan me). Kuch matras encoding me lost hoti hain ("बनना" vs "बनने") - grammar + third-party clean text se validate kiya (askfilo ka Hindi-2 passage = exact match; testbook "कीरम काँटे"; poem ka canonical text search se "सीमित पग डग" confirm).
+- Verification: 30 Q per file, numbering, blanks sab 8-underscore `________` standard, 210 key entries (script se generate ki - typo-proof), markdown/stray-symbol scan clean, Devanagari/Latin script scan clean, Hindi QA pass hua. Answer-Key.txt me note: official Feb-2026 key me har language ka ek hi table Q91-150 (Part IV+V) cover karta hai.
+- Commits: `4f7d6a5` (paper + READMEs + Answer-Key + root index) aur `624b940` (ye AGENT_MEMORY update).
 
 ### Session 4 COMPLETE: CTET July 2024 Paper 1 Set A
 
@@ -59,6 +72,24 @@ Git commits is paper ke:
 
 Root README.md year-wise index 2024 ke Set I folder ke saath update hua. AGENT_MEMORY ke PDF/Hindi workflow, sources aur mistakes bhi update hue.
 
+2026/CTET_Paper1_Feb2026_SetE/ - CTET Paper 1, 08 February 2026, Set E (December 2025 session ki 21st edition) - POORA COMPLETE:
+
+| File | Content | Status |
+| --- | --- | --- |
+| CPD.txt | Q1-30 Child Development & Pedagogy, Hindi + English | done |
+| Maths.txt | Q31-60 Mathematics, Hindi + English | done |
+| EVS.txt | Q61-90 Environmental Studies, Hindi + English | done |
+| Eng-1.txt | Q91-120 Language I English (Tarawati/Roopa passage Q91-99, Kalahandi extract Q100-105) | done |
+| Hindi-1.txt | Q91-120 Language I Hindi (Chanakya-type ahankar gadyansh Q91-99, Sumitra Nandan Pant-style "धन्यवाद" kavita Q100-105) | done |
+| Eng-2.txt | Q121-150 Language II English (2 passages: boy-with-gash Q121-128, patriarch/tribes Q129-135) | done |
+| Hindi-2.txt | Q121-150 Language II Hindi (2 gadyansh: satta/raja Q121-128, Hindi vs sthaaniya bhasha Q129-135) | done |
+| Answer-Key.txt | CBSE Official Final Key Q1-150 (CPD/Maths/EVS + Language English + Language Hindi = 210 entries) | done |
+| README.md | Paper set + section table + sources + official-key notation | done |
+
+Root README.md me 2026/ ka year-wise index entry add hua.
+
+Note: Hindi-1 Q100-105 kavita = Shivmangal Singh 'Suman' ki "धन्यवाद/आभार" (poem search se confirm). Hindi-1 passage = Chanakya-parampara ka ahankar/pratishtha gadyansh.
+
 ### Important facts (bhoolna mat)
 
 - Sanskrit-1/2 is Set A booklet me NAHI hain - CBSE ki instruction #6 ke anusar Sanskrit/Urdu etc. alag "Supplement (Language) Test Booklet" me aati hain. User ko ye baat bata di gayi hai. Agar Sanskrit chahiye to supplement booklet alag se dhoondhni padegi (koi online source abhi nahi mila).
@@ -74,6 +105,8 @@ Root README.md year-wise index 2024 ke Set I folder ke saath update hua. AGENT_M
 ### Baaki / Next steps (jab user kahe)
 
 - CTET January 2024 Paper 1 Set I and its manual Hindi language QA are complete; content/README commit `2394b47`. Exact Hindi source wording remains unverified until a clean scan/transcript is available. For the next paper, follow the user's choice and use PLAYBOOK.md plus PDF_AND_HINDI_GUIDE.md. Keep CDP/Maths/EVS bilingual and each language section single-language.
+- **Feb 2026 Paper 2** (same Dec-2025 cycle) kabhi bhi add kar sakte hain: official page https://ctet.nic.in/question-paper-feb-2026/ (P2 07Feb sets W/X/Y/Z, 08Feb sets G/H/I/J) + official final key (same 84-page PDF me P2 tables aage hain; P2 08Feb key alag PDF bhi hai - SOURCES.md dekho). Paper 2 me bhi CDP/Maths(Science+Maths)/EVS-ish structure same nahi hota - booklet structure pehle padhna.
+- Feb 2026 Paper 1 ke baaki sets (07Feb: S/T/U/V; 08Feb: B/C/D) aur 01-March-2026 session (P1 sets K-N) bhi isi PDF-source series me mil sakte hain (ctet.nic.in question-paper page par).
 - Set A ko bilingual convert karna ho to English text booklet PDF me hai (r.jina.ai chunks 0-4); only do it if user asks.
 - User ko Sanskrit chahiye to supplement booklet sources dhoondho (mubeensir.blogspot.com par Urdu/Marathi supplements mile the Dec 2022/Aug 2023 ke liye - Sanskrit wala koi link nahi mila tha).
 - Baaki years/papers, Paper 2, Sets B/C/D isi PLAYBOOK se add kar sakte hain - sources SOURCES.md me hain. Sets B/C/D ki answer key CBSE final key PDF me hai (pages 1-12).
@@ -130,6 +163,18 @@ Root README.md year-wise index 2024 ke Set I folder ke saath update hua. AGENT_M
 - Agli baar ke liye leads (agar language text dobara chahiye ho): prepp ka HTML quiz page "CTET 2024 Paper 1 Question Paper (07-Jul-2024)" (210 Q list + per-question pages - option order ka cross-check try kiya ja sakta hai, par confirm karna baaki hai); SET-D ka pyqonline text PDF; prepp CDN ke language supplement PDFs (Set A Sanskrit etc.).
 
 
+### Session 5 - 2026-10-12 - CTET Feb 2026 Paper 1 Set E (COMPLETE)
+
+- User ne kaha: "Memory etc pado 2025 ka paper par kaam shuru karo... agar is saal do paper hue ho dono ek ek karke add karo; pickle task se related commits bhi dekhna; jo seekho wo memory me add karna, TAB merge karna."
+- 2025 me koi CTET session nahi hua (July + Dec dono skip) - isliye target hua CTET Dec-2025 session ka Paper 1, jo exam 08-02-2026 ko hua (21st edition, Set E, booklet `FSC-26-I`). User ne option me confirm kiya. "Do paper" = isi cycle ke P1 + P2; abhi sirf P1 kiya, P2 baaki.
+- Sources: ctet.nic.in ka Feb-2026 question-paper page (Drive links HTTP 500 fail) → prepp CDN ka 48-page text-layer booklet mirror (r.jina.ai, 15 chunks, chunk map SOURCES.md #9) + CBSE official final key PDF (84 pages, 30 chunks; Set E tables pages 36/40/44). Third-party (testbook/askfilo/prepp) sirf wording/semantics cross-check ke liye.
+- Transcription: CPD/Maths/EVS (Q1-90) bilingual; Eng-1/Hindi-1/Eng-2/Hindi-2 single-language. Hindi legacy Chanakya text decode kiya - jahan matras encoding me lost thi (e.g. "बनना/बनने") wahan grammar + third-party clean text se validate kiya (askfilo ka Hindi-2 passage EXACT match; testbook "कीरम काँटे"; poem ka canonical text "सीमित पग डग"). Printed quirks preserve (Q61 "beehieve", Q13 "बुद्धयोत्तेजक", Q26 English "assimilation" vs Hindi "समायोजन").
+- Answer-Key.txt: official key ke 3 E-tables se 210 entries (MAIN 90 + 01-English 60 + 02-Hindi 60), python script se generate + asserts. **Naya verification trick**: Q106-120 aur Q136-150 English vs Hindi tables me identical nikle (30/30 match) - isse dono tables ki transcription confirm hui.
+- Pickle task (c983b097) analysis: branch Initial commit se forked (4 session purani base), papers/memory ko metadata-hub + JSON schema se replace karne wala approach, aur `sessions/README.md` me galat section mapping. Unmerged chhoda; lessons MISTAKES #11 me.
+- Memory me pehle jo B-02-Hindi key adhoori thi (Q99/Q110-112/Q124-150) usko chunk 3+4 dobara fetch karke poori verify ki - Q99 = 1 nikla (pehle "4" ka shak tha). Key-table reading ka grouping lesson MISTAKES #12 me.
+- Verification pass: 30 Q/file, numbering, blanks sab `________` (8-underscore) standard, 210 key entries, markdown/stray-symbol + script scans clean, Hindi QA pass, README (folder) + root index update.
+- Commits: `4f7d6a5` (paper + Answer-Key + READMEs + root index), `624b940` (AGENT_MEMORY update: SOURCES #9, MISTAKES #11-13, PLAYBOOK #11, PDF_AND_HINDI_GUIDE note, MEMORY Session 5 + preferences). Branch `arena/27af2acc-xtet` push → PR → merge (memory update ke BAAD - user ki is baar ki shart).
+
 ---
 
 ## User Preferences (user ko kya chahiye - hamesha yaad rakho)
@@ -139,4 +184,6 @@ Root README.md year-wise index 2024 ke Set I folder ke saath update hua. AGENT_M
 - Folder structure year-wise, paper set folder ke andar section-wise files.
 - Section names paper ke actual sections ke hisaab se (Hindi-1, Eng-1, jaisa paper me hai).
 - Hinglish me baat karna user ko pasand hai (READMEs bhi Hinglish me hain).
+- **Memory update ke BAAD hi merge karna** (Session 5 me user ne explicitly kaha: "same jo tu abhi silega (seekhega) usko memory mai add jaroor karna tab merge karna taaki har baar aur better ho sake"). Ritual: paper commit → AGENT_MEMORY update commit → PR → merge. Memory update hone se pehle merge NAHI.
+- Purane "pickle" jaisi galtiyan dobara nahi (MISTAKES #11) - papers/AGENT_MEMORY ko koi restructure replace nahi karega.
 - **DUAL-LANGUAGE RULE (agli baar se)**: CDP, Maths, EVS ke questions DUAL-language (Hindi + English dono, jaisa booklet me chhapa hai) banane hain. Language sections (Hindi-1/Eng-1/Hindi-2/Eng-2) single-language apni bhasha me - jaise hain waise. (Set A ke current CPD/Maths/EVS Hindi-only hain - user ka instruction "agli baar dual bhasha mai" ke hisaab se future papers ke liye; agar user kahe to Set A ko bhi bilingual convert kar sakte hain.)

@@ -36,8 +36,20 @@ TET exam ke question bank - year wise, paper wise, section wise.
     Hindi-2.txt    - Questions 121-150 (Language II - Hindi)
     Answer-Key.txt - CBSE Official Final Answer Key (Q1-150)
 
+2026/
+  CTET_Paper1_Feb2026_SetE/     (CTET Paper 1, 08 February 2026, Set E - December 2025 session)
+    CPD.txt        - Questions 1-30 (Hindi + English)
+    Maths.txt      - Questions 31-60 (Hindi + English)
+    EVS.txt        - Questions 61-90 (Hindi + English)
+    Hindi-1.txt    - Questions 91-120 (Language I - Hindi)
+    Eng-1.txt      - Questions 91-120 (Language I - English)
+    Eng-2.txt      - Questions 121-150 (Language II - English)
+    Hindi-2.txt    - Questions 121-150 (Language II - Hindi)
+    Answer-Key.txt - CBSE Official Final Answer Key (Q1-150)
+
 Har paper folder me README.md me paper set aur sections ka note hota hai.
 Set A aur Set I ki language availability unke alag-alag README files mein di gayi hai.
+CTET December 2025 session ka Paper 1 February 2026 mein hua (08 Feb 2026, Set E yahan hai).
 
 ## AGENT_MEMORY (AI agents ke liye)
 
