@@ -1,6 +1,6 @@
 # MEMORY.md - Living Memory (har session me padho + update karo)
 
-Last updated: 2026-10-12 (Session 8 - single-file app JSON download bundle)
+Last updated: 2026-10-12 (Session 9 - app bundle v1.1: papers list, stimulus/answer mirrors, sync manifest)
 
 ---
 
@@ -12,7 +12,7 @@ Current deliverable: deterministic SQLite question-bank database, a single downl
 - Phase 1 `docs/DATA_PROFILE.md` and Phase 2 `docs/SCHEMA.md` were completed in order before implementation.
 - Pipeline implementation is complete: migrations, separate CTET/UTET parsers, JSON Schema source validation, atomic/idempotent database build, SQLite integrity/FK/unique/FTS verification, deterministic single-file JSON and NDJSON exports, data-quality report, 29 app-ready SQL examples, tests, and GitHub Actions CI.
 - Verified artifact: `data/xtet-question-bank.sqlite` (26 MB), content hash `f92ebbb63338c1bc06570899dbb3376437c39a911bae4819107a49f72fe105cd`; source manifest hash `5ca08551abdba96646e9341eba59fb3c22d25c746951d45bdad87953ad4c4e7f`.
-- App file: `data/xtet-question-bank.json` (12,730,793 bytes; SHA-256 `14c7204255f8341cd73ef96b5dcaf418ce8fb13f1f5c831dac8ccbc46f727d5b`), one valid JSON object with 1,830 questions, 1,950 appearances, 64 stimuli, full answer history and separate official-final answers. `python -m pipeline build` regenerates it. Public GitHub Raw URL after requested PR merge: `https://raw.githubusercontent.com/sherawali/Xtet/main/data/xtet-question-bank.json` (the current branch URL is in `docs/APP_DOWNLOAD.md`); no custom API/CDN exists.
+- App files: `data/xtet-question-bank.json` (additive v1.1: 13,371,984 bytes; SHA-256 `e522437589531a3c0525ad9d5cef3c0fcc1e44fed0d000d998e93cc7cb82a76f`) with `metadata`, `papers` (11 forms with titles/sections/counters), 1,830 questions, 1,950 appearances (each with `stimulus_ids` + derived `answer` mirror), 64 stimuli, full answer history and separate official-final answers; plus `data/xtet-question-bank.manifest.json` (3,896 bytes, few-KB sync file with content hash, paper list, bundle byte size + SHA-256) for cheap "did data change?" checks. DB content hash unchanged at `f92ebbb63338c1bc06570899dbb3376437c39a911bae4819107a49f72fe105cd`. `python -m pipeline build` regenerates it. Public GitHub Raw URL after requested PR merge: `https://raw.githubusercontent.com/sherawali/Xtet/main/data/xtet-question-bank.json` (the current branch URL is in `docs/APP_DOWNLOAD.md`); no custom API/CDN exists.
 - `docs/APP_DOWNLOAD.md` explains the file, fields, URL, and how a rebuilt paper bank refreshes the same download.
 - Verified counts: CTET 5 forms / 930 canonical questions / 1,050 appearances / 1,050 answer entries; UTET 6 forms / 900 questions / 900 appearances / 900 source-provisional answers; combined 64 stimuli / 411 links / 2,850 FTS documents. CTET official-final views contain 1,050 entries; UTET provisional rows remain excluded. One SQLite file houses both, but `exams`/sessions/forms/sections/keys are separate; CTET and UTET IDs have distinct prefixes, and a direct DB query found zero exam-prefix mismatches or question IDs reused across exams.
 - Validation: 12 UTET schemas + 1,830 source records pass; all 9 integration tests pass, including CTET key spot checks, 29 SQL examples, FTS/FK/integrity, two-build determinism, and deterministic single-file JSON/NDJSON exports. Full `pipeline build`, separate `verify`, and `export` commands pass. No CTET text or upstream UTET source files were edited.
@@ -22,7 +22,7 @@ Current deliverable: deterministic SQLite question-bank database, a single downl
 
 ### Next steps
 
-1. No unfinished build, validation, handover, or merge steps remain. PR #8 is merged and its checks passed.
+1. No unfinished build, validation, handover, or merge steps remain for the current data; PR #8 is merged and its checks passed. App-bundle v1.1 additions (`papers`, `stimulus_ids`, `answer` mirror, `manifest.json`) are additive, so `format_version` stays 1 and old apps keep working.
 2. The separate app AI can use `https://raw.githubusercontent.com/sherawali/Xtet/main/data/xtet-question-bank.json`. If the user later shares the app repository, integrate/test downloading, refresh/cache behavior, and CTET/UTET filtering there.
 3. For future paper updates: add a source only after the user identifies it, run `python -m pipeline build`, `verify`, tests and export; then merge the updated JSON into `main` so this same URL serves it. For schema/source changes add a forward migration and preserve the upstream pin/license.
 
@@ -237,6 +237,16 @@ Note: Hindi-1 Q100-105 kavita = Shivmangal Singh 'Suman' ki "धन्यवा�
 - Added `docs/APP_DOWNLOAD.md` with the current public branch Raw URL and stable post-merge `main` URL. No custom API/CDN or separate app project is present. GitHub Contents API confirms the current branch URL and 12,730,793-byte size; after merge, verify the `main` URL.
 - Updated exporter, CLI full-build flow, README, pipeline/data-profile docs, PLAYBOOK, and integration tests. Full build, verify, export, py_compile, and all 9 integration tests passed; bundle checked as valid JSON with 1,830 questions, 1,950 appearances, 64 stimuli, 1,950 answer-history rows, 1,050 official-final rows, and both exam codes.
 - Commit/push succeeded: `7162b95` (`Add downloadable single-file question bank JSON`) and `645af32` (`Add app handover and post-merge download link`) on `arena/ed8a51c8-xtet`. PR #8 merged to `main` at `10b3f49e97d6cd9eb3b18b939c6bdc9462fd7d64` after GitHub `verify` and CodeRabbit passed. GitHub Contents API confirms the stable download URL `https://raw.githubusercontent.com/sherawali/Xtet/main/data/xtet-question-bank.json`, size 12,730,793 bytes.
+
+---
+
+### Session 9 - 2026-10-12 - App bundle v1.1 (papers list, stimulus/answer mirrors, sync manifest)
+
+- User's app team reviewed the 13 MB bundle and asked for: a root forms/papers list, a direct correct-answer field on appearances, a direct `stimulus_id` on appearances, and a small manifest for cheap sync checks. Implemented the request in Hinglish-friendly form as purely additive bundle fields.
+- `pipeline/exports.py` now emits `papers` (11 rows: exam/date/set identity, deterministic `title` like `CTET Feb 2026 Paper I (Set E)`, declared duration/totals, per-section ranges and appearance/official/provisional counters), adds `stimulus_ids` to every appearance (411 non-empty), `answer` mirror on every appearance (1,950 rows; 1,050 official CTET, 900 provisional UTET), and `papers.ndjson`. `format_version` stays 1 because nothing was removed/renamed/retyped; consumers feature-detect instead of version-gating.
+- Answer mirror stores `raw_answer`, 1-based `correct_option_positions`, `correct_option_labels`, authority/status and `is_official`; it deliberately avoids an `A/B/C/D` scalar because CTET prints `1-4`, UTET prints `a-d`, and 12 retained source key rows are multi-answer (`Z`/`F`/`E`/`B`/`A`/`D` with 2-4 correct options). `answer_key_history` / `official_final_answers` remain authoritative.
+- New small deliverable `data/xtet-question-bank.manifest.json` (3,896 bytes) with content hashes, record counts, paper list and the bundle's byte size/SHA-256; CLI gained `--app-manifest`; docs `APP_DOWNLOAD.md` (contract + sync recipe + scoring rules) and `PIPELINE.md` updated.
+- Verification: full `python -m pipeline build` regenerated DB (content hash unchanged), JSON, manifest, report; 10 integration tests pass (new test covers papers titles/counters, mirror-vs-authority agreement, stimulus reverse-map total 411, manifest hashes); `pipeline verify` clean.
 
 ---
 
